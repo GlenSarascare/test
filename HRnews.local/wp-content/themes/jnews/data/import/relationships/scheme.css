@@ -1,0 +1,22 @@
+/** Color **/
+.entry-header .jeg_post_meta .fa, .jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+/** Header **/
+.jeg_footer_5 .jeg_footer_secondary {
+	border-top: 0;
+	margin-top : 50px
+}
+
+.jeg_footer .widget_nav_menu li {
+	line-height : 2.2;
+}
+
+.jeg_footer_5 .footer_column {
+	border : 0;
+}
+
+.jeg_footer p {
+	margin-bottom : 30px
+}

@@ -1,0 +1,160 @@
+{
+  "default-sidebar":
+  {
+    "jnews_module_element_ads-3":
+    {
+      "ads_type": "image",
+      "ads_image": "{{image:ad_300x600:id}}",
+      "ads_image_tablet": "{{image:ad_300x600:id}}",
+      "ads_image_phone": "{{image:ad_345x345:id}}",
+      "ads_image_link": "",
+      "ads_image_alt": "",
+      "google_publisher_id": "",
+      "google_slot_id": "",
+      "google_desktop": "auto",
+      "google_tab": "auto",
+      "google_phone": "auto",
+      "content": "",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto"
+    }
+  },
+  "footer-widget-1":
+  {
+    "jnews_about-2":
+    {
+      "title": "ABOUT US",
+      "aboutimg": "",
+      "aboutimgretina": "",
+      "aboutname": "",
+      "aboutoccupation": "",
+      "aboutdesc": "Suspendisse mollis interdum magna eget laoreet. Quisque vitae accumsan lacus. Vivamus auctor, nibh in cursus faucibus, tortor felis gravida sem, at fringilla mi felis eget justo. ",
+      "signature": "",
+      "signatureretina": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_social-2":
+    {
+      "title": "",
+      "widgetstyle": "square",
+      "icon_color": "rgba(255,255,255,0.75)",
+      "bg_color": "",
+      "beforesocial": "Follow us",
+      "aftersocial": "",
+      "account": "%5B%7B%22social_icon%22:%22facebook%22,%22social_url%22:%22https:\/\/www.facebook.com\/jegtheme\/%22%7D,%7B%22social_icon%22:%22twitter%22,%22social_url%22:%22https:\/\/twitter.com\/jegtheme%22%7D,%7B%22social_icon%22:%22instagram%22,%22social_url%22:%22https:\/\/instagram.com\/jegtheme%22%7D,%7B%22social_icon%22:%22youtube%22,%22social_url%22:%22https:\/\/youtube.com%22%7D,%7B%22social_icon%22:%22rss%22,%22social_url%22:%22#%22%7D%5D",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-2":
+  {
+    "recent-posts-3":
+    {
+      "title": "RECENT NEWS",
+      "number": "4",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-3":
+  {
+    "categories-3":
+    {
+      "title": "CATEGORIES",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-4":
+  {
+    "mc4wp_form_widget-4":
+    {
+      "title": "NEWSLETTER",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "home-layout-3":
+  {
+    "jnews_social_counter-2":
+    {
+      "title": "GET CONNECTED",
+      "column": "col4",
+      "style": "light",
+      "fb_id": "1708153456106457",
+      "fb_secret": "ae408213fb9a2e29d3ad858e03ec5a75",
+      "fb_key": "1708153456106457|LBeqPdQFTJXpeFL3sPex1LQBMVY",
+      "tw_consumer_key": "JZcADYwNCEDcbVKBNwHEFLp3g",
+      "tw_consumer_secret": "7WOXBOFUKIcdTLOJjYV2cTtw99CWH52AOKBOgbYLuzDDvGTEtf",
+      "tw_access_token": "1099851524-wX2EvLnTEcBvpIOI7hsxvoR16zf1Vk5HLA1ek7X",
+      "tw_access_token_secret": "7LnaeK51G6HSAcvKp1ZSVmrx3ttNfBxFlAZZuII2ehJT1",
+      "gg_key": "AIzaSyCNRPgcByJDdhhZZRZ0AEyUnZ9lqmlBrvE",
+      "bh_key": "t2wwIJCdYCWCdAdPHwef3hGvcx8ztA8o",
+      "twitch_key": "",
+      "vk_id": "210700286",
+      "rss_count": "",
+      "account": "%5B%7B%22social_icon%22:%22facebook%22,%22social_url%22:%22https:\/\/www.facebook.com\/jegtheme\/%22%7D,%7B%22social_icon%22:%22twitter%22,%22social_url%22:%22https:\/\/twitter.com\/jegtheme%22%7D,%7B%22social_icon%22:%22instagram%22,%22social_url%22:%22https:\/\/www.instagram.com\/jegtheme\/%22%7D,%7B%22social_icon%22:%22flickr%22,%22social_url%22:%22https:\/\/www.flickr.com\/photos\/we-are-envato\/%22%7D,%7B%22social_icon%22:%22soundcloud%22,%22social_url%22:%22https:\/\/soundcloud.com\/navicula%22%7D%5D",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_9",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_popular-2":
+    {
+      "title": "POPULAR POSTS",
+      "limit": "5",
+      "order_by": "views",
+      "range": "all",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_9",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_module_element_ads-2":
+    {
+      "ads_type": "image",
+      "ads_image": "{{image:ad_345x345:id}}",
+      "ads_image_tablet": "{{image:ad_345x345:id}}",
+      "ads_image_phone": "{{image:ad_345x345:id}}",
+      "ads_image_link": "",
+      "ads_image_alt": "",
+      "google_publisher_id": "",
+      "google_slot_id": "",
+      "google_desktop": "auto",
+      "google_tab": "auto",
+      "google_phone": "auto",
+      "content": "",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto"
+    }
+  }
+}

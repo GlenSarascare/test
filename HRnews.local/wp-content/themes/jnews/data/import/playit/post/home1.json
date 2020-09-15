@@ -1,0 +1,212 @@
+[
+  {
+    "id": "Y12N5U3",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "ghYBEyk",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "FepQuFg",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 4
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 4
+              },
+              "unique_content": "unique1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 4
+              },
+              "first_title": "Featured"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block4_elementor"
+          },
+          {
+            "id": "D6cKrxw",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "data_type": "user",
+              "user_data": "1",
+              "follow_user": "1",
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_category": "{{category:music:id}}",
+              "follow_button": "true",
+              "section": "Music",
+              "second_title": "Recommended channel for you"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          },
+          {
+            "id": "gP1XfKe",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "header_type": "heading_8",
+              "first_title": "Browse Categories"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "vVLG502",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "margin": {
+                "unit": "px",
+                "size": 20
+              },
+              "show_nav": "true"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_categorylist_elementor"
+          },
+          {
+            "id": "MfP0cx8",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_category": "{{category:news:id}}",
+              "pagination_mode": "nextprev",
+              "pagination_nextprev_showtext": "no",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "nav_position_top": "true",
+              "second_title": "Recommended videos for you",
+              "header_icon": "542",
+              "first_title": "Breaking News",
+              "section": "News"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "mwNvQCV",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1573194281196{margin-bottom: 40px !important;background-color: #f9f9f9 !important;}",
+      "css_classes": "vc_custom_1573194281196"
+    },
+    "elements": [
+      {
+        "id": "tiQRkgL",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "dbExLm6",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              },
+              "css": ".vc_custom_1574308581900{margin-top: 10px !important;margin-bottom: 10px !important;}",
+              "_css_classes": "vc_custom_1574308581900",
+              "ads_image_tablet": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              },
+              "ads_image_phone": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "vg8MS2B",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "38fvFuv",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "RFYEyw8",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 10
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "first_title": "Latest Video"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

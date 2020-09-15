@@ -1,0 +1,246 @@
+[
+  {
+    "id": "08d1de6",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "d1013cd",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "dd6b500",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+              {
+                "id": "bd1a7ad",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 100,
+                  "_inline_size": null
+                },
+                "elements": [],
+                "isInner": true
+              }],
+            "isInner": true
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "3afb69e",
+    "elType": "section",
+    "settings":
+    {
+      "background_background": "classic",
+      "background_color": "#000000",
+      "margin":
+      {
+        "unit": "px",
+        "top": "3",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+      },
+      "padding":
+      {
+        "unit": "px",
+        "top": "50",
+        "right": "0",
+        "bottom": "50",
+        "left": "0",
+        "isLinked": false
+      },
+      "css_classes": "vc_custom_1560500542429"
+    },
+    "elements": [
+      {
+        "id": "6146a95",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "51a1e78",
+            "elType": "section",
+            "settings":
+            {
+              "structure": "22"
+            },
+            "elements": [
+              {
+                "id": "23bce99",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 66,
+                  "_inline_size": null
+                },
+                "elements": [
+                  {
+                    "id": "a33acdf",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "wp":
+                      {
+                        "title": "",
+                        "aboutimg": "{{image:logo_dark:id}}",
+                        "aboutimgretina": "{{image:logo_dark2x:id}}",
+                        "aboutname": "",
+                        "aboutoccupation": "",
+                        "aboutdesc": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+                        "signature": "",
+                        "signatureretina": "",
+                        "second_title": "",
+                        "header_url": "",
+                        "header_type": "heading_6",
+                        "header_background": "",
+                        "header_text_color": "",
+                        "widget_class": ""
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "wp-widget-jnews_about"
+                  },
+                  {
+                    "id": "b3e3b69",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "space":
+                      {
+                        "unit": "px",
+                        "size": 30,
+                        "sizes": []
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "spacer"
+                  }],
+                "isInner": true
+              },
+              {
+                "id": "55fde66",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 33,
+                  "_inline_size": null
+                },
+                "elements": [
+                  {
+                    "id": "e7e9003",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "first_title": "Subscribe Our Newsletter",
+                      "text_color": "#ffffff"
+                    },
+                    "elements": [],
+                    "widgetType": "jnews_footer_header_elementor"
+                  },
+                  {
+                    "id": "a12a07e",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "editor": "[mc4wp_form]"
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                  },
+                  {
+                    "id": "11f59aa",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "social_icon": "nobg"
+                    },
+                    "elements": [],
+                    "widgetType": "jnews_footer_social_elementor"
+                  }],
+                "isInner": true
+              }],
+            "isInner": true
+          },
+          {
+            "id": "e7ccaa3",
+            "elType": "section",
+            "settings":
+            {
+              "hide_desktop": "hidden-desktop",
+              "hide_tablet": "hidden-tablet"
+            },
+            "elements": [
+              {
+                "id": "325c526",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 100,
+                  "_inline_size": null
+                },
+                "elements": [
+                  {
+                    "id": "930adf5",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "space":
+                      {
+                        "unit": "px",
+                        "size": 30,
+                        "sizes": []
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "spacer"
+                  }],
+                "isInner": true
+              }],
+            "isInner": true
+          },
+          {
+            "id": "b5f83b1",
+            "elType": "section",
+            "settings": [],
+            "elements": [
+              {
+                "id": "f748d89",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 100,
+                  "_inline_size": null
+                },
+                "elements": [
+                  {
+                    "id": "d0e1531",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "editor": "\\\u00a9 2019 <a title=\\\"Premium WordPress news & amp;magazine theme\\\" href=\\\"http: \\\/\\\/jegtheme.com\\\">JNews<\\\/a> - Premium WordPress news &amp; magazine theme by <a title=\\\"Jegtheme\\\" href=\\\"http: \\\/\\\/jegtheme.com\\\">Jegtheme<\\\/a>."
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                  }],
+                "isInner": true
+              }],
+            "isInner": true
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

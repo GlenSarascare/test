@@ -1,0 +1,166 @@
+.jeg_main_menu > li > a {
+	font-size: 16px;
+}
+
+.jeg_post_meta {
+	color : inherit;
+}
+
+body:not(.jnews-dark-mode) .jeg_readmore {
+	color: #000;
+}
+
+.jeg_block_heading_9 {
+    border-top: 1px solid #000;
+    border-bottom-width: 0;
+    margin-bottom: 20px;
+}
+
+.jeg_readmore {
+    border: 1px solid #000;
+    box-shadow: none;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.jeg_block_heading_9 .jeg_block_title {
+    font-size: 14px;
+}
+
+.jeg_thumb .jeg_post_category a,
+.jeg_pl_lg_box .jeg_post_category a,
+.jeg_pl_md_box .jeg_post_category a,
+.jeg_postblock_carousel_2 .jeg_post_category a,
+.jeg_heroblock .jeg_post_category a,
+.jeg_slide_caption .jeg_post_category a {
+	padding : 7px 6px 6px 7px;
+	line-height: 1;
+	letter-spacing: .04em;
+}
+
+.jeg_postblock_27 .jeg_post_title {
+	font-weight: bold;
+}
+
+.jeg_hero_style_1 .jeg_thumb a > div:before {
+    background: #000;
+    opacity: 0.35;
+}
+
+/* Single Post */
+.jeg_single_tpl_3 .entry-header {
+	border-top: 3px solid #000;
+	padding-top: 24px;
+}
+.jeg_single_tpl_3.jnews-dark-mode .entry-header {
+	border-top-color: #fff;
+}
+
+
+@media only screen and (min-width:768px) {
+	.jeg_heroblock_13 .jeg_post_title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .jeg_postblock_23 .jeg_pl_md_1 .jeg_post_title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+	.jeg_heroblock_13 .jeg_post_title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+	.jeg_single_tpl_3 .entry-header .jeg_post_title {
+		padding-right: 60px;
+	}
+
+	.jeg_postblock_23 .jeg_pl_md_1 .jeg_post_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+/** Dark Mode **/
+.jnews-dark-mode a,
+.jnews-dark-mode .jeg_menu_style_5 > li > a:hover,
+.jnews-dark-mode .jeg_menu_style_5 > li.sfHover > a,
+.jnews-dark-mode .jeg_menu_style_5 > li.current-menu-item > a,
+.jnews-dark-mode .jeg_menu_style_5 > li.current-menu-ancestor > a,
+.jnews-dark-mode .jeg_navbar .jeg_menu:not(.jeg_main_menu) > li > a:hover,
+.jnews-dark-mode .jeg_midbar .jeg_menu:not(.jeg_main_menu) > li > a:hover,
+.jnews-dark-mode .jeg_side_tabs li.active,
+.jnews-dark-mode .jeg_block_heading_5 strong,
+.jnews-dark-mode .jeg_block_heading_6 strong,
+.jnews-dark-mode .jeg_block_heading_7 strong,
+.jnews-dark-mode .jeg_block_heading_8 strong,
+.jnews-dark-mode .jeg_subcat_list li a:hover,
+.jnews-dark-mode .jeg_subcat_list li button:hover,
+.jnews-dark-mode .jeg_pl_lg_7 .jeg_thumb .jeg_post_category a,
+.jnews-dark-mode .jeg_pl_xs_2:before,.jeg_pl_xs_4 .jeg_postblock_content:before,
+.jnews-dark-mode .jeg_postblock .jeg_post_title a:hover,
+.jnews-dark-mode .jeg_hero_style_6 .jeg_post_title a:hover,
+.jnews-dark-mode .jeg_sidefeed .jeg_pl_xs_3 .jeg_post_title a:hover,
+.jnews-dark-mode .widget_jnews_popular .jeg_post_title a:hover,
+.jnews-dark-mode .jeg_meta_author a,.widget_archive li a:hover,
+.jnews-dark-mode .widget_pages li a:hover,.widget_meta li a:hover,
+.jnews-dark-mode .widget_recent_entries li a:hover,
+.jnews-dark-mode .widget_rss li a:hover,
+.jnews-dark-mode .widget_rss cite,
+.jnews-dark-mode .widget_categories li a:hover,
+.jnews-dark-mode .widget_categories li.current-cat > a,
+.jnews-dark-mode #breadcrumbs a:hover,
+.jnews-dark-mode .jeg_share_count .counts,
+.jnews-dark-mode .commentlist .bypostauthor > .comment-body > .comment-author > .fn,
+.jnews-dark-mode span.required,.jeg_review_title,.bestprice .price,.authorlink a:hover,
+.jnews-dark-mode .jeg_vertical_playlist .jeg_video_playlist_play_icon,
+.jnews-dark-mode .jeg_vertical_playlist .jeg_video_playlist_item.active .jeg_video_playlist_thumbnail:before,
+.jnews-dark-mode .jeg_horizontal_playlist .jeg_video_playlist_play,
+.jnews-dark-mode .woocommerce li.product .pricegroup .button,
+.jnews-dark-mode .widget_display_forums li a:hover,
+.jnews-dark-mode .widget_display_topics li:before,
+.jnews-dark-mode .widget_display_replies li:before,
+.jnews-dark-mode .widget_display_views li:before,
+.jnews-dark-mode .bbp-breadcrumb a:hover,
+.jnews-dark-mode .jeg_mobile_menu li.sfHover > a,
+.jnews-dark-mode .jeg_mobile_menu li a:hover {
+	color: var(--j-link-txt-color);
+}
+
+.jnews-dark-mode .jeg_pagenav_1 .page_number.active,
+.jnews-dark-mode input[type="submit"],
+.jnews-dark-mode .btn,
+.jnews-dark-mode .button,
+.jnews-dark-mode .jeg_splitpost_4 .page_nav,
+.jnews-dark-mode .jeg_splitpost_5 .page_nav,
+.jnews-dark-mode .authorlink li.active a:before,
+.jnews-dark-mode .jeg_footer.dark .socials_widget:not(.nobg) a:hover .fa,
+.jnews-dark-mode .jeg_breakingnews_title,
+.jnews-dark-mode .jeg_vertical_playlist .jeg_video_playlist_current,
+.jnews-dark-mode .jeg_popup_post .caption,
+.jnews-dark-mode .jeg_footer.dark input[type="submit"],
+.jnews-dark-mode .jeg_footer.dark .btn,
+.jnews-dark-mode .jeg_footer.dark .button,
+.jnews-dark-mode .footer_widget.widget_tag_cloud a:hover {
+	background-color: var(--j-grey-bg-color);
+}
+
+.jnews-dark-mode .jeg_search_wrapper .jeg_search_button {
+    background: transparent;
+}
+
+.jnews-dark-mode .jeg_menu_style_1 > li > a:before,
+.jnews-dark-mode .jeg_menu_style_2 > li > a:before,
+.jnews-dark-mode .jeg_menu_style_3 > li > a:before{
+	background-color: var(--j-txt-color) !important;
+}
+
+.jnews-dark-mode .jeg_block_heading_9,
+.jeg_single_tpl_3.jnews-dark-mode .entry-header {
+	border-top-color: var(--j-border-color) !important;
+}

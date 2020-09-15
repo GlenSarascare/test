@@ -1,0 +1,46 @@
+.jeg_header.full .container {
+	padding-right: 30px;
+}
+
+.btn.outline {
+    border-width: 1px;
+    border-radius: 4px;
+    letter-spacing: normal;
+    font-size: 1em;
+}
+
+.btn .fa {
+	margin-right: 0.5em;
+}
+
+.entry-header .jeg_post_meta .fa, .jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+
+/** Single Posts **/
+.entry-content .pullquote:before, .entry-content .pullquote:after {
+    width: 18%;
+    height: 1px;
+    background: #00d853;
+}
+
+.entry-content .pullquote.align-center:before {
+    margin: 0 auto 1em;
+}
+.entry-content .pullquote.align-center:after {
+    margin: 1.25em auto 0;
+}
+
+
+/** Dark mode **/
+.jnews-dark-mode .jeg_menu.jeg_main_menu > li > a,
+.jnews-dark-mode .jeg_nav_icon .jeg_mobile_toggle.toggle_btn,
+.jnews-dark-mode .socials_widget > a > i.fa:before,
+.jnews-dark-mode .jeg_menu_footer a {
+    color: var(--j-link-txt-color)!important;
+}
+.jnews-dark-mode .jeg_header .jeg_bottombar.jeg_navbar_wrapper:not(.jeg_navbar_boxed),
+.jnews-dark-mode .jeg_header .jeg_bottombar.jeg_navbar_boxed .jeg_nav_row {
+    background: var(--j-darkgrey-bg-color);
+}

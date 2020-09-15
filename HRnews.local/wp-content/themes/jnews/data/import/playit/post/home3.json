@@ -1,0 +1,198 @@
+[
+  {
+    "id": "lUTNVN9",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1574653151622{padding-top: 40px !important;padding-bottom: 40px !important;background-color: #000000 !important;}",
+      "css_classes": "vc_custom_1574653151622"
+    },
+    "elements": [
+      {
+        "id": "DpfsP3M",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "3dJsSBM",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_item": {
+                "unit": "px",
+                "size": 2
+              },
+              "margin": {
+                "unit": "px",
+                "size": 20
+              },
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_post": "{{post:netflixs-the-witcher-season-1-review-roundup:id}},{{post:diablo-4-will-bring-back-elective-mode-blizzard-confirms:id}},{{post:niki-la-la-lost-you-official-music-video:id}},{{post:the-night-comes-for-us-official-trailer-hd:id}}",
+              "show_nav": "true",
+              "css": ".vc_custom_1577693373196{margin-bottom: 0px !important;}",
+              "_css_classes": "vc_custom_1577693373196"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_carousel3_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "zjD58CT",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "TreXVbN",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "dM40f1W",
+            "elType": "widget",
+            "settings": {
+              "space": {
+                "unit": "px",
+                "size": 40
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "efRbdrD",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "post_meta_style": "style_1",
+              "number_post": {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "first_title": "Featured"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block2_elementor"
+          },
+          {
+            "id": "6437e7d",
+            "elType": "widget",
+            "settings": {
+              "align": "center",
+              "text": "Divider",
+              "color": "#eeeeee",
+              "gap": {
+                "unit": "px",
+                "size": 0,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "divider"
+          },
+          {
+            "id": "7nVx6ce",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "userlist_style": "style-5",
+              "userlist_block1": "jeg_5_block",
+              "follow_button": "yes",
+              "userlist_subscriber": "yes",
+              "block_background": "#f9f9f9",
+              "subscribe_background": "#ffffff",
+              "header_type": "heading_8",
+              "number_user": "5",
+              "exclude_user": "1",
+              "title_color": "#212121",
+              "first_title": "New rising stars"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_userlist_elementor"
+          },
+          {
+            "id": "fyxhbNq",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "data_type": "user",
+              "user_data": "1",
+              "follow_user": "1",
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique2",
+              "include_category": "{{category:howto-style:id}}",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "follow_button": "true",
+              "section": "Vlogger",
+              "second_title": "Recommended channel for you"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          },
+          {
+            "id": "Fbyg2yJ",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "post_meta_style": "style_1",
+              "number_post": {
+                "unit": "px",
+                "size": 8
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 3
+              },
+              "unique_content": "unique2",
+              "pagination_mode": "scrollload",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 4
+              },
+              "pagination_scroll_limit": "0",
+              "column_width": "8",
+              "first_title": "Recommended"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

@@ -1,0 +1,33 @@
+.jeg_main_menu > li > a {
+    font-size: 16px;
+    text-transform: none;
+}
+
+.entry-header .jeg_post_meta .fa, .jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+.jeg_slider_type_4 .jeg_slide_item:before {
+	background: rgba(0, 0, 0, .28);
+}
+.jeg_slider_type_4 .jeg_slide_caption:before,
+.jeg_slider_type_4 .jeg_slide_caption:after {
+	display: none;
+}
+
+.jeg_block_heading_7 .jeg_block_title {
+    font-size : 12px;
+    letter-spacing : 1px;
+}
+
+.jeg_about_title {
+    margin-top : -10px;
+}
+
+.jeg_about {
+    margin-bottom : -10px;
+}
+
+.jeg_inline_subscribeform .mc4wp-form h3 {
+    font-size : 18px;
+}

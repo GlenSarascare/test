@@ -1,0 +1,682 @@
+[
+  {
+    "id": "GxcBwcR",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "6GJmWou",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "4oYBUXn",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "hero_margin":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "hero_style": "jeg_hero_style_3",
+              "content_filter_number_alert": "",
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_post": "{{post:full-throttle-with-franck-muller-aeternitas-mega-4-a-2-7-million-watch:id}},{{post:10-mens-watches-vintage-you-should-start-collecting-now:id}}",
+              "exclude_category": "{{category:review:id}}",
+              "css": ".vc_custom_1557972878271{margin-bottom: 10px !important;}",
+              "date_format_custom": "Y\/m\/d",
+              "_css_classes": "vc_custom_1557972878271"
+            },
+            "elements": [],
+            "widgetType": "jnews_hero_9_elementor"
+          },
+          {
+            "id": "e8f70da",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "TJtIQhD",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "QCJx9V9",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "G70MOK8",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_728x90:url:full}}",
+                "id": "{{image:ad_728x90:id}}"
+              },
+              "ads_image_tablet":
+              {
+                "url": "{{image:ad_728x90:url:full}}",
+                "id": "{{image:ad_728x90:id}}"
+              },
+              "ads_image_phone":
+              {
+                "url": "{{image:ad_728x90:url:full}}",
+                "id": "{{image:ad_728x90:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "2db2f90",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "22"
+    },
+    "elements": [
+      {
+        "id": "3a79b6f",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 60,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "8yIZbrw",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 1
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 10
+              },
+              "unique_content": "unique1",
+              "exclude_category": "{{category:review:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "first_title": "FEATURED",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_5_elementor"
+          },
+          {
+            "id": "kmF0uGN",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 10
+              },
+              "unique_content": "unique1",
+              "exclude_category": "{{category:review:id}}",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_22_elementor"
+          },
+          {
+            "id": "iqW3yzT",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_category": "{{category:review:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "pagination_mode": "loadmore",
+              "pagination_number_post":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "boxed": "true",
+              "first_title": "THE REVIEW",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_3_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "976b72f",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null,
+          "sticky_sidebar": "yes",
+          "padding":
+          {
+            "unit": "px",
+            "top": "10",
+            "right": "10",
+            "bottom": "10",
+            "left": "10",
+            "isLinked": true
+          }
+        },
+        "elements": [
+          {
+            "id": "d011f7a",
+            "elType": "widget",
+            "settings":
+            {
+              "first_title": "POPULAR NEWS",
+              "header_type": "heading_9",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_28_elementor"
+          },
+          {
+            "id": "6223569",
+            "elType": "widget",
+            "settings":
+            {
+              "editor": "Click edit button"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          },
+          {
+            "id": "5bkxK8T",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_345x345:url:full}}",
+                "id": "{{image:ad_345x345:id}}"
+              },
+              "ads_image_tablet":
+              {
+                "url": "{{image:ad_345x345:url:full}}",
+                "id": "{{image:ad_345x345:id}}"
+              },
+              "ads_image_phone":
+              {
+                "url": "{{image:ad_345x345:url:full}}",
+                "id": "{{image:ad_345x345:id}}"
+              },
+              "css": ".vc_custom_1557820959829{margin-bottom: 30px !important;}",
+              "_css_classes": "vc_custom_1557820959829"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "2qXbZFa",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "a7Gvtmw",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "9a76552",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "X2jgsfj",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "header_align": "center",
+              "first_title": "EDITOR'S PICK"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "1Pc60wE",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 4
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 25
+              },
+              "column_width": "8",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_9_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "KFxN6vY",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "5b8giPL",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "81e7916",
+            "elType": "widget",
+            "settings": [],
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "LchJeA0",
+    "elType": "section",
+    "settings":
+    {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1548907844478{background-image: url({{image:news5:url:full}}) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}",
+      "background_background": "classic",
+      "background_image":
+      {
+        "url": "{{image:news5:url:full}}",
+        "id": "{{image:news5:id}}"
+      },
+      "background_position": "center center",
+      "background_repeat": "no-repeat",
+      "background_size": "cover"
+    },
+    "elements": [
+      {
+        "id": "HQjIFwP",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "43d974b",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 40,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "8e82137",
+            "elType": "section",
+            "settings":
+            {
+              "structure": "20"
+            },
+            "elements": [
+              {
+                "id": "895bfb3",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 50,
+                  "_inline_size": null
+                },
+                "elements": [
+                  {
+                    "id": "9facb25",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "space":
+                      {
+                        "unit": "px",
+                        "size": 40,
+                        "sizes": []
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "spacer"
+                  },
+                  {
+                    "id": "635b1f8",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "title": "Time you enjoy wasting is not wasted time",
+                      "header_size": "h3",
+                      "align": "center",
+                      "title_color": "#ffffff",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Libre Baskerville",
+                      "typography_font_size":
+                      {
+                        "unit": "px",
+                        "size": 32,
+                        "sizes": []
+                      },
+                      "typography_font_weight": "400",
+                      "_css_classes": "vc_custom_1557973507851"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                  },
+                  {
+                    "id": "16ed797",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "title": "You can have it all. Just not all at once.",
+                      "header_size": "h3",
+                      "align": "center",
+                      "title_color": "#ffffff",
+                      "typography_typography": "custom",
+                      "typography_font_family": "Libre Baskerville",
+                      "typography_font_size":
+                      {
+                        "unit": "px",
+                        "size": 17,
+                        "sizes": []
+                      },
+                      "typography_font_weight": "400"
+                    },
+                    "elements": [],
+                    "widgetType": "heading"
+                  },
+                  {
+                    "id": "84cd7eb",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "text": "Click here",
+                      "align": "center",
+                      "button_text_color": "#666666",
+                      "background_color": "#ffffff"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                  },
+                  {
+                    "id": "2eb8857",
+                    "elType": "widget",
+                    "settings":
+                    {
+                      "space":
+                      {
+                        "unit": "px",
+                        "size": 40,
+                        "sizes": []
+                      }
+                    },
+                    "elements": [],
+                    "widgetType": "spacer"
+                  }],
+                "isInner": true
+              },
+              {
+                "id": "3925027",
+                "elType": "column",
+                "settings":
+                {
+                  "_column_size": 50,
+                  "_inline_size": null
+                },
+                "elements": [],
+                "isInner": true
+              }],
+            "isInner": true
+          },
+          {
+            "id": "7bc56a8",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 80,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "97ee182",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "ab9c500",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "fb95fc1",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "F3tqJ0d",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "PvcUHlb",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "18a608c",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 40,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "ZbWLnev",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "header_align": "center",
+              "first_title": "WATCH VIDEOS"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "BPvjFP1",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "layout": "horizontal",
+              "playlist": "https:\/\/www.youtube.com\/watch?v=YrXaGFCij1A,https:\/\/www.youtube.com\/watch?v=3RrG5ufXDEA,https:\/\/www.youtube.com\/watch?v=w8-DdurbLKw,https:\/\/www.youtube.com\/watch?v=Yqoa7STWu_4,https:\/\/www.youtube.com\/watch?v=lAir_H2TS9g"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_embedplaylist_elementor"
+          },
+          {
+            "id": "llQ1ojr",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_970x90:url:full}}",
+                "id": "{{image:ad_970x90:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "7kFXQSR",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "header_align": "center",
+              "first_title": "LATEST NEWS"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

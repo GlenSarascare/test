@@ -1,0 +1,855 @@
+[
+  {
+    "id": "uFlqqWi",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "wPyUuwg",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "7E3UCOe",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_item":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "margin":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "number_post":
+              {
+                "unit": "px",
+                "size": 7
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "exclude_post": "{{post:your-blonde-hair-needs-these-purple-shampoos-for-sure:id}},{{post:these-things-you-should-know-before-getting-lip-injections:id}}",
+              "include_category": "{{category:living:id}}",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_carousel_1_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "ae34b32",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "22"
+    },
+    "elements": [
+      {
+        "id": "62cd54b",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 66,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "eXALN9F",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 1
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "css": ".vc_custom_1556783080348{margin-bottom: 0px !important;}",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_12_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "59808dc",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "9928396",
+            "elType": "widget",
+            "settings":
+            {
+              "title": "TOP STORIES",
+              "header_size": "h3",
+              "align": "center",
+              "title_color": "#000000",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 32,
+                "sizes": []
+              },
+              "typography_font_weight": "700"
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "hFVpkZk",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "show_border": "true",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_29_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "62ea8c0",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "fad2d06",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "ca332ca",
+            "elType": "widget",
+            "settings":
+            {
+              "weight":
+              {
+                "unit": "px",
+                "size": 4,
+                "sizes": []
+              },
+              "color": "#000000"
+            },
+            "elements": [],
+            "widgetType": "divider"
+          },
+          {
+            "id": "a80df45",
+            "elType": "widget",
+            "settings":
+            {
+              "title": "ENTERTAINMENT",
+              "header_size": "h3",
+              "align": "center",
+              "title_color": "#000000",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 26,
+                "sizes": []
+              },
+              "typography_font_weight": "700"
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "c3fdb23",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "d61f579",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "20"
+    },
+    "elements": [
+      {
+        "id": "c94a4cf",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 50,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "J6XFUwd",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "unique_content": "unique1",
+              "include_category": "{{category:entertainment:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 13
+              },
+              "column_width": "8",
+              "css": ".vc_custom_1556855521508{margin-bottom: 0px !important;}",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_4_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "d060d25",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 50,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "2rYv1sl",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "unique_content": "unique1",
+              "exclude_post": "{{post:i-was-not-expecting-maisie-williamss-response-to-that-game-of-thrones-scene:id}}",
+              "include_category": "{{category:entertainment:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 13
+              },
+              "column_width": "8",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_4_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "waZL8Aw",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "WJbeo7D",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "7aba8fa",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "7344ea5",
+            "elType": "widget",
+            "settings":
+            {
+              "editor": "[mc4wp_form]",
+              "_padding":
+              {
+                "unit": "px",
+                "top": "25",
+                "right": "25",
+                "bottom": "25",
+                "left": "25",
+                "isLinked": true
+              },
+              "_border_border": "solid",
+              "_border_width":
+              {
+                "unit": "px",
+                "top": "4",
+                "right": "4",
+                "bottom": "4",
+                "left": "4",
+                "isLinked": true
+              },
+              "_border_color": "#000000"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          },
+          {
+            "id": "e30fb19",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "JC3fN30",
+    "elType": "section",
+    "settings":
+    {
+      "background_background": "classic",
+      "background_color": "#eeeeee"
+    },
+    "elements": [
+      {
+        "id": "VExSnI6",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "8161ba2",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "7290c50",
+            "elType": "widget",
+            "settings":
+            {
+              "title": "LIFESTYLE",
+              "header_size": "h3",
+              "align": "center",
+              "title_color": "#000000",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 26,
+                "sizes": []
+              },
+              "typography_font_weight": "700"
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "eda72a3",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "GPLpsPF",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "exclude_post": "{{post:the-most-outrageous-kim-khasyian-outfits-of-all-time:id}}",
+              "include_category": "{{category:culture:id}}",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_11_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "MPJvWHb",
+    "elType": "section",
+    "settings":
+    {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1556786165305{padding-top: 40px !important;padding-bottom: 10px !important;background-color: #eeeeee !important;}"
+    },
+    "elements": [
+      {
+        "id": "RdoTFnp",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "b7ec51e",
+            "elType": "widget",
+            "settings": [],
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "6636ac2",
+            "elType": "widget",
+            "settings":
+            {
+              "weight":
+              {
+                "unit": "px",
+                "size": 4,
+                "sizes": []
+              },
+              "color": "#000000"
+            },
+            "elements": [],
+            "widgetType": "divider"
+          },
+          {
+            "id": "62005b6",
+            "elType": "widget",
+            "settings":
+            {
+              "title": "EXCLUSIVE INTERVIEW",
+              "header_size": "h3",
+              "align": "center",
+              "title_color": "#000000",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 26,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "64b3a2c",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "4c4bda3",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "22"
+    },
+    "elements": [
+      {
+        "id": "78e5aef",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 66,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "rreHkVS",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "layout": "vertical",
+              "playlist": "https:\/\/www.youtube.com\/watch?v=wWdXfX4Vpm8,https:\/\/www.youtube.com\/watch?v=0xQPCa7c1ik,https:\/\/www.youtube.com\/watch?v=86VjgW1wDfI,https:\/\/www.youtube.com\/watch?v=rMNAdHqGMhs"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_embedplaylist_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "29fa766",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null,
+          "sticky_sidebar": "yes"
+        },
+        "elements": [
+          {
+            "id": "R8WL46s",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_300x600:url:full}}",
+                "id": "{{image:ad_300x600:id}}"
+              },
+              "ads_image_tablet":
+              {
+                "url": "{{image:ad_300x600:url:full}}",
+                "id": "{{image:ad_300x600:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "HAnzNMs",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "t9R9ZCz",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "4869314",
+            "elType": "widget",
+            "settings": [],
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "9f8cc21",
+            "elType": "widget",
+            "settings":
+            {
+              "weight":
+              {
+                "unit": "px",
+                "size": 4,
+                "sizes": []
+              },
+              "color": "#000000"
+            },
+            "elements": [],
+            "widgetType": "divider"
+          },
+          {
+            "id": "690cb2d",
+            "elType": "widget",
+            "settings":
+            {
+              "title": "CELEBRITY NEWS",
+              "header_size": "h3",
+              "align": "center",
+              "title_color": "#000000",
+              "typography_typography": "custom",
+              "typography_font_family": "Oswald",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 26,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "91f282a",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "PZExz16",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "nNzQWr0",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "W3zovO5",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_category": "{{category:celebrity:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 16
+              },
+              "column_width": "8",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_27_elementor"
+          },
+          {
+            "id": "PJYHSUs",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_category": "{{category:celebrity:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 18
+              },
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_27_elementor"
+          },
+          {
+            "id": "W0UM0yk",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_970x250:url:full}}",
+                "id": "{{image:ad_970x250:id}}"
+              },"ads_image_tablet":
+            {
+              "url": "{{image:ad_728x90:url:full}}",
+              "id": "{{image:ad_728x90:id}}"
+            },"ads_image_phone":
+            {
+              "url": "{{image:ad_728x90:url:full}}",
+              "id": "{{image:ad_728x90:id}}"
+            }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "b03ed09",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "6871ca9",
+            "elType": "widget",
+            "settings":
+            {
+              "weight":
+              {
+                "unit": "px",
+                "size": 4,
+                "sizes": []
+              },
+              "color": "#000000"
+            },
+            "elements": [],
+            "widgetType": "divider"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }
+]

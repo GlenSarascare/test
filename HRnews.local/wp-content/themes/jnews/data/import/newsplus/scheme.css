@@ -1,0 +1,226 @@
+/** Header */
+body:not(.jnews-dark-mode) .jeg_navbar_shadow:after {
+	opacity: 0.35;
+	height: 8px;
+}
+
+.jnews-dark-mode .jeg_midbar:not(.dark) {
+	background-color: var(--j-dark-bg-color) !important;
+}
+
+.jeg_main_menu > li > a {
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.jeg_navbar .btn {
+	border-radius: 40px;
+	padding: 0 22px;
+}
+
+.btn.outline {
+	border-width: 1px;
+}
+
+[class*="jeg_button"] ~ [class*="jeg_button"] {
+	padding-left: 0;
+}
+
+/** Form */
+input[type="submit"], .btn, .button,
+input:not([type="submit"]), textarea, select, .chosen-container-single .chosen-single {
+	border-radius: 3px;
+}
+
+.jeg_footer input:not([type="submit"]), .jeg_footer textarea, .jeg_footer select {
+	border-width: 1px;
+	margin-right: -6px;
+}
+
+/** Block **/
+.jeg_block_title {
+	font-size: 19px;
+	font-weight: 500;
+}
+
+.jeg_block_title i,
+.jeg_block_title span,
+.jeg_subcat_list > li > a,
+.okayNav__menu-toggle {
+	height: 48px;
+	line-height: 48px;
+}
+
+.jeg_subcat_list > li > a {
+	font-weight: 500;
+}
+
+.jeg_block_heading_1 .jeg_block_title span {
+	border-radius: 0;
+}
+
+.jeg_post_category {
+	text-rendering: inherit;
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+}
+
+.jeg_thumb .jeg_post_category a,
+.jeg_pl_lg_box .jeg_post_category a,
+.jeg_pl_md_box .jeg_post_category a,
+.jeg_postblock_carousel_2 .jeg_post_category a,
+.jeg_heroblock .jeg_post_category a,
+.jeg_slide_caption .jeg_post_category a {
+	padding: 5px 7px 5px;
+	font-weight: 500;
+	letter-spacing: .04em;
+}
+
+@media only screen and (min-width:769px) {
+	.jeg_heroblock .jeg_post_category,
+	.jeg_slide_caption .jeg_post_category {
+		margin-bottom: 10px;
+	}
+
+	.jeg_post_excerpt {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+}
+
+.jeg_hero_style_1 .jeg_thumb a > div:before {
+	opacity: .25;
+}
+
+.entry-header .jeg_post_meta .fa,
+.jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+.jeg_meta_author,
+.jeg_meta_author a {
+	color: inherit !important;
+}
+
+.jeg_col_1o3 .jeg_block_loadmore a {
+	width: 100%;
+}
+
+.jeg_block_nav a,
+.jeg_col_1o3 .jeg_block_loadmore a {
+	border-radius: 3px;
+}
+
+.jeg_col_1o3 .jeg_block_loadmore a:before,
+.jeg_col_1o3 .jeg_block_loadmore a:after {
+	display: none;
+}
+
+/** Single Post **/
+.content-inner {
+	color: #212121;
+	font-size: 18px;
+}
+
+.entry-header .jeg_meta_container {
+	padding-top: 10px;
+	border-top: 2px solid #eee;
+}
+
+.jnews-dark-mode .entry-header .jeg_meta_container {
+	border-top-color: var(--j-border-color);
+}
+
+.entry-content blockquote,
+.entry-content q {
+	font-weight: 500;
+	font-size: 26px;
+	font-style: normal;
+	padding-left: 30px;
+	border-left: 0;
+}
+
+.jeg_ad_article .ads-wrapper {
+	background: #f7f7f7;
+	padding: 10px 0;
+}
+
+.jnews-dark-mode .ads-wrapper {
+	background-color: var(--j-dark-bg-color);
+}
+
+.jeg_ad_article .ads-text {
+	padding-bottom: 0;
+}
+
+.jnews_inline_related_post .jeg_block_heading {
+	margin-bottom: 12px;
+}
+
+.jnews_inline_related_post .jeg_block_heading_6 {
+	border-bottom-width: 1px;
+	border-bottom-color: inherit;
+}
+
+.jeg_block_heading_6:after {
+	background: transparent;
+	height: 0;
+	width: auto;
+}
+
+.jnews_inline_related_post .jeg_pl_xs_4 {
+	border-bottom: 1px dotted #e0e0e0;
+	padding-bottom: 5px;
+}
+
+.jnews-dark-mode .jnews_inline_related_post .jeg_pl_xs_4 {
+	border-color: var(--j-border-color);
+}
+
+@media only screen and (min-width:769px) {
+	.entry-header .jeg_post_subtitle {
+		font-size: 24px;
+		margin-top: 0;
+	}
+
+}
+
+/** Widget */
+.jeg_main_content .mc4wp-form {
+	border: 0;
+	border-radius: 3px;
+	background-color: var(--j-darkgrey-bg-color, #f7f7f7);
+}
+
+/** JPW */
+.jpw-truncate-btn .btn {
+	height: 48px;
+	line-height: 48px;
+	border-radius: 48px;
+}
+
+.jpw-wrapper .package-item {
+	border-radius: 5px;
+}
+
+/** VC */
+.vc_btn3.vc_btn3-style-custom {
+	background-image: none;
+}
+
+.vc_btn3.vc_btn3-size-md {
+	letter-spacing: 0.02em;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.vc_general.vc_cta3.vc_cta3-shape-rounded {
+	border-radius: 3px;
+}
+
+.jnews-dark-mode .vc_general.vc_cta3.vc_cta3-style-classic {
+	background-color: var(--j-darkgrey-bg-color) !important;
+	border-color: var(--j-border-color) !important;
+}

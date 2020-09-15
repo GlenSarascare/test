@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cUHqqim",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "D4syvwv",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "U9wxFdC",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              },
+              "ads_image_tablet": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              },
+              "ads_image_phone": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "rjQopE1",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 12
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "pagination_mode": "scrollload",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 8
+              },
+              "pagination_scroll_limit": "0",
+              "first_title": "Latest Videos"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block4_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

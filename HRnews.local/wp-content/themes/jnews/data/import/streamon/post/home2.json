@@ -1,0 +1,322 @@
+[
+  {
+    "id": "N10R59u",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "layout": "full_width",
+      "gap": "no"
+    },
+    "elements": [
+      {
+        "id": "57tjiYF",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "DNBItts",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_item": {
+                "unit": "px",
+                "size": 3
+              },
+              "margin": {
+                "unit": "px",
+                "size": 20
+              },
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "include_post": "{{post:how-to-get-around-rome-on-the-cheap-in-2019:id}},{{post:glastonbury-introduces-new-campsite-to-reduce-waste:id}},{{post:netflixs-the-witcher-season-1-review-roundup:id}},{{post:life-in-paris-one-month-down-in-2019:id}}",
+              "show_nav": "true"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_carousel2_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "bqToosy",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "7dRXfUI",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "3zRIydp",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "header_type": "heading_8",
+              "header_align": "center",
+              "first_title": "Recommended"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "cvcxc5t",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 4
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 6
+              },
+              "unique_content": "unique1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 4
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block4_elementor"
+          },
+          {
+            "id": "qyEbIPL",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "header_type": "heading_8",
+              "header_align": "center",
+              "first_title": "Popular Creators"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "ZhiDdYj",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "userlist_style": "style-3",
+              "userlist_block3": "jeg_6_block",
+              "userlist_desc": "no",
+              "userlist_subscriber": "yes",
+              "userlist_social": "no",
+              "userlist_align": "jeg_user_align_center",
+              "border_color": "#eeeeee",
+              "subscribe_background": "#ffffff",
+              "alt_color": "#a0a0a0",
+              "number_user": "6",
+              "title_color": "#02182b"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_userlist_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "hUqVbVx",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1578450156684{padding-top: 50px !important;padding-bottom: 15px !important;background-color: #f5f1fe !important;}",
+      "css_classes": "vc_custom_1578450156684"
+    },
+    "elements": [
+      {
+        "id": "z9I0sr5",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "2UjcOpM",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "header_type": "heading_8",
+              "header_align": "center",
+              "first_title": "Trending Videos"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "4f701a78",
+            "settings": {
+              "structure": "22"
+            },
+            "elements": [
+              {
+                "id": "6c97f6a",
+                "settings": {
+                  "_column_size": 66,
+                  "_inline_size": 58.33333333
+                },
+                "elements": [
+                  {
+                    "id": "26b0f71b",
+                    "settings": {
+                      "post_meta_style": "style_1",
+                      "number_post": {
+                        "unit": "px",
+                        "size": 1,
+                        "sizes": []
+                      },
+                      "include_post": "{{post:coachella-coming-to-celebrate-20-years-in-the-desert:id}}",
+                      "column_width": "4"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "jnews_video_block2_elementor",
+                    "elType": "widget"
+                  }
+                ],
+                "isInner": true,
+                "elType": "column"
+              },
+              {
+                "id": "19d5739a",
+                "settings": {
+                  "_column_size": 33,
+                  "_inline_size": 41.66666667
+                },
+                "elements": [
+                  {
+                    "id": "573d2414",
+                    "settings": {
+                      "number_post": {
+                        "unit": "px",
+                        "size": 4,
+                        "sizes": []
+                      },
+                      "include_post": "{{post:another-director-leaves-the-uncharted-movie:id}},{{post:dialog-dini-hari-tentang-rumahku-official-music-video:id}},{{post:english-soccer-is-hopelessly-addicted-to-jose-mourinho:id}},{{post:will-destinations-ever-rule-the-world:id}}",
+                      "column_width": "8"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "jnews_video_block2_elementor",
+                    "elType": "widget"
+                  }
+                ],
+                "isInner": true,
+                "elType": "column"
+              }
+            ],
+            "isInner": true,
+            "elType": "section"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "ZvMBaXL",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "ywdslmY",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "sHYu1Zl",
+            "elType": "widget",
+            "settings": {
+              "space": {
+                "unit": "px",
+                "size": 40
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "CIA2WX1",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              },
+              "ads_image_tablet": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              },
+              "ads_image_phone": {
+                "url": "{{image:ad_1140x160:url:full}}",
+                "id": "{{image:ad_1140x160:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "pmHmzC8",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "header_type": "heading_8",
+              "header_align": "center",
+              "first_title": "Latest Videos"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "xOzaUvn",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 8
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 8
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block4_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

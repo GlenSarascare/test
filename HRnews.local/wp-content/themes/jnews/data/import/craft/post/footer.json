@@ -1,0 +1,107 @@
+[
+  {
+    "id": "9268545",
+    "elType": "section",
+    "settings":
+    {
+      "background_background": "classic",
+      "background_color": "#eff9f9",
+      "padding":
+      {
+        "unit": "px",
+        "top": "60",
+        "right": "0",
+        "bottom": "40",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "edc5426",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "0fa4cee",
+            "elType": "widget",
+            "settings":
+            {
+              "footer_instagram_username": "our1sthome",
+              "footer_instagram_row":
+              {
+                "unit": "px",
+                "size": 2,
+                "sizes": []
+              },
+              "footer_instagram_column":
+              {
+                "unit": "px",
+                "size": 5,
+                "sizes": []
+              },
+              "footer_instagram_hover_style": "like",
+              "footer_instagram_newtab": "yes"
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_instagram_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "6e282cc",
+    "elType": "section",
+    "settings":
+    {
+      "background_background": "classic",
+      "background_color": "#eff9f9",
+      "padding":
+      {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "40",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "7545a00",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "0512403",
+            "elType": "widget",
+            "settings":
+            {
+              "text_color": "#3f5e6f",
+              "menu_separator_color": "rgba(0,0,0,0.1)"
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_menu_elementor"
+          },
+          {
+            "id": "1f3f8ee",
+            "elType": "widget",
+            "settings":
+            {
+              "social_icon": "nobg",
+              "icon_text_color": "#3f5e6f"
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_social_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

@@ -1,0 +1,132 @@
+{
+  "default-sidebar":
+  {
+    "jnews_popular-2":
+    {
+      "title": "POPULAR POSTS",
+      "limit": "5",
+      "order_by": "views",
+      "range": "all",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_9",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_module_element_ads-3":
+    {
+      "ads_type": "image",
+      "ads_image": "{{image:ad_345x345:id}}",
+      "ads_image_tablet": "{{image:ad_345x345:id}}",
+      "ads_image_phone": "{{image:ad_345x345:id}}",
+      "ads_image_link": "",
+      "ads_image_alt": "",
+      "google_publisher_id": "",
+      "google_slot_id": "",
+      "google_desktop": "auto",
+      "google_tab": "auto",
+      "google_phone": "auto",
+      "content": "",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto"
+    }
+  },
+  "footer-widget-1":
+  {
+    "jnews_about-4":
+    {
+      "title": "",
+      "aboutimg": "{{image:logo:id}}",
+      "aboutimgretina": "{{image:logo2x:id}}",
+      "aboutname": "",
+      "aboutoccupation": "",
+      "aboutdesc": "",
+      "signature": "",
+      "signatureretina": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_about-2":
+    {
+      "title": "",
+      "aboutimg": "",
+      "aboutimgretina": "",
+      "aboutname": "About The Sneakers",
+      "aboutoccupation": "",
+      "aboutdesc": "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. And if she hasn\u2019t been rewritten, then they are still using her.\r\n\r\nA small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+      "signature": "",
+      "signatureretina": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_social-2":
+    {
+      "title": "Connect With Us",
+      "widgetstyle": "nobg",
+      "icon_color": "",
+      "bg_color": "",
+      "beforesocial": "",
+      "aftersocial": "",
+      "account": "%5B%7B%22social_icon%22:%22facebook%22,%22social_url%22:%22https:\/\/www.facebook.com\/jegtheme\/%22%7D,%7B%22social_icon%22:%22twitter%22,%22social_url%22:%22https:\/\/twitter.com\/jegtheme%22%7D,%7B%22social_icon%22:%22instagram%22,%22social_url%22:%22https:\/\/instagram.com\/jegtheme%22%7D,%7B%22social_icon%22:%22youtube%22,%22social_url%22:%22https:\/\/youtube.com\/jegtheme%22%7D%5D",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-3":
+  {
+    "jnews_about-3":
+    {
+      "title": "",
+      "aboutimg": "",
+      "aboutimgretina": "",
+      "aboutname": "",
+      "aboutoccupation": "",
+      "aboutdesc": "",
+      "signature": "",
+      "signatureretina": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "sidebar-widget":
+  {
+    "jnews_module_element_ads-2":
+    {
+      "ads_type": "image",
+      "ads_image": "{{image:ad_300x600:id}}",
+      "ads_image_tablet": "",
+      "ads_image_phone": "",
+      "ads_image_link": "",
+      "ads_image_alt": "",
+      "google_publisher_id": "",
+      "google_slot_id": "",
+      "google_desktop": "auto",
+      "google_tab": "auto",
+      "google_phone": "auto",
+      "content": "",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto"
+    }
+  }
+}

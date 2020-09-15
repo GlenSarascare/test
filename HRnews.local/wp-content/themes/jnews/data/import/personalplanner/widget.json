@@ -1,0 +1,134 @@
+{
+    "default-sidebar": {
+      "search-2": {
+        "title": ""
+      },
+      "recent-posts-2": {
+        "title": "",
+        "number": 5
+      },
+      "recent-comments-2": {
+        "title": "",
+        "number": 5
+      },
+      "archives-2": {
+        "title": "",
+        "count": 0,
+        "dropdown": 0
+      },
+      "meta-2": {
+        "title": ""
+      }
+    },
+    "footer-widget-1": {
+      "jnews_about-2": {
+        "title": "",
+        "aboutimg": "{{image:sticky_logo:id}}",
+        "aboutimgretina": "{{image:sticky_logo2x:id}}",
+        "aboutname": "",
+        "aboutoccupation": "",
+        "aboutdesc": "We bring you the best Premium WordPress Themes that perfect for news, magazine, personal blog, etc. Check our landing page for details.",
+        "signature": "",
+        "signatureretina": "",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_6",
+        "header_background": "",
+        "header_text_color": "",
+        "widget_class": ""
+      }
+    },
+    "footer-widget-2": {
+      "categories-2": {
+        "title": "",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_6",
+        "header_background": "",
+        "header_text_color": "#136f63",
+        "widget_class": ""
+      },
+      "jnews_social-2": {
+        "title": "",
+        "widgetstyle": "nobg",
+        "icon_color": "#136f63",
+        "bg_color": "",
+        "beforesocial": "Follow us on social media",
+        "aftersocial": "",
+        "account": "%5B%7B%22social_icon%22:%22facebook%22,%22social_url%22:%22https://www.facebook.com/jegtheme/%22%7D,%7B%22social_icon%22:%22twitter%22,%22social_url%22:%22https://twitter.com/jegtheme%22%7D,%7B%22social_icon%22:%22instagram%22,%22social_url%22:%22https://instagram.com/jegtheme%22%7D,%7B%22social_icon%22:%22youtube%22,%22social_url%22:%22https://youtube.com/user/Envato%22%7D,%7B%22social_icon%22:%22rss%22,%22social_url%22:%22https://twitter.com/jegtheme%22%7D%5D",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_6",
+        "header_background": "",
+        "header_text_color": "#0b132b",
+        "widget_class": ""
+      }
+    },
+    "footer-widget-3": {
+      "recent-posts-3": {
+        "title": "Recent News",
+        "number": "3",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_6",
+        "header_background": "",
+        "header_text_color": "#136f63",
+        "widget_class": ""
+      }
+    },
+    "footer-widget-4": {
+      "nav_menu-2": {
+        "title": "",
+        "nav_menu": "6",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_6",
+        "header_background": "",
+        "header_text_color": "",
+        "widget_class": ""
+      }
+    },
+    "sidebar-widget": {
+      "recent-posts-4": {
+        "title": "",
+        "number": "5",
+        "show_date": "on",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_7",
+        "header_background": "",
+        "header_text_color": "",
+        "widget_boxed": "1",
+        "widget_class": ""
+      },
+      "categories-4": {
+        "title": "Categories",
+        "count": "on",
+        "hierarchical": "on",
+        "second_title": "",
+        "header_url": "",
+        "header_type": "heading_7",
+        "header_background": "",
+        "header_text_color": "",
+        "widget_class": ""
+      },
+      "jnews_module_element_ads-2": {
+        "ads_type": "image",
+        "ads_image": "{{image:ad_300x600:id}}",
+        "ads_image_tablet": "{{image:ad_300x600:id}}",
+        "ads_image_phone": "",
+        "ads_image_link": "",
+        "ads_image_alt": "",
+        "google_publisher_id": "",
+        "google_slot_id": "",
+        "google_desktop": "auto",
+        "google_tab": "auto",
+        "google_phone": "auto",
+        "content": "",
+        "el_id": "",
+        "el_class": "",
+        "scheme": "normal",
+        "column_width": "auto"
+      }
+    }
+  }

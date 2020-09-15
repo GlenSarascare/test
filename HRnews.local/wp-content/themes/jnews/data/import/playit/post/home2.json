@@ -1,0 +1,169 @@
+[
+  {
+    "id": "AwrUWBE",
+    "elType": "section",
+    "settings": {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1573197595367{margin-bottom: 40px !important;border-bottom-width: 1px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}",
+      "css_classes": "vc_custom_1573197595367"
+    },
+    "elements": [
+      {
+        "id": "qornuKI",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "2IeXVCa",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_item": {
+                "unit": "px",
+                "size": 2
+              },
+              "margin": {
+                "unit": "px",
+                "size": 20
+              },
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_post": "{{post:netflixs-the-witcher-season-1-review-roundup:id}},{{post:switch-fishing-using-joy-con-as-futuristic-fishing-rod:id}},{{post:google-pixel-4-xl-review-the-best-android-experience:id}},{{post:niki-lowkey-official-visualizer-music-video:id}}",
+              "show_nav": "true"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_carousel4_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "XS4lQAT",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "Rs8XiAT",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "KRJXkah",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "number_post": {
+                "unit": "px",
+                "size": 8
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 5
+              },
+              "unique_content": "unique1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 4
+              },
+              "column_width": "8",
+              "first_title": "Recommended"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          },
+          {
+            "id": "wlyvaWT",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "data_type": "user",
+              "user_data": "1",
+              "follow_user": "1",
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "include_author": "1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "follow_button": "true",
+              "section": "VLOG",
+              "second_title": "Recommended channel"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          },
+          {
+            "id": "2vOMMTR",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "data_type": "user",
+              "user_data": "1",
+              "follow_user": "1",
+              "number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset": {
+                "unit": "px",
+                "size": 0
+              },
+              "include_author": "1",
+              "pagination_mode": "loadmore",
+              "pagination_number_post": {
+                "unit": "px",
+                "size": 5
+              },
+              "follow_button": "true",
+              "section": "GAMING",
+              "second_title": "Creator on the rise"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_block1_elementor"
+          },
+          {
+            "id": "2OMCFDH",
+            "elType": "widget",
+            "settings": {
+              "compatible_column_notice": "",
+              "margin": {
+                "unit": "px",
+                "size": 20
+              },
+              "show_nav": "true",
+              "first_title": "Browse by Category"
+            },
+            "elements": [],
+            "widgetType": "jnews_video_categorylist_elementor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

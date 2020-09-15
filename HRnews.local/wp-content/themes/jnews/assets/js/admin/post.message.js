@@ -1,0 +1,1 @@
+jQuery((function(n){"use strict";wp.customize("jnews_header1_logo_spacing",(function(n){n.bind((function(n){console.log(n)}))})),wp.customize("jnews_header3_height",(function(n){n.bind((function(n){console.log(n)}))}))}));

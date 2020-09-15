@@ -1,0 +1,673 @@
+[
+  {
+    "id": "BMCghFj",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "SL39J1l",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "HGHxRe5",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_728x90:url:full}}",
+                "id": "{{image:ad_728x90:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "rSuIjMo",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "newsticker_title": "Trending",
+              "autoplay_delay":
+              {
+                "unit": "px",
+                "size": 3000
+              },
+              "number_post":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 15
+              },
+              "enable_autoplay": "true",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_newsticker_elementor"
+          },
+          {
+            "id": "gGQSts8",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "hero_margin":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "hero_style": "jeg_hero_style_2",
+              "content_filter_number_alert": "",
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "exclude_post": "{{post:largest-daily-percent-gain-for-stock-market-since-march-2009:id}},{{post:bitcoin-and-stock-market-prediction-for-2019-2018-recap-performance:id}},{{post:comparing-the-great-depression-to-the-stock-market-today:id}},{{post:us-stock-market-will-we-see-a-bull-market-in-2019:id}},{{post:apple-1q-guidance-cut-could-make-the-stock-market-crash-apple-stock-crashing:id}},{{post:the-decline-in-the-stock-market-is-really-just-getting-started-economist:id}}",
+              "css": ".vc_custom_1557372879519{margin-bottom: 20px !important;}",
+              "date_format_custom": "Y\/m\/d",
+              "_css_classes": "vc_custom_1557372879519"
+            },
+            "elements": [],
+            "widgetType": "jnews_hero_2_elementor"
+          },
+          {
+            "id": "e928cbd",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 10,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "8ca3371",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "22"
+    },
+    "elements": [
+      {
+        "id": "55433d7",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 66,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "42WvVrd",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "include_category": "{{category:economy:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 11
+              },
+              "pagination_mode": "nextprev",
+              "pagination_number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "boxed": "true",
+              "boxed_shadow": "true",
+              "first_title": "Economy",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_23_elementor"
+          },
+          {
+            "id": "edCvUtn",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "include_category": "{{category:goverment:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 11
+              },
+              "pagination_mode": "nextprev",
+              "pagination_number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "boxed": "true",
+              "boxed_shadow": "true",
+              "first_title": "Goverment",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_23_elementor"
+          },
+          {
+            "id": "nVw73YK",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 15
+              },
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "pagination_mode": "nextprev",
+              "pagination_number_post":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "boxed": "true",
+              "column_width": "8",
+              "boxed_shadow": "true",
+              "first_title": "Editor Picks",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_1_elementor"
+          },
+          {
+            "id": "Wuvy1CR",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "include_post": "{{post:as-nike-nke-stock-declined-augustine-asset-management-has-trimmed-position-by-1-13-million:id}},{{post:disneys-box-office-results-boost-studio-entertainment-unit:id}},{{post:aff-suzuki-cup-2018-malaysia-get-heroes-welcome-upon-return:id}},{{post:tasmania-is-riding-a-tourism-wave-but-are-some-being-left-in-its-wake:id}},{{post:electronics-and-electrical-ceramics-market-capacity-production-and-industry-growth-forecast-by-2023:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 19
+              },
+              "pagination_mode": "nextprev",
+              "pagination_number_post":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "boxed": "true",
+              "column_width": "8",
+              "boxed_shadow": "true",
+              "first_title": "Featured",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_2_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "50629dd",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null,
+          "sticky_sidebar": "yes",
+          "padding":
+          {
+            "unit": "px",
+            "top": "10",
+            "right": "10",
+            "bottom": "10",
+            "left": "10",
+            "isLinked": true
+          }
+        },
+        "elements": [
+          {
+            "id": "9256e55",
+            "elType": "widget",
+            "settings":
+            {
+              "sidebar": "home-sidebar-1"
+            },
+            "elements": [],
+            "widgetType": "sidebar"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "erHiuEO",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "p52DiF8",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "d8wA33I",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 15
+              },
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "pagination_mode": "loadmore",
+              "pagination_number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "boxed": "true",
+              "boxed_shadow": "true",
+              "first_title": "Evening Report",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_23_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "a0503f4",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "30"
+    },
+    "elements": [
+      {
+        "id": "8775fcd",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "wPSVUVz",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "include_category": "{{category:goverment:id}}",
+              "boxed": "true",
+              "column_width": "4",
+              "boxed_shadow": "true",
+              "first_title": "Government",
+              "css": ".vc_custom_1557373562712{background-color: #ffffff !important;}",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "_css_classes": "vc_custom_1557373562712"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_19_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "3088e09",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "dAIqJe1",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "exclude_post": "{{post:as-nike-nke-stock-declined-augustine-asset-management-has-trimmed-position-by-1-13-million:id}}",
+              "include_category": "{{category:economy:id}}",
+              "boxed": "true",
+              "column_width": "4",
+              "boxed_shadow": "true",
+              "first_title": "Economy",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_19_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "31e2810",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "NiKUjcX",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "include_category": "{{category:entertainment:id}}",
+              "boxed": "true",
+              "column_width": "4",
+              "boxed_shadow": "true",
+              "first_title": "Entertainment",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_19_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "4723dbb",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "30"
+    },
+    "elements": [
+      {
+        "id": "05a207a",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "V1Q9Cyz",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 8
+              },
+              "include_category": "{{category:leisure:id}}",
+              "boxed": "true",
+              "column_width": "4",
+              "boxed_shadow": "true",
+              "first_title": "Leisure",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_19_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "c9d07f9",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "lNA85k2",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "include_post": "{{post:ismga-indias-global-sports-business-academy-with-industry-insider-faculty:id}},{{post:jose-mourinho-manchester-united-are-physically-and-technically-inferior-to-liverpool:id}},{{post:aberdeen-announce-85000-profit-as-turnover-and-wages-reach-record-highs:id}}",
+              "exclude_post": "{{post:mid-engined-corvette-rumor-anticipated-car-delayed-thanks-to-electrical-issue:id}},{{post:greeces-tourism-growth-to-level-off-in-2019:id}}",
+              "include_category": "{{category:sport:id}}",
+              "boxed": "true",
+              "column_width": "4",
+              "boxed_shadow": "true",
+              "first_title": "Sport",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_19_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "50ba933",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "px0fJyC",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "include_category": "{{category:electrical:id}}",
+              "boxed": "true",
+              "column_width": "4",
+              "boxed_shadow": "true",
+              "first_title": "Electrical",
+              "header_line_color": "#3d348b",
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_block_19_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "vAMkN0F",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "P6WL8MU",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "Lkt674e",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_970x90:url:full}}",
+                "id": "{{image:ad_970x90:id}}"
+              },
+              "css": ".vc_custom_1557372211622{margin-bottom: 0px !important;}",
+              "_css_classes": "vc_custom_1557372211622"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

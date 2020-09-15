@@ -1,0 +1,130 @@
+[
+  {
+    "id": "efc0070",
+    "elType": "section",
+    "settings": {
+      "gap": "no",
+      "structure": "30",
+      "background_background": "classic",
+      "background_color": "#fed1d2",
+      "padding": {
+        "unit": "px",
+        "top": "50",
+        "right": "0",
+        "bottom": "50",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "37adbb1",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "_inline_size": null
+        },
+        "elements": [
+          {
+            "id": "3959d7f",
+            "elType": "widget",
+            "settings": {
+              "sidebar": "footer-widget-1"
+            },
+            "elements": [],
+            "widgetType": "sidebar"
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "a2dd82c",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "css_classes": "jeg_aligncenter"
+        },
+        "elements": [
+          {
+            "id": "fd053fe",
+            "elType": "widget",
+            "settings": {
+              "sidebar": "footer-widget-2"
+            },
+            "elements": [],
+            "widgetType": "sidebar"
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "b2f72bc",
+        "elType": "column",
+        "settings": {
+          "_column_size": 33,
+          "_inline_size": null,
+          "css_classes": "jeg_aligncenter"
+        },
+        "elements": [
+          {
+            "id": "ce120db",
+            "elType": "widget",
+            "settings": {
+              "sidebar": "footer-widget-3"
+            },
+            "elements": [],
+            "widgetType": "sidebar"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "25e7efa",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "b66249f",
+        "elType": "column",
+        "settings": {
+          "_column_size": 100,
+          "margin": {
+            "unit": "px",
+            "top": "30",
+            "right": "0",
+            "bottom": "-10",
+            "left": "0",
+            "isLinked": false
+          },
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "2147b16",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p style='text-align: center;'><span style='color: #011627;'>© 2019<span style='color: #ef1c7b;'> <a style='color: #ef1c7b;' title='Premium WordPress news &amp; magazine theme' href='http://jegtheme.com/'>JNews</a></span> - Premium WordPress news &amp; magazine theme by <span style='color: #ef1c7b;'><a style='color: #ef1c7b;' title='Jegtheme' href='http://jegtheme.com/'>Jegtheme</a>.</span></span></p>",
+              "align": "center",
+              "typography_typography": "custom"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

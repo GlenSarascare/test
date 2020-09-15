@@ -1,0 +1,645 @@
+[
+  {
+    "id": "2eCUZRv",
+    "elType": "section",
+    "settings":
+    {
+      "layout": "full_width"
+    },
+    "elements": [
+      {
+        "id": "tFpzvy0",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "ObhpAmO",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "slider_height_desktop": "640px",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_slider_6_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "MBobmHd",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "4og6CT1",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "BKx4pWE",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "VvFKGW9",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 2
+              },
+              "unique_content": "unique1",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 15
+              },
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_23_elementor"
+          },
+          {
+            "id": "giY3Une",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "b4a7759",
+            "elType": "widget",
+            "settings":
+            {
+              "first_title": "LATEST NEWS",
+              "header_type": "heading_9"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "h4rlsIs",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "5BuGm1L",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 66
+        },
+        "elements": [
+          {
+            "id": "MYpHt4r",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 3
+              },
+              "unique_content": "unique1",
+              "exclude_post": "{{post:official-images-of-the-undefeated-x-adidas-ultra-boost-1-0:id}},{{post:nike-reworks-air-max-97-with-heat-map-themed-colorway:id}},{{post:skip-the-wait-and-cop-the-air-jordan-4-bred-before-the-drop:id}},{{post:the-10-best-sneaker-stores-in-los-angeles:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_7_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "91Bqkzt",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "eXHw19S",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_345x345:url:full}}",
+                "id": "{{image:ad_345x345:id}}"
+              },
+              "ads_image_tablet":
+              {
+                "url": "{{image:ad_345x345:url:full}}",
+                "id": "{{image:ad_345x345:id}}"
+              },
+              "ads_image_phone":
+              {
+                "url": "{{image:ad_345x345:url:full}}",
+                "id": "{{image:ad_345x345:id}}"
+              },
+              "column_width": "4"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "7c9df91",
+            "elType": "widget",
+            "settings":
+            {
+              "wp":
+              {
+                "title": "POPULAR",
+                "limit": "5",
+                "order_by": "views",
+                "range": "all",
+                "second_title": "",
+                "header_url": "",
+                "header_type": "heading_9",
+                "header_background": "",
+                "header_text_color": "",
+                "widget_class": ""
+              }
+            },
+            "elements": [],
+            "widgetType": "wp-widget-jnews_popular"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "uRkztOg",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "QQ1COrk",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "hwMqxoR",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 40
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "RYk6V2C",
+    "elType": "section",
+    "settings":
+    {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1563771653451{padding-top: 20px !important;padding-bottom: 20px !important;background-color: #f7f7f7 !important;}",
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#f7f7f7"
+    },
+    "elements": [
+      {
+        "id": "Xbus3P2",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "xEinuj0",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "jKlAg81",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "ads_type": "image",
+              "ads_image":
+              {
+                "url": "{{image:ad_970x250:url:full}}",
+                "id": "{{image:ad_970x250:id}}"
+              },
+              "css": ".vc_custom_1563771569444{margin-bottom: 0px !important;}",
+              "ads_image_tablet":
+              {
+                "url": "{{image:ad_970x250:url:full}}",
+                "id": "{{image:ad_970x250:id}}"
+              },
+              "ads_image_phone":
+              {
+                "url": "{{image:ad_970x250:url:full}}",
+                "id": "{{image:ad_970x250:id}}"
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_element_ads_elementor"
+          },
+          {
+            "id": "OwSGudN",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 20
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "pgpmrUO",
+    "elType": "section",
+    "settings":
+    {
+      "css": ".vc_custom_1563770903723{padding-top: 40px !important;}"
+    },
+    "elements": [
+      {
+        "id": "vKQ2p8q",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "TsrcdMN",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 30
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "uVOirHZ",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 1
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_5_elementor"
+          },
+          {
+            "id": "VVMkbcH",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 30
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "D6v9Rmc",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 6
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 1
+              },
+              "unique_content": "unique1",
+              "exclude_post": "{{post:official-images-of-the-undefeated-x-adidas-ultra-boost-1-0:id}},{{post:kith-drapes-the-converse-chuck-70-in-monogram-print:id}},{{post:marvel-and-adidas-are-dropping-a-collab-to-celebrate-avengers-endgame:id}},{{post:the-10-best-sneaker-stores-in-los-angeles:id}}",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 16
+              },
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_23_elementor"
+          },
+          {
+            "id": "gvDaX4n",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 30
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "bRaFMZY",
+    "elType": "section",
+    "settings":
+    {
+      "stretch_section": "section-stretched",
+      "css": ".vc_custom_1563774323013{padding-top: 40px !important;background-color: #000000 !important;}",
+      "background_background": "classic",
+      "background_color": "#000000"
+    },
+    "elements": [
+      {
+        "id": "dHX9CJu",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "OVbs2HB",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 40
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "U3Nayql",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "header_type": "heading_9",
+              "first_title": "HYPEBEAST",
+              "header_line_color": "#ffffff",
+              "header_text_color": "#ffffff"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_header_elementor"
+          },
+          {
+            "id": "wvIHmTm",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "hero_margin":
+              {
+                "unit": "px",
+                "size": 1
+              },
+              "content_filter_number_alert": "",
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 5
+              },
+              "include_category": "{{category:style:id}},{{category:sneakers:id}}",
+              "hero_item_1_start_color": "rgba(0,0,0,0.65)",
+              "hero_item_1_end_color": "rgba(0,0,0,0.65)",
+              "hero_item_2_start_color": "rgba(0,0,0,0.65)",
+              "hero_item_2_end_color": "rgba(0,0,0,0.65)",
+              "hero_item_3_start_color": "rgba(0,0,0,0.65)",
+              "hero_item_3_end_color": "rgba(0,0,0,0.65)",
+              "hero_item_4_start_color": "rgba(0,0,0,0.65)",
+              "hero_item_4_end_color": "rgba(0,0,0,0.65)",
+              "hero_item_1_enable": "true",
+              "hero_item_2_enable": "true",
+              "hero_item_3_enable": "true",
+              "hero_item_4_enable": "true",
+              "hero_slider_enable": "true",
+              "hero_height_desktop": "400px",
+              "date_format_custom": "Y\/m\/d"
+            },
+            "elements": [],
+            "widgetType": "jnews_hero_7_elementor"
+          },
+          {
+            "id": "9Slnziw",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 40
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "c111Xct",
+    "elType": "section",
+    "settings":
+    {
+      "css": ".vc_custom_1563776345518{padding-top: 40px !important;}"
+    },
+    "elements": [
+      {
+        "id": "0T5UXT4",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "wkp2P8J",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 30
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          },
+          {
+            "id": "c16mUrJ",
+            "elType": "widget",
+            "settings":
+            {
+              "compatible_column_notice": "",
+              "number_post":
+              {
+                "unit": "px",
+                "size": 1
+              },
+              "post_offset":
+              {
+                "unit": "px",
+                "size": 0
+              },
+              "unique_content": "unique1",
+              "excerpt_length":
+              {
+                "unit": "px",
+                "size": 20
+              },
+              "header_filter_text": "All",
+              "date_format_custom": "Y\/m\/d",
+              "excerpt_ellipsis": "..."
+            },
+            "elements": [],
+            "widgetType": "jnews_block_5_elementor"
+          },
+          {
+            "id": "uKgGMhI",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 30
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

@@ -1,0 +1,199 @@
+[
+  {
+    "id": "bImIhDU",
+    "elType": "section",
+    "settings":
+    {
+      "css": ".vc_custom_1588920136898{margin-bottom: -300px !important;background-color: #f7f7f7 !important;}",
+      "stretch_section": "section-stretched",
+      "layout": "boxed",
+      "background_background": "classic",
+      "background_color": "#F7F7F7",
+      "margin":
+      {
+        "unit": "px",
+        "top": "0",
+        "right": 0,
+        "bottom": "-340",
+        "left": 0,
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "PL08Pzd",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "OMYfg1P",
+            "elType": "widget",
+            "settings":
+            {
+              "space":
+              {
+                "unit": "px",
+                "size": 340
+              }
+            },
+            "elements": [],
+            "widgetType": "spacer"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "x4sTpbg",
+    "elType": "section",
+    "settings":
+    {
+      "margin":
+      {
+        "unit": "px",
+        "top": "",
+        "right": 0,
+        "bottom": "",
+        "left": 0,
+        "isLinked": true
+      }
+    },
+    "elements": [
+      {
+        "id": "fvRAyn2",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 100
+        },
+        "elements": [
+          {
+            "id": "a8b4c0d",
+            "elType": "widget",
+            "settings":
+            {
+              "title": "Choose Your Plan",
+              "header_size": "h1",
+              "align": "center",
+              "title_color": "#121212",
+              "typography_typography": "custom",
+              "typography_font_family": "Lato",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 40,
+                "sizes": []
+              },
+              "typography_font_weight": "normal",
+              "typography_line_height":
+              {
+                "unit": "px",
+                "size": 48,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "4943a56",
+            "elType": "widget",
+            "settings":
+            {
+              "editor": "<p style='text-align: center;'>Get access to all of our premium content from your favorite writers, thinkers, and experts on JNews.<\\/p>",
+              "text_color": "#5A5A5A",
+              "typography_typography": "custom",
+              "typography_font_family": "Lato",
+              "typography_font_size":
+              {
+                "unit": "px",
+                "size": 14,
+                "sizes": []
+              },
+              "typography_line_height":
+              {
+                "unit": "px",
+                "size": 22,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  },
+  {
+    "id": "fz8qtYt",
+    "elType": "section",
+    "settings": [],
+    "elements": [
+      {
+        "id": "t2LsFFo",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "a5670e9",
+            "elType": "widget",
+            "settings":
+            {
+              "paywall_button": "Subscribe",
+              "paywall_description": "yes"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_paywall_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "RwkzTzy",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "2968e93",
+            "elType": "widget",
+            "settings":
+            {
+              "paywall_button": "Subscribe",
+              "paywall_description": "yes"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_paywall_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "vPBEpdg",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 33
+        },
+        "elements": [
+          {
+            "id": "cc264f7",
+            "elType": "widget",
+            "settings":
+            {
+              "paywall_button": "Subscribe",
+              "paywall_description": "yes"
+            },
+            "elements": [],
+            "widgetType": "jnews_element_paywall_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

@@ -1,0 +1,215 @@
+/** Color **/
+.entry-header .jeg_post_meta .fa,
+.jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+/** Menu **/
+.jeg_main_menu > li > a {
+	text-transform: none;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/** Block **/
+.jeg_postblock .jeg_thumb,
+ul.instagram-pics .thumbnail-container {
+    border-radius: 6px;
+}
+.jeg_thumb .jeg_post_category a,
+.jeg_pl_lg_box .jeg_post_category a,.jeg_pl_md_box .jeg_post_category a,
+.jeg_postblock_carousel_2 .jeg_post_category a, .jeg_heroblock .jeg_post_category a,
+.jeg_slide_caption .jeg_post_category a {
+	padding: 6px 10px;
+	line-height: 1;
+	border-radius: 3px;
+	font-size: 10px;
+}
+
+.jeg_block_loadmore a:before, .jeg_block_loadmore a:after {
+	display: none;
+}
+
+.jeg_block_loadmore a {
+	height: auto;
+	line-height: 36px;
+}
+
+.jeg_post_excerpt {
+	font-size: 15px;
+}
+
+.jeg_postblock_23 .jeg_post_title {
+	font-size: 18px;
+}
+.jeg_pl_sm .jeg_post_title {
+	font-size: 16px;
+}
+
+.jeg_postblock_23 .jeg_post.format-video .jeg_thumb:before,
+.jeg_postblock_23 .jeg_post.format-gallery .jeg_thumb:before {
+	display: none;
+}
+
+.jeg_postblock_23 .jeg_post.format-video .jeg_thumb:after,
+.jeg_postblock_23 .jeg_post.format-gallery .jeg_thumb:after {
+
+}
+
+.jeg_postblock_23 .jeg_post.format-gallery .jeg_thumb:after {
+	margin: 0;
+	width: 36px;
+	line-height: 36px;
+	top: 0;
+	left: auto;
+	right: 0;
+	background: rgba(0,0,0,0.6);
+	font-size: 15px;
+	border-radius: 0 0 0 3px;
+}
+
+.jeg_postblock_23 .jeg_post.format-video .jeg_thumb:after {
+	background: rgba(0,0,0,0.6);
+	margin: 0;
+	top: 10px;
+	left: auto;
+	right: 10px;
+    height: 36px;
+    line-height: 32px;
+    width: 36px;
+    font-size: 13px !important;
+}
+
+/** Slider **/
+.jeg_slider_type_5 {
+	border-radius: 10px;
+}
+.jeg_slider_type_5 .jeg_slide_item:before {
+	/*background: rgba(0,0,0,0.4);*/
+	opacity: 0;
+	transition: .25s;
+}
+.jeg_slider_type_5:hover .jeg_slide_item:before {
+	opacity: 1;
+}
+.jeg_slider_type_5 .jeg_slide_caption {
+	opacity: 0;
+	transition: .25s;
+}
+.jeg_slider_type_5:hover .jeg_slide_caption {
+	opacity: 1;
+}
+.jeg_slider_type_5 .jeg_slide_caption .jeg_post_title {
+	font-size: 42px;
+}
+.jeg_slider_type_5 .owl-nav div {
+    bottom: 50px;
+    top: auto;
+}
+.jeg_slider_type_5 .owl-prev {
+	left: auto;
+	right: 84px;
+}
+
+/** Single **/
+.featured_image .thumbnail-container,
+.featured_gallery .owl-stage-outer {
+	border-radius: 10px;
+}
+
+
+/** Form **/
+input, textarea, select, .chosen-container-single .chosen-single, .btn, .button {
+	border-radius: 4px !important;
+}
+input:not([type="submit"]) {
+	height: 48px;
+}
+input[type="submit"], .btn, .button, button {
+	height: 48px;
+	line-height: 48px;
+}
+.elementor-form .elementor-button.elementor-size-sm {
+	min-height: 48px;
+}
+
+.jeg-footer-subscribeform .form-field {
+	position: relative;
+    -js-display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.jeg-footer-subscribeform .form-field > p:not(:first-child) {
+    margin-left: 15px;
+}
+
+.jeg_footer .jeg-footer-subscribeform input[type="text"] {
+    border-width: 1px;
+    font-size: 15px;
+    padding: 7px 20px
+}
+.jeg_footer .jeg-footer-subscribeform input[type="submit"] {
+	padding: 0 32px;
+}
+
+.jeg-footer-subscribeform div.wpcf7 .ajax-loader {
+	display: block;
+}
+.jeg-footer-subscribeform div.wpcf7-response-output {
+	color: #070707;
+	padding: 12px 15px;
+	margin: 0;
+	border-radius: 3px;
+}
+.jeg-footer-subscribeform div.wpcf7-mail-sent-ok {
+	border: 1px solid #30e904;
+    background: #d4ffca;
+}
+
+.jeg-footer-subscribeform div.wpcf7-mail-sent-ng {
+	border: 1px solid #e91b04;
+    background: #ffcac4;
+}
+
+.jeg-footer-subscribeform div.wpcf7-spam-blocked {
+    border: 1px solid #f3af06;
+    background: #ffe5a3;
+}
+
+.jeg-footer-subscribeform div.wpcf7-validation-errors {
+	border: 1px solid #f3ed06;
+    background: #fffdb7;
+}
+
+@media (max-width: 767px) {
+	.jeg-footer-subscribeform .form-field {
+		display: block;
+	}
+	.jeg-footer-subscribeform .form-field > p:not(:first-child) {
+	    margin-left: 0;
+	}
+	.jeg_footer .jeg-footer-subscribeform input[type="submit"] {
+		width: 100%;;
+	}
+}
+
+/** Widget **/
+.widget .mc4wp-form, .jeg_sidebar .mc4wp-form {
+    padding: 27px 30px;
+    border: 0;
+    border-radius: 6px;
+    background: #FFF4D1;
+}
+
+.widget .mc4wp-form h3, .jeg_sidebar .mc4wp-form h3 {
+	font-size: 18px;
+}
+
+
+/** Dark mode **/
+.jnews-dark-mode .vc_custom_heading {
+	color: var(--j-txt-color)!important;
+}

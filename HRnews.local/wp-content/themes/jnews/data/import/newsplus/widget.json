@@ -1,0 +1,106 @@
+{
+  "default-sidebar": {
+    "jnews_module_block_21-2": {
+      "header_icon": "",
+      "first_title": "Recommended Stories",
+      "second_title": "",
+      "url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_secondary_background": "",
+      "header_text_color": "",
+      "header_line_color": "",
+      "header_accent_color": "",
+      "header_filter_category": "",
+      "header_filter_author": "",
+      "header_filter_tag": "",
+      "header_filter_text": "All",
+      "post_type": "post",
+      "content_type": "all",
+      "number_post": "3",
+      "post_offset": "0",
+      "unique_content": "disable",
+      "include_post": "",
+      "exclude_post": "",
+      "include_category": "",
+      "exclude_category": "",
+      "include_author": "",
+      "include_tag": "",
+      "exclude_tag": "",
+      "product_cat": "",
+      "product_tag": "",
+      "sort_by": "random",
+      "date_format": "default",
+      "date_format_custom": "Y\/m\/d",
+      "force_normal_image_load": "0",
+      "pagination_mode": "disable",
+      "pagination_nextprev_showtext": "0",
+      "pagination_number_post": "6",
+      "pagination_scroll_limit": "0",
+      "boxed": "0",
+      "boxed_shadow": "0",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto",
+      "title_color": "",
+      "accent_color": "",
+      "alt_color": "",
+      "excerpt_color": ""
+    },
+    "jnews_popular-2": {
+      "title": "Popular Stories",
+      "limit": "5",
+      "order_by": "views",
+      "range": "all",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_boxed": "0",
+      "widget_shadow": "0",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-1": {
+    "jnews_about-2": {
+      "title": "",
+      "aboutimg": "{{image:logo:id}}",
+      "aboutimgretina": "{{image:logo2x:id}}",
+      "aboutname": "",
+      "aboutoccupation": "",
+      "aboutdesc": "We bring you the best Premium WordPress Themes that perfect for news, magazine, personal blog, etc. Visit our landing page to see all features & demos.\r\n\r\n<a href=\"https:\/\/jnews.io\">LEARN MORE \u00bb<\/a>",
+      "signature": "",
+      "signatureretina": "",
+      "align": "0",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_boxed": "0",
+      "widget_shadow": "0",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-2": {
+    "recent-posts-4": {
+      "title": "",
+      "number": "3",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_boxed": "0",
+      "widget_shadow": "0",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-3": {
+    "categories-4": {
+      "title": ""
+    }
+  }
+}

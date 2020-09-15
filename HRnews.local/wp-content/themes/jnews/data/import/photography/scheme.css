@@ -1,0 +1,412 @@
+/** Menu **/
+.jeg_main_menu > li > a {
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.sf-arrows .sf-with-ul:after {
+	content: "+";
+	top: -1px;
+	position: relative;
+}
+
+.jeg_newsfeed .jeg_post_title {
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: .02em;
+}
+
+.jeg_newsfeed_tags h3 {
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.jeg_newsfeed_tags li a {
+	font-size: 1em;
+	padding: 5px 0;
+}
+
+/** Block **/
+.jeg_post_meta {
+	color: #898989;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.jeg_post_category a, .jeg_slide_caption .jeg_post_category a, .jeg_thumb .jeg_post_category a {
+	letter-spacing: 2px;
+}
+
+.jeg_slide_caption .jeg_post_category a, .jeg_thumb .jeg_post_category a {
+	padding: 3px 10px 3px 12px;
+}
+
+.entry-header .jeg_post_meta .fa, .jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+.jeg_slider_type_4 .jeg_slide_caption:before, .jeg_slider_type_4 .jeg_slide_caption:after {
+	display: none;
+}
+
+.jeg_slider_type_4 .jeg_slide_item:before {
+	opacity: 0;
+	transition: .2s ease-out .15s;
+}
+
+.jeg_slider_type_4:hover .active .jeg_slide_item:before {
+	opacity: 1;
+	transition: .2s ease-in;
+}
+
+.jeg_slider_type_4 .jeg_slide_caption .jeg_post_title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 15px auto 10px;
+}
+
+.jeg_owlslider .owl-dot span {
+	transition: .2s;
+	transform: scale(.8);
+}
+
+.jeg_owlslider .owl-dots .owl-dot.active span {
+	margin: 0 10px;
+	transform: scale(1);
+}
+
+.jeg_slider_type_4 .jeg_caption_container {
+	transition: .1s linear;
+}
+
+.jeg_slider_type_4 .active .jeg_caption_container {
+	opacity: 0;
+}
+
+.jeg_slider_type_4:hover .active .jeg_caption_container {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out .2s;
+	-o-transition: .3s ease-in-out .2s;
+	transition: .3s ease-in-out .2s;
+}
+
+.jeg_pl_md_4 .jeg_post_title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.jeg_pl_md_4 .jeg_post_meta .fa {
+	display: none;
+}
+
+.jeg_postblock_27.jeg_col_3o3 .jeg_postblock_content {
+	text-align: center;
+}
+
+.jeg_postblock_27 .jeg_post_excerpt {
+	margin-top: 15px;
+}
+
+.jeg_pl_md_1 .jeg_post_title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+/** Post **/
+.entry-header .jeg_post_title {
+	font-size: 32px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.entry-header .jeg_meta_author + .jeg_meta_date:before {
+	content: '';
+	width: 1em;
+	display: inline-block;
+	margin: 0 .5em;
+	border-top: 1px solid #bfbfbf;
+	position: relative;
+	top: -3px;
+}
+
+.jeg_single_tpl_10 .entry-header {
+	margin: 1.8em auto 2em;
+}
+
+.jeg_single_tpl_10 .entry-header:before {
+	display: none;
+}
+
+.jeg_share_button a, .sidefeed_loadmore .btn, .jscroll-to-top > a {
+	border-radius: 0;
+}
+
+.entry-content blockquote, .entry-content q {
+	color: #121415;
+}
+
+.entry-content .pullquote:before, .entry-content .pullquote:after {
+	background-color: #121415;
+}
+
+.entry-content .pullquote:before, .entry-content .pullquote:after {
+	height: 2px;
+	width: 80px;
+}
+
+.entry-content .pullquote:before {
+	margin: 0.5em auto 1.2em;
+}
+
+.entry-content .pullquote:after {
+	margin: 1.2em auto 0.5em;
+}
+
+.jeg_authorbox {
+	margin: 60px 0;
+}
+
+.jeg_author_content, .jeg_author_socials a {
+	color: inherit;
+}
+
+.jnews_related_post_container .jeg_block_heading {
+	margin-bottom: 30px;
+}
+
+.jnews_related_post_container .jeg_block_heading_8 .jeg_block_title {
+	float: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+.jnews_related_post_container .jeg_post_meta {
+	display: none;
+}
+
+.jeg_prevnext_post {
+	text-align: center;
+}
+
+.jeg_prevnext_post span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #898989;
+	font-size: 13px;
+}
+
+.jeg_prevnext_post h3 {
+	border-left: 0;
+	padding-left: 0;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+/** Widget **/
+.widget_categories li a {
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+/** Footer **/
+.jeg_footer .copyright {
+	font-size: 13px;
+}
+
+/** Dark Mode **/
+.jnews-dark-mode a,
+.jnews-dark-mode .jeg_menu_style_5 > li > a:hover,
+.jnews-dark-mode .jeg_menu_style_5 > li.sfHover > a,
+.jnews-dark-mode .jeg_menu_style_5 > li.current-menu-item > a,
+.jnews-dark-mode .jeg_menu_style_5 > li.current-menu-ancestor > a,
+.jnews-dark-mode .jeg_navbar .jeg_menu:not(.jeg_main_menu) > li > a:hover,
+.jnews-dark-mode .jeg_midbar .jeg_menu:not(.jeg_main_menu) > li > a:hover,
+.jnews-dark-mode .jeg_side_tabs li.active,
+.jnews-dark-mode .jeg_block_heading_5 strong,
+.jnews-dark-mode .jeg_block_heading_6 strong,
+.jnews-dark-mode .jeg_block_heading_7 strong,
+.jnews-dark-mode .jeg_block_heading_8 strong,
+.jnews-dark-mode .jeg_subcat_list li a:hover,
+.jnews-dark-mode .jeg_subcat_list li button:hover,
+.jnews-dark-mode .jeg_pl_lg_7 .jeg_thumb .jeg_post_category a,
+.jnews-dark-mode .jeg_pl_xs_2:before,
+.jnews-dark-mode .jeg_pl_xs_4 .jeg_postblock_content:before,
+.jnews-dark-mode .jeg_postblock .jeg_post_title a:hover,
+.jnews-dark-mode .jeg_hero_style_6 .jeg_post_title a:hover,
+.jnews-dark-mode .jeg_sidefeed .jeg_pl_xs_3 .jeg_post_title a:hover,
+.jnews-dark-mode .widget_jnews_popular .jeg_post_title a:hover,
+.jnews-dark-mode .jeg_meta_author a,
+.jnews-dark-mode .widget_archive li a:hover,
+.jnews-dark-mode .widget_pages li a:hover,
+.jnews-dark-mode .widget_meta li a:hover,
+.jnews-dark-mode .widget_recent_entries li a:hover,
+.jnews-dark-mode .widget_rss li a:hover,
+.jnews-dark-mode .widget_rss cite,
+.jnews-dark-mode .widget_categories li a:hover,
+.jnews-dark-mode .widget_categories li.current-cat > a,#breadcrumbs a:hover,
+.jnews-dark-mode .jeg_share_count .counts,
+.jnews-dark-mode .commentlist .bypostauthor > .comment-body > .comment-author > .fn,span.required,
+.jnews-dark-mode .jeg_review_title,
+.jnews-dark-mode .bestprice .price,
+.jnews-dark-mode .authorlink a:hover,
+.jnews-dark-mode .jeg_vertical_playlist .jeg_video_playlist_play_icon,
+.jnews-dark-mode .jeg_vertical_playlist .jeg_video_playlist_item.active .jeg_video_playlist_thumbnail:before,
+.jnews-dark-mode .jeg_horizontal_playlist .jeg_video_playlist_play,
+.jnews-dark-mode .woocommerce li.product .pricegroup .button,
+.jnews-dark-mode .widget_display_forums li a:hover,
+.jnews-dark-mode .widget_display_topics li:before,
+.jnews-dark-mode .widget_display_replies li:before,
+.jnews-dark-mode .widget_display_views li:before,
+.jnews-dark-mode .bbp-breadcrumb a:hover,
+.jnews-dark-mode .jeg_mobile_menu li.sfHover > a,
+.jnews-dark-mode .jeg_mobile_menu li a:hover,
+.jnews-dark-mode .split-template-6 .pagenum,
+.jnews-dark-mode .newsfeed_carousel.owl-carousel .owl-nav div,
+.jnews-dark-mode .owl-carousel .owl-nav div {
+	color: var(--j-link-txt-color);
+}
+
+.jnews-dark-mode .jeg_menu_style_1 > li > a:before,
+.jnews-dark-mode .jeg_menu_style_2 > li > a:before,
+.jnews-dark-mode .jeg_menu_style_3 > li > a:before,
+.jnews-dark-mode .jeg_side_toggle,
+.jnews-dark-mode .jeg_slide_caption .jeg_post_category a,
+.jnews-dark-mode .jeg_slider_type_1 .owl-nav .owl-next,
+.jnews-dark-mode .jeg_block_heading_1 .jeg_block_title span,
+.jnews-dark-mode .jeg_block_heading_2 .jeg_block_title span,
+.jnews-dark-mode .jeg_block_heading_3,
+.jnews-dark-mode .jeg_block_heading_4 .jeg_block_title span,
+.jnews-dark-mode .jeg_block_heading_6:after,
+.jnews-dark-mode .jeg_pl_lg_box .jeg_post_category a,
+.jnews-dark-mode .jeg_pl_md_box .jeg_post_category a,
+.jnews-dark-mode .jeg_readmore:hover,
+.jnews-dark-mode .jeg_thumb .jeg_post_category a,
+.jnews-dark-mode .jeg_block_loadmore a:hover,
+.jnews-dark-mode .jeg_postblock.alt .jeg_block_loadmore a:hover,
+.jnews-dark-mode .jeg_block_loadmore a.active,
+.jnews-dark-mode .jeg_postblock_carousel_2 .jeg_post_category a,
+.jnews-dark-mode .jeg_heroblock .jeg_post_category a,
+.jnews-dark-mode .jeg_pagenav_1 .page_number.active,
+.jnews-dark-mode .jeg_pagenav_1 .page_number.active:hover,
+.jnews-dark-mode input[type="submit"],
+.jnews-dark-mode .btn,
+.jnews-dark-mode .button,
+.jnews-dark-mode .widget_tag_cloud a:hover,
+.jnews-dark-mode .popularpost_item:hover .jeg_post_title a:before,
+.jnews-dark-mode .jeg_splitpost_4 .page_nav,
+.jnews-dark-mode .jeg_splitpost_5 .page_nav,
+.jnews-dark-mode .jeg_post_via a:hover,
+.jnews-dark-mode .jeg_post_source a:hover,
+.jnews-dark-mode .jeg_post_tags a:hover,
+.jnews-dark-mode .comment-reply-title small a:before,
+.jnews-dark-mode .comment-reply-title small a:after,
+.jnews-dark-mode .jeg_storelist .productlink,
+.jnews-dark-mode .authorlink li.active a:before,
+.jnews-dark-mode .jeg_footer.dark .socials_widget:not(.nobg) a:hover .fa,
+.jnews-dark-mode .jeg_breakingnews_title,
+.jnews-dark-mode .jeg_overlay_slider_bottom.owl-carousel .owl-nav div,
+.jnews-dark-mode .jeg_overlay_slider_bottom.owl-carousel .owl-nav div:hover,
+.jnews-dark-mode .jeg_vertical_playlist .jeg_video_playlist_current,
+.jnews-dark-mode .woocommerce span.onsale,
+.jnews-dark-mode .woocommerce #respond input#submit:hover,
+.jnews-dark-mode .woocommerce a.button:hover,
+.jnews-dark-mode .woocommerce button.button:hover,
+.jnews-dark-mode .woocommerce input.button:hover,
+.jnews-dark-mode .woocommerce #respond input#submit.alt,
+.jnews-dark-mode .woocommerce a.button.alt,
+.jnews-dark-mode .woocommerce button.button.alt,
+.jnews-dark-mode .woocommerce input.button.alt,
+.jnews-dark-mode .jeg_popup_post .caption,
+.jnews-dark-mode .jeg_footer.dark input[type="submit"],
+.jnews-dark-mode .jeg_footer.dark .btn,
+.jnews-dark-mode .jeg_footer.dark .button,
+.jnews-dark-mode .footer_widget.widget_tag_cloud a:hover {
+	background-color: var(--j-darkgrey-bg-color);
+}
+
+.jnews-dark-mode .jeg_search_wrapper .jeg_search_button {
+    background: transparent;
+}
+
+/** Responsive **/
+@media only screen and (min-width:768px) {
+	.jeg_slider_type_4 .jeg_slide_caption .jeg_post_title {
+		font-size: 27px;
+		margin-top: 20px;
+	}
+
+	.jeg_pl_md_1 .jeg_post_title {
+		font-size: 17px;
+	}
+
+	.jeg_pl_md_4 .jeg_thumb {
+		margin-bottom: 20px;
+	}
+
+	.jeg_postblock_27.jeg_col_3o3 .jeg_posts {
+		margin-right: -40px
+	}
+
+	.jeg_postblock_27.jeg_col_3o3 .jeg_post {
+		padding-right: 40px;
+		width: 50%
+	}
+
+	.jeg_postblock_27.jeg_col_3o3 .jeg_postblock_content {
+		padding: 0 10px;
+	}
+
+	.jeg_single_tpl_10 .entry-header {
+		margin: 60px auto 80px;
+	}
+
+}
+
+@media only screen and (min-width:1024px) {
+	.jeg_slider_type_4 .jeg_slide_caption .jeg_post_title {
+		font-size: 32px;
+		margin: 25px auto 15px;
+	}
+
+	.jeg_postblock_27.jeg_col_3o3 .jeg_posts {
+		margin-right: -60px
+	}
+
+	.jeg_postblock_27.jeg_col_3o3 .jeg_post {
+		padding-right: 60px;
+	}
+
+}
+
+@media only screen and (max-width:767px) {
+	.entry-header .jeg_post_title {
+	    font-size: 28px !important;
+		line-height: 1.45em !important;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.jeg_slider_type_4 .jeg_slide_caption .jeg_post_title {
+		font-size: 16px;
+		margin: 10px auto 5px;
+	}
+
+	.jeg_slider_type_4 .owl-nav {
+		display: none;
+	}
+
+	.entry-header .jeg_post_title {
+		font-size: 24px !important;
+	}
+
+}

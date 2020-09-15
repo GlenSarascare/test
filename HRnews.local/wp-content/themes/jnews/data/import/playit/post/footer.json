@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a1dd26e",
+    "elType": "section",
+    "settings":
+    {
+      "structure": "34"
+    },
+    "elements": [
+      {
+        "id": "7cb82d0",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 16,
+          "_inline_size": 25,
+          "css_classes": "footer_column footer_left"
+        },
+        "elements": [
+          {
+            "id": "68fb211",
+            "elType": "widget",
+            "settings":
+            {
+              "editor": "Copyright (c) 2019 by Jegtheme.",
+              "_css_classes": "copyright"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "35f807d",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 66,
+          "_inline_size": 50,
+          "css_classes": "footer_column jeg_aligncenter"
+        },
+        "elements": [
+          {
+            "id": "2682b13",
+            "elType": "widget",
+            "settings":
+            {
+              "text_color": "#A0A0A0",
+              "hover_text_color": "#212121",
+              "menu_separator_color": "#EEEEEE"
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_menu_elementor"
+          }],
+        "isInner": false
+      },
+      {
+        "id": "d4a7353",
+        "elType": "column",
+        "settings":
+        {
+          "_column_size": 16,
+          "_inline_size": 23.665,
+          "css_classes": "footer_column footer_right"
+        },
+        "elements": [
+          {
+            "id": "802dfd9",
+            "elType": "widget",
+            "settings":
+            {
+              "icon_text_color": "#A0A0A0",
+              "icon_text_hover_color": "#212121",
+              "social_icon": "nobg"
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_social_elementor"
+          }],
+        "isInner": false
+      }],
+    "isInner": false
+  }]

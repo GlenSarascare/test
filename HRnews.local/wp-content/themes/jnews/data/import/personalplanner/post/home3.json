@@ -1,0 +1,592 @@
+[
+    {
+        "id": "f5GaUPG",
+        "elType": "section",
+        "settings": [],
+        "elements": [
+            {
+                "id": "WJvidFH",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 100
+                },
+                "elements": [
+                    {
+                        "id": "GzW9kil",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_item": {
+                                "unit": "px",
+                                "size": 3
+                            },
+                            "margin": {
+                                "unit": "px",
+                                "size": 10
+                            },
+                            "number_post": {
+                                "unit": "px",
+                                "size": 5
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_carousel_2_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    },
+    {
+        "id": "527fpqY",
+        "elType": "section",
+        "settings": [],
+        "elements": [
+            {
+                "id": "Il5JXVL",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 50
+                },
+                "elements": [
+                    {
+                        "id": "UvktSbD",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "header_type": "heading_6",
+                            "header_align": "center",
+                            "first_title": "TRENDING POSTS",
+                            "header_line_color": "#136f63",
+                            "header_text_color": "#0b132b"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_element_header_elementor"
+                    },
+                    {
+                        "id": "DdFIo7t",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "excerpt_length": {
+                                "unit": "px",
+                                "size": 20
+                            },
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d",
+                            "excerpt_ellipsis": "..."
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_25_elementor"
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "lVjejFn",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 50
+                },
+                "elements": [
+                    {
+                        "id": "IJ7lTo4",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "header_type": "heading_6",
+                            "header_align": "center",
+                            "first_title": "EDITOR PICK'S",
+                            "header_line_color": "#136f63",
+                            "header_text_color": "#0b132b"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_element_header_elementor"
+                    },
+                    {
+                        "id": "vJdCPeH",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "excerpt_length": {
+                                "unit": "px",
+                                "size": 20
+                            },
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d",
+                            "excerpt_ellipsis": "..."
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_25_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    },
+    {
+        "id": "hvpCZIB",
+        "elType": "section",
+        "settings": [],
+        "elements": [
+            {
+                "id": "r0hOCv5",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "css": ".vc_custom_1562137282795{border-right-width: 1px !important;border-right-color: #eeeeee !important;border-right-style: solid !important;}",
+                    "border_border": "solid",
+                    "border_width": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "1",
+                        "bottom": "0",
+                        "left": "0",
+                        "isLinked": false
+                    },
+                    "border_color": "#EBEBEB"
+                },
+                "elements": [
+                    {
+                        "id": "GfrxkhP",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 1
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:banking:id}}",
+                            "first_title": "BANKING",
+                            "header_line_color": "#136f63",
+                            "header_text_color": "#0b132b",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_18_elementor"
+                    },
+                    {
+                        "id": "iYCMX9S",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:banking:id}}",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_21_elementor"
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "atzlKaR",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "border_border": "solid",
+                    "border_width": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "1",
+                        "bottom": "0",
+                        "left": "1",
+                        "isLinked": false
+                    },
+                    "border_color": "#EBEBEB"
+                },
+                "elements": [
+                    {
+                        "id": "V5LiFm5",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 1
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:investing:id}}",
+                            "first_title": "INVESTING",
+                            "header_line_color": "#136f63",
+                            "header_text_color": "#0b132b",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_18_elementor"
+                    },
+                    {
+                        "id": "b0KQe4o",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:investing:id}}",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_21_elementor"
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "srftLWX",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33,
+                    "css": ".vc_custom_1562137313904{border-left-width: 1px !important;border-left-color: #eeeeee !important;border-left-style: solid !important;}",
+                    "border_border": "solid",
+                    "border_width": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "1",
+                        "isLinked": false
+                    },
+                    "border_color": "#EBEBEB",
+                    "border_radius": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0",
+                        "isLinked": true
+                    }
+                },
+                "elements": [
+                    {
+                        "id": "uk93Wt7",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 1
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:insurance:id}}",
+                            "first_title": "INSURANCE",
+                            "header_line_color": "#136f63",
+                            "header_text_color": "#0b132b",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_18_elementor"
+                    },
+                    {
+                        "id": "xk5YkHn",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:insurance:id}}",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_21_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    },
+    {
+        "id": "CAopDdo",
+        "elType": "section",
+        "settings": [],
+        "elements": [
+            {
+                "id": "xRcXKP6",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 100
+                },
+                "elements": [
+                    {
+                        "id": "W6JJ2iQ",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "header_type": "heading_6",
+                            "first_title": "RETIREMENT",
+                            "header_line_color": "#136f63",
+                            "el_class": "header_6",
+                            "header_text_color": "#0b132b"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_element_header_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    },
+    {
+        "id": "OXKAieW",
+        "elType": "section",
+        "settings": {
+            "css": ".vc_custom_1562204722366{border-radius: 1px !important;}"
+        },
+        "elements": [
+            {
+                "id": "xgIaBCP",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 66,
+                    "css": ".vc_custom_1562555765333{border-right-width: 1px !important;border-right-color: #eeeeee !important;border-right-style: solid !important;border-radius: 1px !important;}"
+                },
+                "elements": [
+                    {
+                        "id": "zJ1njCO",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:retirement:id}}",
+                            "excerpt_length": {
+                                "unit": "px",
+                                "size": 20
+                            },
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d",
+                            "excerpt_ellipsis": "..."
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_3_elementor"
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "iMj8yrj",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33
+                },
+                "elements": [
+                    {
+                        "id": "TdgGFhj",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 3
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "include_category": "{{category:retirement:id}}",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_31_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    },
+    {
+        "id": "1CPbB75",
+        "elType": "section",
+        "settings": [],
+        "elements": [
+            {
+                "id": "Hko04rT",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 100
+                },
+                "elements": [
+                    {
+                        "id": "C3XmCzP",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "header_type": "heading_6",
+                            "first_title": "TAXES",
+                            "header_line_color": "#136f63",
+                            "el_class": "header_6",
+                            "header_text_color": "#0b132b"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_element_header_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    },
+    {
+        "id": "ZWhCV57",
+        "elType": "section",
+        "settings": {
+            "css": ".vc_custom_1562204722366{border-radius: 1px !important;}"
+        },
+        "elements": [
+            {
+                "id": "ys4hNq8",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 66,
+                    "css": ".vc_custom_1562555794548{border-right-width: 1px !important;border-right-color: #eeeeee !important;border-right-style: solid !important;border-radius: 1px !important;}"
+                },
+                "elements": [
+                    {
+                        "id": "GRrTQJl",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 2
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "excerpt_length": {
+                                "unit": "px",
+                                "size": 20
+                            },
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d",
+                            "excerpt_ellipsis": "..."
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_3_elementor"
+                    }
+                ],
+                "isInner": false
+            },
+            {
+                "id": "My6Rd7a",
+                "elType": "column",
+                "settings": {
+                    "_column_size": 33
+                },
+                "elements": [
+                    {
+                        "id": "VVZOBKE",
+                        "elType": "widget",
+                        "settings": {
+                            "compatible_column_notice": "",
+                            "number_post": {
+                                "unit": "px",
+                                "size": 3
+                            },
+                            "post_offset": {
+                                "unit": "px",
+                                "size": 0
+                            },
+                            "unique_content": "unique1",
+                            "column_width": "4",
+                            "header_filter_text": "All",
+                            "date_format_custom": "Y/m/d"
+                        },
+                        "elements": [],
+                        "widgetType": "jnews_block_31_elementor"
+                    }
+                ],
+                "isInner": false
+            }
+        ],
+        "isInner": false
+    }
+]

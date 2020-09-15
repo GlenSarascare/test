@@ -1,0 +1,192 @@
+{
+  "default-sidebar": {
+    "mc4wp_form_widget-2": {
+      "title": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_module_block_21-2": {
+      "first_title": "Recommended",
+      "second_title": "",
+      "url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_secondary_background": "",
+      "header_text_color": "",
+      "header_line_color": "",
+      "header_accent_color": "",
+      "header_filter_category": "",
+      "header_filter_author": "",
+      "header_filter_tag": "",
+      "header_filter_text": "All",
+      "post_type": "post",
+      "content_type": "all",
+      "number_post": "4",
+      "post_offset": "0",
+      "unique_content": "disable",
+      "include_post": "",
+      "exclude_post": "",
+      "include_category": "",
+      "exclude_category": "",
+      "include_author": "",
+      "include_tag": "",
+      "exclude_tag": "",
+      "sort_by": "random",
+      "date_format": "default",
+      "date_format_custom": "Y\/m\/d",
+      "pagination_mode": "disable",
+      "pagination_number_post": "6",
+      "pagination_scroll_limit": "0",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto",
+      "title_color": "",
+      "accent_color": "",
+      "alt_color": "",
+      "excerpt_color": ""
+    },
+    "jnews_module_element_ads-4": {
+      "ads_type": "image",
+      "ads_image": "{{image:ad_345x345:id}}",
+      "ads_image_tablet": "",
+      "ads_image_phone": "",
+      "ads_image_link": "",
+      "ads_image_alt": "",
+      "google_publisher_id": "",
+      "google_slot_id": "",
+      "google_desktop": "auto",
+      "google_tab": "auto",
+      "google_phone": "auto",
+      "content": "",
+      "el_id": "",
+      "el_class": "",
+      "scheme": "normal",
+      "column_width": "auto"
+    },
+    "categories-8": {
+      "title": "Categories",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_instagram-3": {
+      "title": "Instagram",
+      "method": "username",
+      "username": "design.bot",
+      "clientid": "",
+      "access_token": "",
+      "column": "2",
+      "row": "3",
+      "hover": "normal",
+      "sort": "most_recent",
+      "button": "",
+      "newtab": "1",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-1": {
+    "jnews_about-5": {
+      "title": "About",
+      "aboutimg": "",
+      "aboutimgretina": "",
+      "aboutname": "",
+      "aboutoccupation": "",
+      "aboutdesc": "We\u2019re a creative team passionate about bringing the best free and premium resources to the design community.\r\n\r\n<small>Copyright 2018 JNews.<\/small>",
+      "signature": "",
+      "signatureretina": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-2": {
+    "categories-7": {
+      "title": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "footer-widget-3": {
+    "jnews_social-4": {
+      "title": "Follow Us",
+      "widgetstyle": "rounded",
+      "icon_color": "",
+      "bg_color": "",
+      "beforesocial": "",
+      "aftersocial": "",
+      "account": "%5B%7B%22social_icon%22%3A%22facebook%22%2C%22social_url%22%3A%22https%3A%2F%2Fwww.facebook.com%2Fjegtheme%2F%22%7D%2C%7B%22social_icon%22%3A%22twitter%22%2C%22social_url%22%3A%22https%3A%2F%2Ftwitter.com%2Fjegtheme%22%7D%2C%7B%22social_icon%22%3A%22behance%22%2C%22social_url%22%3A%22%23%22%7D%2C%7B%22social_icon%22%3A%22dribbble%22%2C%22social_url%22%3A%22%23%22%7D%2C%7B%22social_icon%22%3A%22pinterest%22%2C%22social_url%22%3A%22%23%22%7D%5D",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  },
+  "contact": {
+    "mc4wp_form_widget-3": {
+      "title": "",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "text-4": {
+      "title": "Headquarter",
+      "text": "Freebie HQ\r\n36B Sunset Road,\r\nBali, Indonesia 80115",
+      "filter": "on",
+      "visual": "on",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "jnews_line-2": {
+      "color": "#eeeeee",
+      "margintop": "0",
+      "marginbottom": "0",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_6",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    },
+    "text-2": {
+      "title": "Contact Information",
+      "text": "P. (0361) 888 1234\r\nF. (0361) 888 1235\r\nEmail: contact@yourwebsite.com",
+      "filter": "on",
+      "visual": "on",
+      "second_title": "",
+      "header_url": "",
+      "header_type": "heading_8",
+      "header_background": "",
+      "header_text_color": "",
+      "widget_class": ""
+    }
+  }
+}

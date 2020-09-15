@@ -1,0 +1,82 @@
+[
+  {
+    "id": "eda9f53",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "padding": {
+        "unit": "px",
+        "top": "30",
+        "right": "0",
+        "bottom": "50",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "d5d645a",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_inline_size": null,
+          "css_classes": "footer_left"
+        },
+        "elements": [
+          {
+            "id": "bc90123",
+            "elType": "widget",
+            "settings": {
+              "text_color": "#000000"
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_menu_elementor"
+          },
+          {
+            "id": "4bcd540",
+            "elType": "widget",
+            "settings": {
+              "icon_text_color": "#000000",
+              "icon_background": "rgba(0,0,0,0)",
+              "social_icon": "nobg",
+              "_margin": {
+                "unit": "px",
+                "top": "-20",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": false
+              }
+            },
+            "elements": [],
+            "widgetType": "jnews_footer_social_elementor"
+          }
+        ],
+        "isInner": false
+      },
+      {
+        "id": "a585724",
+        "elType": "column",
+        "settings": {
+          "_column_size": 50,
+          "_inline_size": null,
+          "css_classes": "footer_right"
+        },
+        "elements": [
+          {
+            "id": "c499446",
+            "elType": "widget",
+            "settings": {
+              "editor": "<strong>DISCLAIMERn<\/strong>This demo site is only for demonstration purposes to JNews WordPress theme.nu00a9 2018 JNews. All right go to their respective owners",
+              "text_color": "#4c4c4c"
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": false
+      }
+    ],
+    "isInner": false
+  }
+]

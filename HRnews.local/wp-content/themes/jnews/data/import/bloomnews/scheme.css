@@ -1,0 +1,82 @@
+/** Menu **/
+.jeg_navbar_boxed .jeg_nav_alignleft .jeg_nav_icon ~ .jeg_mainmenu_wrap {
+	padding-left: 6px;
+}
+
+.jeg_main_menu > li > a {
+	font-size: 15px;
+}
+
+.jeg_newsfeed .jeg_post_title,
+.jeg_newsfeed_subcat li a,
+.jeg_newsfeed_tags li a {
+	font-size: 14px;
+}
+
+/*.jeg_newsfeed .no_subcat .jeg_post_title {
+	font-size: 14px;
+}*/
+
+.jeg_newsfeed_tags h3 {
+	font-size: 13px;
+}
+
+/** Block **/
+.jeg_block_title {
+	font-size: 17px;
+}
+
+.jeg_hero_style_1 .jeg_thumb a > div:before {
+	opacity: .35;
+}
+
+.entry-header .jeg_post_meta .fa,
+.jeg_post_meta .fa {
+	color: inherit !important;
+}
+
+.jeg_post_category {
+	text-rendering: inherit;
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+}
+
+.jeg_thumb .jeg_post_category a,
+.jeg_pl_lg_box .jeg_post_category a,
+.jeg_pl_md_box .jeg_post_category a,
+.jeg_postblock_carousel_2 .jeg_post_category a,
+.jeg_heroblock .jeg_post_category a,
+.jeg_slide_caption .jeg_post_category a {
+	padding: 5px 7px 4px;
+	font-weight: 600;
+	letter-spacing: .05em;
+	border-radius: 2px;
+}
+
+.jeg_readmore {
+	box-shadow: none;
+}
+
+.jeg_readmore,
+input,
+input:not([type="submit"]),input[type="submit"],textarea,select,.chosen-container-single .chosen-single {
+	border-radius: 3px;
+}
+
+/** Widget **/
+.widget .mc4wp-form,
+.jeg_sidebar .mc4wp-form {
+	text-align: center;
+	padding: 30px;
+	background: transparent;
+	border-radius: 3px;
+}
+
+.mc4wp-form h3 {
+	font-size: 18px;
+}
+
+.widget .mc4wp-form input,
+.jeg_sidebar .mc4wp-form input {
+	text-align: center;
+}
