@@ -1,0 +1,5599 @@
+# Copyright (C) 2020 ThemeSphere
+# This file is distributed under the ThemeForest Split License.
+msgid ""
+msgstr ""
+"Project-Id-Version: CheerUp 7.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cheerup\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-20T11:13:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: cheerup\n"
+
+#. Plugin Name of the plugin
+msgid "CheerUp Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "Elements and core functionality for CheerUp Theme."
+msgstr ""
+
+#. Author of the plugin
+#. Author of the theme
+msgid "ThemeSphere"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://theme-sphere.com"
+msgstr ""
+
+#: cheerup-core.php:137
+msgctxt "Admin: Meta"
+msgid "Post Options"
+msgstr ""
+
+#: cheerup-core.php:145
+msgctxt "Admin: Meta"
+msgid "Page Options"
+msgstr ""
+
+#: cheerup-core.php:360
+msgctxt "Admin"
+msgid "Mega Menu"
+msgstr ""
+
+#: cheerup-core.php:365
+#: inc/blocks.php:93
+#: inc/blocks.php:418
+#: inc/blocks.php:444
+#: inc/blocks.php:460
+#: metaboxes/options/page.php:37
+#: admin/options/header.php:89
+#: admin/options/homepage.php:113
+msgctxt "Admin"
+msgid "Disabled"
+msgstr ""
+
+#: cheerup-core.php:366
+#: inc/blocks.php:419
+#: inc/blocks.php:443
+#: inc/blocks.php:459
+#: metaboxes/options/page.php:38
+msgctxt "Admin"
+msgid "Enabled"
+msgstr ""
+
+#: cheerup-core.php:383
+msgctxt "Admin"
+msgid "Facebook URL"
+msgstr ""
+
+#: cheerup-core.php:384
+msgctxt "Admin"
+msgid "Twitter URL"
+msgstr ""
+
+#: cheerup-core.php:385
+msgctxt "Admin"
+msgid "Google+ URL"
+msgstr ""
+
+#: cheerup-core.php:386
+msgctxt "Admin"
+msgid "Instagram URL"
+msgstr ""
+
+#: cheerup-core.php:387
+msgctxt "Admin"
+msgid "Pinterest URL"
+msgstr ""
+
+#: cheerup-core.php:388
+msgctxt "Admin"
+msgid "BlogLovin URL"
+msgstr ""
+
+#: cheerup-core.php:389
+msgctxt "Admin"
+msgid "Dribble URL"
+msgstr ""
+
+#: cheerup-core.php:390
+msgctxt "Admin"
+msgid "LinkedIn URL"
+msgstr ""
+
+#: cheerup-core.php:391
+msgctxt "Admin"
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/blocks.php:24
+msgctxt "Admin"
+msgid "-- None / Not Limited --"
+msgstr ""
+
+#: inc/blocks.php:44
+#: admin/options/homepage.php:86
+msgctxt "Admin"
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/blocks.php:52
+msgctxt "Admin"
+msgid "Sort By"
+msgstr ""
+
+#: inc/blocks.php:54
+msgctxt "Admin"
+msgid "Published Date"
+msgstr ""
+
+#: inc/blocks.php:55
+msgctxt "Admin"
+msgid "Modified Date"
+msgstr ""
+
+#: inc/blocks.php:56
+msgctxt "Admin"
+msgid "Random"
+msgstr ""
+
+#: inc/blocks.php:57
+msgctxt "Admin"
+msgid "Comment Count"
+msgstr ""
+
+#: inc/blocks.php:58
+msgctxt "Admin"
+msgid "Alphabetical"
+msgstr ""
+
+#: inc/blocks.php:59
+#: widgets/widget-posts.php:281
+#: widgets/widget-slider.php:165
+#: admin/options/homepage.php:303
+msgctxt "Admin"
+msgid "Most Liked"
+msgstr ""
+
+#: inc/blocks.php:67
+msgctxt "Admin"
+msgid "Sort Order"
+msgstr ""
+
+#: inc/blocks.php:69
+msgctxt "Admin"
+msgid "Descending - Higher to lower (Latest First)"
+msgstr ""
+
+#: inc/blocks.php:70
+msgctxt "Admin"
+msgid "Ascending - Lower to Higher (Oldest First)"
+msgstr ""
+
+#: inc/blocks.php:78
+msgctxt "Admin"
+msgid "Heading  (Optional)"
+msgstr ""
+
+#: inc/blocks.php:79
+msgctxt "Admin"
+msgid "By default, the main selected category's name is used as the title."
+msgstr ""
+
+#: inc/blocks.php:87
+msgctxt "Admin"
+msgid "Heading Type"
+msgstr ""
+
+#: inc/blocks.php:88
+msgctxt "Admin"
+msgid "Use Small Headings for 1/3 columns. Default headings are good for full-width and half column blocks."
+msgstr ""
+
+#: inc/blocks.php:90
+msgctxt "Admin"
+msgid "Magazine Block"
+msgstr ""
+
+#: inc/blocks.php:91
+msgctxt "Admin"
+msgid "Magazine Block - Simple"
+msgstr ""
+
+#: inc/blocks.php:92
+msgctxt "Admin"
+msgid "Blog Style"
+msgstr ""
+
+#: inc/blocks.php:100
+#: admin/options/posts-listings.php:963
+msgctxt "Admin"
+msgid "Heading Color"
+msgstr ""
+
+#: inc/blocks.php:108
+msgctxt "Admin"
+msgid "View All Text (Optional)"
+msgstr ""
+
+#: inc/blocks.php:109
+msgctxt "Admin"
+msgid "If not empty, this text will show with heading link."
+msgstr ""
+
+#: inc/blocks.php:116
+msgctxt "Admin"
+msgid "Heading Link (Optional)"
+msgstr ""
+
+#: inc/blocks.php:117
+msgctxt "Admin"
+msgid "By default, the main selected category's link is used."
+msgstr ""
+
+#: inc/blocks.php:124
+msgctxt "Admin"
+msgid "Advanced: Offset"
+msgstr ""
+
+#: inc/blocks.php:125
+msgctxt "Admin"
+msgid "An offset can be used to skip first X posts from the results."
+msgstr ""
+
+#: inc/blocks.php:132
+msgctxt "Admin"
+msgid "From Category"
+msgstr ""
+
+#: inc/blocks.php:133
+msgctxt "Admin"
+msgid "Posts will be limited to this category"
+msgstr ""
+
+#: inc/blocks.php:137
+#: inc/blocks.php:146
+#: inc/blocks.php:155
+#: inc/blocks.php:170
+#: inc/blocks.php:179
+msgctxt "Admin"
+msgid "Refine Posts"
+msgstr ""
+
+#: inc/blocks.php:142
+msgctxt "Admin"
+msgid "From Multiple Categories"
+msgstr ""
+
+#: inc/blocks.php:143
+msgctxt "Admin"
+msgid "If you need posts from more categories. Enter cat slugs separated by commas. Example: beauty,world-news"
+msgstr ""
+
+#: inc/blocks.php:151
+msgctxt "Admin"
+msgid "Posts From Tags"
+msgstr ""
+
+#: inc/blocks.php:152
+msgctxt "Admin"
+msgid "A single or multiple tags. Enter tag slugs separated by commas. Example: food,sports"
+msgstr ""
+
+#: inc/blocks.php:161
+msgctxt "Admin"
+msgid "Post Format"
+msgstr ""
+
+#: inc/blocks.php:164
+msgctxt "Admin"
+msgid "All"
+msgstr ""
+
+#: inc/blocks.php:165
+msgctxt "Admin"
+msgid "Video"
+msgstr ""
+
+#: inc/blocks.php:166
+msgctxt "Admin"
+msgid "Gallery"
+msgstr ""
+
+#: inc/blocks.php:167
+msgctxt "Admin"
+msgid "Image"
+msgstr ""
+
+#: inc/blocks.php:175
+msgctxt "Admin"
+msgid "Advanced: Post Types"
+msgstr ""
+
+#: inc/blocks.php:176
+msgctxt "Admin"
+msgid "Use this feature if Custom Post Types are needed."
+msgstr ""
+
+#: inc/blocks.php:184
+#: inc/blocks.php:186
+#: inc/blocks.php:547
+#: inc/blocks.php:549
+msgctxt "Admin"
+msgid "Design"
+msgstr ""
+
+#: inc/blocks.php:194
+msgctxt "Admin"
+msgid "Load More (AJAX)"
+msgstr ""
+
+#: inc/blocks.php:195
+msgctxt "Admin"
+msgid "Page Numbers (AJAX)"
+msgstr ""
+
+#: inc/blocks.php:196
+msgctxt "Admin"
+msgid "Older / Newer (Only if one or last block)"
+msgstr ""
+
+#: inc/blocks.php:203
+msgctxt "Admin"
+msgid "Highlights Block"
+msgstr ""
+
+#: inc/blocks.php:205
+msgctxt "Admin"
+msgid "Run-down of news from a category."
+msgstr ""
+
+#: inc/blocks.php:208
+#: inc/blocks.php:223
+#: inc/blocks.php:324
+#: inc/blocks.php:481
+#: inc/blocks.php:523
+#: inc/blocks.php:536
+#: inc/blocks.php:562
+msgctxt "Admin"
+msgid "Home Blocks"
+msgstr ""
+
+#: inc/blocks.php:218
+msgctxt "Admin"
+msgid "News Grid Block"
+msgstr ""
+
+#: inc/blocks.php:220
+msgctxt "Admin"
+msgid "News in a compact grid."
+msgstr ""
+
+#: inc/blocks.php:233
+#: metaboxes/options/page.php:48
+#: admin/options/homepage.php:114
+msgctxt "Admin"
+msgid "Stylish (3 images)"
+msgstr ""
+
+#: inc/blocks.php:234
+#: metaboxes/options/page.php:49
+#: admin/options/homepage.php:115
+msgctxt "Admin"
+msgid "Classic Slider (3 Images)"
+msgstr ""
+
+#: inc/blocks.php:235
+#: metaboxes/options/page.php:50
+#: admin/options/homepage.php:116
+msgctxt "Admin"
+msgid "Beauty (Single Image)"
+msgstr ""
+
+#: inc/blocks.php:236
+#: metaboxes/options/page.php:51
+#: admin/options/homepage.php:117
+msgctxt "Admin"
+msgid "Fashion (Single Image)"
+msgstr ""
+
+#: inc/blocks.php:237
+#: metaboxes/options/page.php:52
+#: admin/options/homepage.php:118
+msgctxt "Admin"
+msgid "Trendy (2 Images)"
+msgstr ""
+
+#: inc/blocks.php:238
+#: metaboxes/options/page.php:53
+#: admin/options/homepage.php:119
+msgctxt "Admin"
+msgid "Large Full Width"
+msgstr ""
+
+#: inc/blocks.php:239
+#: metaboxes/options/page.php:56
+#: admin/options/homepage.php:120
+msgctxt "Admin"
+msgid "Carousel (3 Small Posts)"
+msgstr ""
+
+#: inc/blocks.php:240
+#: admin/options/homepage.php:121
+msgctxt "Admin"
+msgid "Bold Full Width"
+msgstr ""
+
+#: inc/blocks.php:244
+#: admin/options/homepage.php:123
+msgctxt "Admin"
+msgid "Grid 1: 1 Large + 4 small"
+msgstr ""
+
+#: inc/blocks.php:245
+#: admin/options/homepage.php:124
+msgctxt "Admin"
+msgid "Grid 2: 1 Large + 2 small"
+msgstr ""
+
+#: inc/blocks.php:246
+#: admin/options/homepage.php:125
+msgctxt "Admin"
+msgid "Grid 3: 1 Large + 2 medium"
+msgstr ""
+
+#: inc/blocks.php:247
+#: admin/options/homepage.php:126
+msgctxt "Admin"
+msgid "Grid 4: 2 Columns"
+msgstr ""
+
+#: inc/blocks.php:248
+#: admin/options/homepage.php:127
+msgctxt "Admin"
+msgid "Grid 5: 3 Columns"
+msgstr ""
+
+#: inc/blocks.php:249
+#: admin/options/homepage.php:128
+msgctxt "Admin"
+msgid "Grid 6: 4 Columns"
+msgstr ""
+
+#: inc/blocks.php:250
+#: admin/options/homepage.php:129
+msgctxt "Admin"
+msgid "Grid 7: 5 Columns"
+msgstr ""
+
+#: inc/blocks.php:262
+msgctxt "Admin"
+msgid "Slider Style"
+msgstr ""
+
+#: inc/blocks.php:269
+#: admin/options/homepage.php:174
+msgctxt "Admin"
+msgid "Featured Width"
+msgstr ""
+
+#: inc/blocks.php:273
+#: admin/options/homepage.php:180
+msgctxt "Admin"
+msgid "Container"
+msgstr ""
+
+#: inc/blocks.php:274
+#: admin/options/homepage.php:181
+msgctxt "Admin"
+msgid "Full Browser Width"
+msgstr ""
+
+#: inc/blocks.php:281
+#: admin/options/homepage.php:164
+msgctxt "Admin"
+msgid "Static Grid (No Slider)?"
+msgstr ""
+
+#: inc/blocks.php:282
+#: admin/options/homepage.php:165
+msgctxt "Admin"
+msgid "Disable slides, make grid static, and use a different look on mobile."
+msgstr ""
+
+#: inc/blocks.php:285
+#: inc/blocks.php:304
+#: inc/blocks.php:370
+#: inc/blocks.php:388
+#: inc/blocks.php:632
+#: inc/blocks.php:643
+#: inc/blocks.php:654
+#: inc/visual-composer.php:253
+#: inc/visual-composer.php:263
+#: lib/admin/option-renderer.php:174
+#: metaboxes/options/page.php:25
+#: metaboxes/options/post.php:41
+msgctxt "Admin"
+msgid "Yes"
+msgstr ""
+
+#: inc/blocks.php:292
+#: admin/options/posts-feat-grids.php:253
+msgctxt "Admin"
+msgid "Grid Gap"
+msgstr ""
+
+#: inc/blocks.php:300
+#: admin/options/homepage.php:204
+msgctxt "Admin"
+msgid "Enable Parallax Effect?"
+msgstr ""
+
+#: inc/blocks.php:319
+msgctxt "Admin"
+msgid "Slider/Featured Block"
+msgstr ""
+
+#: inc/blocks.php:321
+msgctxt "Admin"
+msgid "Use featured slider."
+msgstr ""
+
+#: inc/blocks.php:335
+msgctxt "Admin"
+msgid "Default (Category Loop from Customizer)"
+msgstr ""
+
+#: inc/blocks.php:336
+#: admin/options/archives.php:28
+#: admin/options/archives.php:53
+#: admin/options/archives.php:79
+#: admin/options/homepage.php:42
+msgctxt "Admin"
+msgid "Classic Large Posts"
+msgstr ""
+
+#: inc/blocks.php:337
+#: admin/options/archives.php:29
+#: admin/options/archives.php:54
+#: admin/options/archives.php:80
+#: admin/options/homepage.php:44
+msgctxt "Admin"
+msgid "One Large Post + Grid"
+msgstr ""
+
+#: inc/blocks.php:338
+#: admin/options/archives.php:30
+#: admin/options/archives.php:55
+#: admin/options/archives.php:81
+#: admin/options/homepage.php:45
+msgctxt "Admin"
+msgid "One Large Post + List"
+msgstr ""
+
+#: inc/blocks.php:339
+#: admin/options/archives.php:31
+#: admin/options/archives.php:56
+#: admin/options/archives.php:82
+#: admin/options/homepage.php:46
+msgctxt "Admin"
+msgid "One Overlay Post + Grid"
+msgstr ""
+
+#: inc/blocks.php:340
+#: admin/options/archives.php:32
+#: admin/options/archives.php:57
+#: admin/options/archives.php:83
+#: admin/options/homepage.php:47
+msgctxt "Admin"
+msgid "One Overlay Post + List"
+msgstr ""
+
+#: inc/blocks.php:342
+#: admin/options/archives.php:34
+#: admin/options/archives.php:59
+#: admin/options/archives.php:85
+#: admin/options/homepage.php:49
+msgctxt "Admin"
+msgid "Mixed: Large Post + 2 Grid "
+msgstr ""
+
+#: inc/blocks.php:343
+#: admin/options/archives.php:35
+#: admin/options/archives.php:60
+#: admin/options/archives.php:86
+#: admin/options/homepage.php:50
+msgctxt "Admin"
+msgid "Mixed: Large Post + 2 List "
+msgstr ""
+
+#: inc/blocks.php:345
+#: admin/options/archives.php:37
+#: admin/options/archives.php:62
+#: admin/options/archives.php:88
+#: admin/options/homepage.php:52
+msgctxt "Admin"
+msgid "Mixed: Overlay Post + 2 Grid "
+msgstr ""
+
+#: inc/blocks.php:346
+#: admin/options/archives.php:38
+#: admin/options/archives.php:63
+#: admin/options/archives.php:89
+#: admin/options/homepage.php:53
+msgctxt "Admin"
+msgid "Mixed: Overlay Post + 2 List "
+msgstr ""
+
+#: inc/blocks.php:348
+#: admin/options/archives.php:40
+#: admin/options/archives.php:65
+#: admin/options/archives.php:91
+#: admin/options/homepage.php:56
+msgctxt "Admin"
+msgid "List Posts"
+msgstr ""
+
+#: inc/blocks.php:349
+#: admin/options/archives.php:41
+#: admin/options/archives.php:66
+#: admin/options/archives.php:92
+#: admin/options/homepage.php:57
+msgctxt "Admin"
+msgid "Grid Posts"
+msgstr ""
+
+#: inc/blocks.php:350
+#: admin/options/archives.php:42
+#: admin/options/archives.php:67
+#: admin/options/archives.php:93
+#: admin/options/homepage.php:58
+msgctxt "Admin"
+msgid "Grid Posts (3 Columns)"
+msgstr ""
+
+#: inc/blocks.php:359
+msgctxt "Admin"
+msgid "Listing Type"
+msgstr ""
+
+#: inc/blocks.php:367
+msgctxt "Admin"
+msgid "Show Excerpts?"
+msgstr ""
+
+#: inc/blocks.php:384
+msgctxt "Admin"
+msgid "Show Posts Footer?"
+msgstr ""
+
+#: inc/blocks.php:385
+msgctxt "Admin"
+msgid "Enable to show Social icons. Note: Only works for large post and grid post style 1."
+msgstr ""
+
+#: inc/blocks.php:399
+#: admin/options/posts-listings.php:425
+msgctxt "Admin"
+msgid "Grid Posts Style"
+msgstr ""
+
+#: inc/blocks.php:403
+#: metaboxes/options/page.php:13
+#: metaboxes/options/page.php:24
+#: metaboxes/options/post.php:13
+#: metaboxes/options/post.php:25
+#: metaboxes/options/post.php:40
+#: admin/options.php:79
+#: admin/options/archives.php:15
+#: admin/options/common-data.php:15
+#: admin/options/layout-main.php:280
+#: admin/options/layout-main.php:299
+#: admin/options/posts-global.php:287
+#: admin/options/posts-listings.php:462
+#: admin/options/posts-listings.php:1052
+#: inc/customizer/controls/select.php:27
+#: inc/customizer/controls/select.php:38
+#: inc/customizer/controls/select.php:43
+msgctxt "Admin"
+msgid "Default"
+msgstr ""
+
+#: inc/blocks.php:404
+#: admin/options/common-data.php:95
+#: admin/options/posts-global.php:88
+msgctxt "Admin"
+msgid "Style 1"
+msgstr ""
+
+#: inc/blocks.php:405
+#: admin/options/common-data.php:96
+#: admin/options/posts-global.php:89
+msgctxt "Admin"
+msgid "Style 2"
+msgstr ""
+
+#: inc/blocks.php:406
+msgctxt "Admin"
+msgid "Style 3 - Cards"
+msgstr ""
+
+#: inc/blocks.php:416
+msgctxt "Admin"
+msgid "Pagination"
+msgstr ""
+
+#: inc/blocks.php:426
+msgctxt "Admin"
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/blocks.php:438
+#: admin/options/posts-listings.php:637
+msgctxt "Admin"
+msgid "Read More Button"
+msgstr ""
+
+#: inc/blocks.php:442
+#: inc/blocks.php:458
+msgctxt "Admin"
+msgid "Default/Global"
+msgstr ""
+
+#: inc/blocks.php:454
+msgctxt "Admin"
+msgid "Category Label Overlay"
+msgstr ""
+
+#: inc/blocks.php:475
+msgctxt "Admin"
+msgid "Posts (%s Layouts)"
+msgstr ""
+
+#: inc/blocks.php:476
+msgctxt "Admin"
+msgid "For blog/category style listings. Multiple listing styles."
+msgstr ""
+
+#: inc/blocks.php:502
+msgctxt "Admin"
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/blocks.php:503
+msgctxt "Admin"
+msgid "Leave empty for default."
+msgstr ""
+
+#: inc/blocks.php:532
+msgctxt "Admin"
+msgid "Advertisement Block"
+msgstr ""
+
+#: inc/blocks.php:533
+msgctxt "Admin"
+msgid "Advertisement code block."
+msgstr ""
+
+#: inc/blocks.php:541
+msgctxt "Admin"
+msgid "Ad Code"
+msgstr ""
+
+#: inc/blocks.php:542
+msgctxt "Admin"
+msgid "Enter your ad code here."
+msgstr ""
+
+#: inc/blocks.php:558
+msgctxt "Admin"
+msgid "Categories List Block"
+msgstr ""
+
+#: inc/blocks.php:559
+msgctxt "Admin"
+msgid "List of categories."
+msgstr ""
+
+#: inc/blocks.php:567
+msgctxt "Admin"
+msgid "Parent  Category"
+msgstr ""
+
+#: inc/blocks.php:568
+msgctxt "Admin"
+msgid "All sub-categories from this parent category will be listed."
+msgstr ""
+
+#: inc/blocks.php:575
+msgctxt "Admin"
+msgid "Specific Categories/Terms"
+msgstr ""
+
+#: inc/blocks.php:576
+msgctxt "Admin"
+msgid "By default all cats are display. For specific, enter cat slugs separated by commas. Example: beauty, world-news"
+msgstr ""
+
+#: inc/blocks.php:582
+#: admin/options/header.php:287
+msgctxt "Admin"
+msgid "Style"
+msgstr ""
+
+#: inc/blocks.php:585
+msgctxt "Admin"
+msgid "1: Image Box"
+msgstr ""
+
+#: inc/blocks.php:586
+msgctxt "Admin"
+msgid "2: Overlay Image Box"
+msgstr ""
+
+#: inc/blocks.php:587
+msgctxt "Admin"
+msgid "3: Text List (No Images)"
+msgstr ""
+
+#: inc/blocks.php:595
+msgctxt "Admin"
+msgid "Columns"
+msgstr ""
+
+#: inc/blocks.php:604
+msgctxt "Admin"
+msgid "Max Number of Categories"
+msgstr ""
+
+#: inc/blocks.php:612
+msgctxt "Admin"
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/blocks.php:615
+#: admin/options/common-data.php:16
+msgctxt "Admin"
+msgid "4:3 Standard"
+msgstr ""
+
+#: inc/blocks.php:616
+#: admin/options/common-data.php:17
+msgctxt "Admin"
+msgid "16:9 Wide"
+msgstr ""
+
+#: inc/blocks.php:617
+#: admin/options/common-data.php:18
+msgctxt "Admin"
+msgid "3:2 Rectangle"
+msgstr ""
+
+#: inc/blocks.php:618
+#: admin/options/common-data.php:19
+msgctxt "Admin"
+msgid "1:1 Square"
+msgstr ""
+
+#: inc/blocks.php:619
+#: admin/options/common-data.php:20
+msgctxt "Admin"
+msgid "3:4 Tall"
+msgstr ""
+
+#: inc/blocks.php:620
+#: admin/options/common-data.php:21
+msgctxt "Admin"
+msgid "2:3 Taller"
+msgstr ""
+
+#: inc/blocks.php:629
+msgctxt "Admin"
+msgid "Image Border?"
+msgstr ""
+
+#: inc/blocks.php:640
+msgctxt "Admin"
+msgid "Round Image?"
+msgstr ""
+
+#: inc/blocks.php:651
+msgctxt "Admin"
+msgid "Show Post Count"
+msgstr ""
+
+#: inc/blocks.php:677
+msgctxt "Admin"
+msgid "Skip Categories/Terms"
+msgstr ""
+
+#: inc/blocks.php:678
+msgctxt "Admin"
+msgid "Enter cat ids separated by commas. Example: 20,30"
+msgstr ""
+
+#: inc/blocks.php:685
+msgctxt "Admin"
+msgid "Advanced: Taxonomy"
+msgstr ""
+
+#: inc/blocks.php:686
+msgctxt "Admin"
+msgid "category, post_tag or a custom taxonomy."
+msgstr ""
+
+#: inc/editor.php:74
+msgctxt "Admin"
+msgid "Modern Quote"
+msgstr ""
+
+#: inc/editor.php:81
+msgctxt "Admin"
+msgid "Separator: Dots"
+msgstr ""
+
+#: inc/editor.php:88
+msgctxt "Admin"
+msgid "Citation (for quote)"
+msgstr ""
+
+#: inc/editor.php:93
+msgctxt "Admin"
+msgid "More Styles"
+msgstr ""
+
+#: inc/social-share.php:28
+msgid "Share on Facebook"
+msgstr ""
+
+#: inc/social-share.php:34
+msgid "Share on Twitter"
+msgstr ""
+
+#: inc/social-share.php:40
+#: widgets/widget-social-follow.php:128
+#: inc/social.php:70
+#: partials/author-box-b.php:28
+#: partials/author-box.php:29
+msgid "Pinterest"
+msgstr ""
+
+#: inc/social-share.php:47
+#: inc/social.php:105
+#: partials/author-box-b.php:32
+#: partials/author-box.php:33
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/social-share.php:53
+#: inc/social.php:100
+#: partials/author-box-b.php:30
+#: partials/author-box.php:31
+msgid "Tumblr"
+msgstr ""
+
+#: inc/social-share.php:59
+#: inc/social.php:135
+msgid "VKontakte"
+msgstr ""
+
+#: inc/social-share.php:65
+msgid "Email"
+msgstr ""
+
+#: inc/visual-composer.php:250
+msgctxt "Admin"
+msgid "Is Sidebar?"
+msgstr ""
+
+#: inc/visual-composer.php:260
+msgctxt "Admin"
+msgid "Sticky Sidebar?"
+msgstr ""
+
+#: inc/visual-composer.php:271
+msgctxt "Admin"
+msgid "Use fonts and style same as Single/Post?"
+msgstr ""
+
+#: inc/visual-composer.php:274
+msgctxt "Admin"
+msgid "Yes, Use Single/Post styles."
+msgstr ""
+
+#: lib/admin/option-renderer.php:174
+#: metaboxes/options/page.php:26
+#: metaboxes/options/post.php:42
+#: inc/galleries.php:75
+msgctxt "Admin"
+msgid "No"
+msgstr ""
+
+#: lib/admin/option-renderer.php:261
+#: metaboxes/terms/category-options.php:14
+msgctxt "Admin"
+msgid "Upload"
+msgstr ""
+
+#: lib/admin/option-renderer.php:311
+msgctxt "Admin"
+msgid "Repeat Horizontal and Vertical - Pattern"
+msgstr ""
+
+#: lib/admin/option-renderer.php:312
+msgctxt "Admin"
+msgid "Fully Cover Background - Photo"
+msgstr ""
+
+#: lib/admin/option-renderer.php:313
+msgctxt "Admin"
+msgid "Repeat Horizontal"
+msgstr ""
+
+#: lib/admin/option-renderer.php:314
+msgctxt "Admin"
+msgid "Repeat Vertical"
+msgstr ""
+
+#: lib/admin/option-renderer.php:315
+msgctxt "Admin"
+msgid "No Repeat"
+msgstr ""
+
+#: lib/admin/option-renderer.php:320
+#: lib/admin/option-renderer.php:416
+msgctxt "Admin"
+msgid "Remove"
+msgstr ""
+
+#: lib/admin/option-renderer.php:367
+msgctxt "Admin"
+msgid "Add More"
+msgstr ""
+
+#: lib/posts.php:451
+#: lib/posts.php:456
+msgctxt "pagination"
+msgid "Next"
+msgstr ""
+
+#: lib/posts.php:452
+#: lib/posts.php:457
+msgctxt "pagination"
+msgid "Previous"
+msgstr ""
+
+#: lib/posts.php:581
+#: widgets/widget-about.php:60
+#: admin/options-short.php:1108
+#: admin/options/posts-listings.php:41
+#: lib/posts.php:586
+#: partials/slider.php:70
+msgid "Read More"
+msgstr ""
+
+#: metaboxes/options/page.php:8
+msgctxt "Admin"
+msgid "Layout Type"
+msgstr ""
+
+#: metaboxes/options/page.php:10
+#: metaboxes/options/post.php:10
+msgctxt "Admin"
+msgid "Default uses the site-wide general layout setting set in Appearance > Customize."
+msgstr ""
+
+#: metaboxes/options/page.php:14
+#: metaboxes/options/post.php:14
+#: admin/options/archives.php:17
+#: admin/options/homepage.php:80
+#: admin/options/layout-main.php:82
+#: admin/options/layout-pages.php:24
+#: admin/options/posts-single.php:38
+msgctxt "Admin"
+msgid "Right Sidebar"
+msgstr ""
+
+#: metaboxes/options/page.php:15
+#: metaboxes/options/post.php:15
+#: admin/options/header.php:308
+msgctxt "Admin"
+msgid "Full Width"
+msgstr ""
+
+#: metaboxes/options/page.php:20
+msgctxt "Admin"
+msgid "Show Page Title?"
+msgstr ""
+
+#: metaboxes/options/page.php:32
+msgctxt "Admin"
+msgid "Featured Grid/Slider"
+msgstr ""
+
+#: metaboxes/options/page.php:34
+msgctxt "Admin"
+msgid "For home-page, can also be set from use Appearance > Customize > Homepage > Home Slider."
+msgstr ""
+
+#: metaboxes/options/page.php:44
+msgctxt "Admin"
+msgid "Featured Style"
+msgstr ""
+
+#: metaboxes/options/page.php:54
+msgctxt "Admin"
+msgid "Grid (1 Large + 2 small)"
+msgstr ""
+
+#: metaboxes/options/page.php:55
+msgctxt "Admin"
+msgid "Tall Grid (1 Large + 2 small)"
+msgstr ""
+
+#: metaboxes/options/page.php:62
+msgctxt "Admin"
+msgid "Slider Post Count"
+msgstr ""
+
+#: metaboxes/options/page.php:65
+#: admin/options/homepage.php:158
+msgctxt "Admin"
+msgid "Total number of posts for slider."
+msgstr ""
+
+#: metaboxes/options/page.php:70
+#: admin/options/homepage.php:188
+#: admin/options/tests.php:230
+#: admin/options/tests.php:267
+msgctxt "Admin"
+msgid "Slider Posts Tag"
+msgstr ""
+
+#: metaboxes/options/page.php:72
+#: admin/options/homepage.php:190
+#: admin/options/tests.php:86
+#: admin/options/tests.php:94
+#: admin/options/tests.php:104
+#: admin/options/tests.php:115
+#: admin/options/tests.php:133
+#: admin/options/tests.php:151
+#: admin/options/tests.php:178
+#: admin/options/tests.php:190
+#: admin/options/tests.php:231
+#: admin/options/tests.php:244
+#: admin/options/tests.php:256
+#: admin/options/tests.php:268
+msgctxt "Admin"
+msgid "Posts with this tag will be shown in the slider. Leaving it empty will show latest posts."
+msgstr ""
+
+#: metaboxes/options/page.php:79
+#: admin/options/homepage.php:196
+msgctxt "Admin"
+msgid "Slider Post IDs"
+msgstr ""
+
+#: metaboxes/options/page.php:81
+#: admin/options/homepage.php:198
+msgctxt "Admin"
+msgid "Advance Usage: Enter post ids separated by comma you wish to show in the slider, in order you wish to show them in. Example: 11, 105, 2"
+msgstr ""
+
+#: metaboxes/options/post.php:8
+msgctxt "Admin"
+msgid "Layout Style"
+msgstr ""
+
+#: metaboxes/options/post.php:20
+msgctxt "Admin"
+msgid "Post Style"
+msgstr ""
+
+#: metaboxes/options/post.php:22
+msgctxt "Admin"
+msgid "Default uses the global settings set in Appearance > Customize"
+msgstr ""
+
+#: metaboxes/options/post.php:26
+#: admin/options/posts-single.php:14
+msgctxt "Admin"
+msgid "Creative - Large Style"
+msgstr ""
+
+#: metaboxes/options/post.php:27
+msgctxt "Admin"
+msgid "Creative - Overlay Style "
+msgstr ""
+
+#: metaboxes/options/post.php:28
+#: admin/options/posts-single.php:13
+msgctxt "Admin"
+msgid "Classic"
+msgstr ""
+
+#: metaboxes/options/post.php:29
+#: admin/options/posts-single.php:16
+msgctxt "Admin"
+msgid "Magazine/News Style"
+msgstr ""
+
+#: metaboxes/options/post.php:35
+#: admin/options/posts-single.php:22
+msgctxt "Admin"
+msgid "Spacious / Narrow Style?"
+msgstr ""
+
+#: metaboxes/options/post.php:37
+#: admin/options/posts-single.php:24
+msgctxt "Admin"
+msgid "Enable to add extra left/right spacing to text to create a dynamic spacious feel. Especially great when used with Full Width."
+msgstr ""
+
+#: metaboxes/options/post.php:48
+msgctxt "Admin"
+msgid "Sub Title"
+msgstr ""
+
+#: metaboxes/options/post.php:52
+msgctxt "Admin"
+msgid "Optional Sub-title/text thats displayed below main post title."
+msgstr ""
+
+#: metaboxes/options/post.php:56
+msgctxt "Admin"
+msgid "Primary Category"
+msgstr ""
+
+#: metaboxes/options/post.php:60
+msgctxt "Admin"
+msgid "-- Auto Detect--"
+msgstr ""
+
+#: metaboxes/options/post.php:65
+msgctxt "Admin"
+msgid "When you have multiple categories for a post, auto detection chooses one in alphabetical order. This setting is used for selecting the correct category in post meta."
+msgstr ""
+
+#: metaboxes/options/post.php:69
+msgctxt "Admin"
+msgid "Disable Featured?"
+msgstr ""
+
+#: metaboxes/options/post.php:70
+msgctxt "Admin"
+msgid "Do not show featured Image, Video, or Gallery at the top for this post, on post page."
+msgstr ""
+
+#: metaboxes/options/post.php:77
+msgctxt "Admin"
+msgid "Featured Video/Audio Link"
+msgstr ""
+
+#: metaboxes/options/post.php:82
+msgctxt "Admin"
+msgid "When using Video or Audio post format, enter a link of the video or audio from a service like YouTube, Vimeo, SoundCloud. "
+msgstr ""
+
+#: metaboxes/terms/category-options.php:7
+msgctxt "Admin"
+msgid "Category Image"
+msgstr ""
+
+#: metaboxes/terms/category-options.php:9
+msgctxt "Admin"
+msgid "This image may be used on category archives and also when needed in a category list block."
+msgstr ""
+
+#: metaboxes/terms/category-options.php:13
+msgctxt "Admin"
+msgid "Upload This Picture"
+msgstr ""
+
+#: metaboxes/terms/category-options.php:15
+msgctxt "Admin"
+msgid "Use as Category Image"
+msgstr ""
+
+#: widgets/widget-about.php:16
+msgctxt "Admin"
+msgid "Cheerup - About Widget"
+msgstr ""
+
+#: widgets/widget-about.php:17
+msgctxt "Admin"
+msgid "\"About\" widget suitable for sidebar."
+msgstr ""
+
+#: widgets/widget-about.php:46
+msgid "About Me"
+msgstr ""
+
+#: widgets/widget-about.php:150
+#: widgets/widget-social.php:120
+#: admin/options/footer.php:274
+#: admin/options/header.php:525
+#: admin/options/misc.php:14
+#: admin/options/posts-single.php:331
+#: admin/options/posts-single.php:392
+msgctxt "Admin"
+msgid "Facebook"
+msgstr ""
+
+#: widgets/widget-about.php:151
+#: widgets/widget-social.php:121
+#: admin/options/footer.php:275
+#: admin/options/header.php:526
+#: admin/options/misc.php:22
+#: admin/options/posts-single.php:332
+#: admin/options/posts-single.php:393
+msgctxt "Admin"
+msgid "Twitter"
+msgstr ""
+
+#: widgets/widget-about.php:152
+#: widgets/widget-social.php:122
+#: admin/options/footer.php:276
+#: admin/options/header.php:527
+msgctxt "Admin"
+msgid "Google Plus"
+msgstr ""
+
+#: widgets/widget-about.php:153
+#: widgets/widget-social.php:123
+#: admin/options/footer.php:277
+#: admin/options/header.php:528
+#: admin/options/misc.php:30
+msgctxt "Admin"
+msgid "Instagram"
+msgstr ""
+
+#: widgets/widget-about.php:154
+#: widgets/widget-social.php:124
+#: admin/options/footer.php:278
+#: admin/options/header.php:529
+#: admin/options/misc.php:38
+#: admin/options/posts-single.php:333
+#: admin/options/posts-single.php:394
+msgctxt "Admin"
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/widget-about.php:155
+#: widgets/widget-social.php:125
+#: admin/options/footer.php:279
+#: admin/options/header.php:530
+#: admin/options/misc.php:118
+msgctxt "Admin"
+msgid "Vimeo"
+msgstr ""
+
+#: widgets/widget-about.php:156
+#: widgets/widget-social.php:126
+#: admin/options/footer.php:284
+#: admin/options/header.php:535
+#: admin/options/misc.php:86
+#: admin/options/posts-single.php:335
+#: admin/options/posts-single.php:396
+msgctxt "Admin"
+msgid "Tumblr"
+msgstr ""
+
+#: widgets/widget-about.php:157
+#: widgets/widget-social.php:127
+#: admin/options/footer.php:281
+#: admin/options/header.php:532
+#: admin/options/misc.php:126
+msgctxt "Admin"
+msgid "RSS"
+msgstr ""
+
+#: widgets/widget-about.php:158
+#: widgets/widget-social.php:128
+#: admin/options/footer.php:280
+#: admin/options/header.php:531
+#: admin/options/misc.php:46
+#: admin/options/misc.php:54
+msgctxt "Admin"
+msgid "BlogLovin"
+msgstr ""
+
+#: widgets/widget-about.php:159
+#: widgets/widget-social.php:129
+#: admin/options/footer.php:282
+#: admin/options/header.php:533
+msgctxt "Admin"
+msgid "Youtube"
+msgstr ""
+
+#: widgets/widget-about.php:160
+#: widgets/widget-social.php:130
+#: admin/options/footer.php:283
+#: admin/options/header.php:534
+#: admin/options/misc.php:78
+msgctxt "Admin"
+msgid "Dribbble"
+msgstr ""
+
+#: widgets/widget-about.php:161
+#: widgets/widget-social.php:131
+#: admin/options/footer.php:285
+#: admin/options/header.php:536
+#: admin/options/misc.php:94
+#: admin/options/posts-single.php:334
+#: admin/options/posts-single.php:395
+msgctxt "Admin"
+msgid "LinkedIn"
+msgstr ""
+
+#: widgets/widget-about.php:162
+#: widgets/widget-social.php:132
+#: admin/options/footer.php:286
+#: admin/options/header.php:537
+#: admin/options/misc.php:102
+msgctxt "Admin"
+msgid "Flickr"
+msgstr ""
+
+#: widgets/widget-about.php:163
+#: widgets/widget-social.php:133
+#: admin/options/footer.php:287
+#: admin/options/header.php:538
+#: admin/options/misc.php:110
+msgctxt "Admin"
+msgid "SoundCloud"
+msgstr ""
+
+#: widgets/widget-about.php:164
+#: widgets/widget-social.php:134
+#: admin/options/footer.php:288
+#: admin/options/header.php:539
+#: admin/options/misc.php:142
+msgctxt "Admin"
+msgid "Last.fm"
+msgstr ""
+
+#: widgets/widget-about.php:165
+#: widgets/widget-social.php:135
+#: admin/options/footer.php:289
+#: admin/options/header.php:540
+#: admin/options/misc.php:134
+#: admin/options/posts-single.php:336
+#: admin/options/posts-single.php:397
+msgctxt "Admin"
+msgid "VKontakte"
+msgstr ""
+
+#: widgets/widget-about.php:166
+#: widgets/widget-social.php:136
+#: admin/options/footer.php:290
+#: admin/options/header.php:541
+#: admin/options/misc.php:150
+msgctxt "Admin"
+msgid "Steam"
+msgstr ""
+
+#: widgets/widget-about.php:174
+#: widgets/widget-posts.php:270
+#: widgets/widget-slider.php:154
+#: widgets/widget-social.php:142
+#: widgets/widget-subscribe.php:112
+#: widgets/widget-twitter.php:258
+msgctxt "Admin"
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-about.php:181
+msgctxt "Admin"
+msgid "About:"
+msgstr ""
+
+#: widgets/widget-about.php:187
+msgctxt "Admin"
+msgid "Image URL: (optional)"
+msgstr ""
+
+#: widgets/widget-about.php:190
+msgctxt "Admin"
+msgid "You can add an image above title. Recommended size: 370px."
+msgstr ""
+
+#: widgets/widget-about.php:197
+msgctxt "Admin"
+msgid "Rounded / Circular Image?"
+msgstr ""
+
+#: widgets/widget-about.php:201
+msgctxt "Admin"
+msgid "Read More Link: (optional)"
+msgstr ""
+
+#: widgets/widget-about.php:207
+msgctxt "Admin"
+msgid "Social Icons: (optional)"
+msgstr ""
+
+#: widgets/widget-about.php:220
+#: widgets/widget-cta.php:197
+#: widgets/widget-social.php:161
+msgctxt "Admin"
+msgid "Note:"
+msgstr ""
+
+#: widgets/widget-about.php:221
+#: widgets/widget-social.php:162
+msgctxt "Admin"
+msgid "Configure URLs from Customize > General Settings > Social Media Links."
+msgstr ""
+
+#: widgets/widget-about.php:226
+msgctxt "Admin"
+msgid "Text Below (optional):"
+msgstr ""
+
+#: widgets/widget-ads.php:16
+msgctxt "Admin"
+msgid "Cheerup - Advertisement"
+msgstr ""
+
+#: widgets/widget-ads.php:17
+msgctxt "Admin"
+msgid "Add advertisement code to your sidebar."
+msgstr ""
+
+#: widgets/widget-ads.php:88
+msgctxt "Admin"
+msgid "Ad Code:"
+msgstr ""
+
+#: widgets/widget-ads.php:94
+#: widgets/widget-cta.php:150
+msgctxt "Admin"
+msgid "Title: (Optional)"
+msgstr ""
+
+#: widgets/widget-cta.php:16
+msgctxt "Admin"
+msgid "Cheerup - Call To Action Boxes"
+msgstr ""
+
+#: widgets/widget-cta.php:17
+msgctxt "Admin"
+msgid "Add an image with button overlay to promote content."
+msgstr ""
+
+#: widgets/widget-cta.php:156
+msgctxt "Admin"
+msgid "Custom Height: (Optional)"
+msgstr ""
+
+#: widgets/widget-cta.php:169
+msgctxt "Admin"
+msgid "CTA Box"
+msgstr ""
+
+#: widgets/widget-cta.php:171
+msgctxt "Admin"
+msgid "Heading: (Required)"
+msgstr ""
+
+#: widgets/widget-cta.php:178
+msgctxt "Admin"
+msgid "Image URL:"
+msgstr ""
+
+#: widgets/widget-cta.php:185
+msgctxt "Admin"
+msgid "Link To:"
+msgstr ""
+
+#: widgets/widget-cta.php:198
+msgctxt "Admin"
+msgid "Save to add one more CTA box. Leaving the Heading field empty for any CTA box will remove it."
+msgstr ""
+
+#: widgets/widget-posts.php:16
+msgctxt "Admin"
+msgid "Cheerup - Posts List"
+msgstr ""
+
+#: widgets/widget-posts.php:17
+msgctxt "Admin"
+msgid "Popular Posts/Latest Posts widget for sidebar."
+msgstr ""
+
+#: widgets/widget-posts.php:276
+#: widgets/widget-slider.php:160
+msgctxt "Admin"
+msgid "Sorting:"
+msgstr ""
+
+#: widgets/widget-posts.php:279
+#: widgets/widget-slider.php:163
+msgctxt "Admin"
+msgid "Latest Posts"
+msgstr ""
+
+#: widgets/widget-posts.php:280
+#: widgets/widget-slider.php:164
+msgctxt "Admin"
+msgid "Most Commented"
+msgstr ""
+
+#: widgets/widget-posts.php:284
+#: widgets/widget-slider.php:168
+msgctxt "Admin"
+msgid "By Views (WP-PostViews Plugin)"
+msgstr ""
+
+#: widgets/widget-posts.php:291
+#: widgets/widget-slider.php:175
+msgctxt "Admin"
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widget-posts.php:297
+msgctxt "Admin"
+msgid "Style:"
+msgstr ""
+
+#: widgets/widget-posts.php:300
+msgctxt "Admin"
+msgid "Default - Meta Above"
+msgstr ""
+
+#: widgets/widget-posts.php:301
+msgctxt "Admin"
+msgid "Default - Meta Below"
+msgstr ""
+
+#: widgets/widget-posts.php:302
+msgctxt "Admin"
+msgid "Alternate - Larger Image & Meta"
+msgstr ""
+
+#: widgets/widget-posts.php:303
+msgctxt "Admin"
+msgid "Full Width Image & Large Title"
+msgstr ""
+
+#: widgets/widget-posts.php:310
+#: widgets/widget-slider.php:181
+msgctxt "Admin"
+msgid "From this Tag (Optional):"
+msgstr ""
+
+#: widgets/widget-posts.php:322
+msgctxt "Admin"
+msgid "Show Image"
+msgstr ""
+
+#: widgets/widget-posts.php:329
+#: admin/options/posts-listings.php:649
+msgctxt "Admin"
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/widget-posts.php:336
+msgctxt "Admin"
+msgid "Show Category"
+msgstr ""
+
+#: widgets/widget-posts.php:344
+msgctxt "Admin"
+msgid "Show Date"
+msgstr ""
+
+#: widgets/widget-posts.php:351
+msgctxt "Admin"
+msgid "Limit Title to One Line"
+msgstr ""
+
+#: widgets/widget-posts.php:358
+msgctxt "Admin"
+msgid "Show Counters (for Large Style)"
+msgstr ""
+
+#: widgets/widget-slider.php:16
+msgctxt "Admin"
+msgid "Cheerup - Posts Slider"
+msgstr ""
+
+#: widgets/widget-slider.php:17
+msgctxt "Admin"
+msgid "Show a posts slider."
+msgstr ""
+
+#: widgets/widget-slider.php:188
+msgctxt "Admin"
+msgid "Limit to Category (Optional):"
+msgstr ""
+
+#: widgets/widget-slider.php:190
+msgctxt "Admin"
+msgid "-- Not Limited --"
+msgstr ""
+
+#: widgets/widget-social-follow.php:15
+msgctxt "Admin"
+msgid "CheerUp - Social Follow & Counters"
+msgstr ""
+
+#: widgets/widget-social-follow.php:16
+msgctxt "Admin"
+msgid "Show social follower buttons."
+msgstr ""
+
+#: widgets/widget-social-follow.php:104
+#: inc/social.php:55
+#: partials/author-box-b.php:25
+#: partials/author-box.php:26
+msgid "Facebook"
+msgstr ""
+
+#: widgets/widget-social-follow.php:112
+#: partials/author-box-b.php:27
+#: partials/author-box.php:28
+msgid "Google+"
+msgstr ""
+
+#: widgets/widget-social-follow.php:120
+#: inc/social.php:60
+#: partials/author-box-b.php:26
+#: partials/author-box.php:27
+msgid "Twitter"
+msgstr ""
+
+#: widgets/widget-social-follow.php:136
+#: inc/social.php:65
+#: partials/author-box-b.php:29
+#: partials/author-box.php:30
+msgid "Instagram"
+msgstr ""
+
+#: widgets/widget-social-follow.php:144
+#: inc/social.php:90
+msgid "YouTube"
+msgstr ""
+
+#: widgets/widget-social-follow.php:152
+#: inc/social.php:120
+msgid "Vimeo"
+msgstr ""
+
+#: widgets/widget-social-follow.php:226
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-social-follow.php:232
+msgid "Social Icons:"
+msgstr ""
+
+#: widgets/widget-social-follow.php:234
+msgid "Drag and drop to re-order."
+msgstr ""
+
+#: widgets/widget-social-follow.php:251
+msgid "Configure from Customize > Social Follow."
+msgstr ""
+
+#: widgets/widget-social.php:15
+msgctxt "Admin"
+msgid "CheerUp - Social Icons"
+msgstr ""
+
+#: widgets/widget-social.php:16
+msgctxt "Admin"
+msgid "Social icons widget."
+msgstr ""
+
+#: widgets/widget-social.php:148
+msgctxt "Admin"
+msgid "Social Icons:"
+msgstr ""
+
+#: widgets/widget-subscribe.php:16
+msgctxt "Admin"
+msgid "Cheerup - Subscribe (MailChimp)"
+msgstr ""
+
+#: widgets/widget-subscribe.php:17
+msgctxt "Admin"
+msgid "Add a subscribe widget."
+msgstr ""
+
+#: widgets/widget-subscribe.php:50
+msgid "Your email address.."
+msgstr ""
+
+#: widgets/widget-subscribe.php:99
+msgid "Enter your email address below to subscribe to my newsletter"
+msgstr ""
+
+#: widgets/widget-subscribe.php:100
+msgid "Subscribe"
+msgstr ""
+
+#: widgets/widget-subscribe.php:118
+msgctxt "Admin"
+msgid "Message/Label:"
+msgstr ""
+
+#: widgets/widget-subscribe.php:124
+msgctxt "Admin"
+msgid "MailChimp Form Submit URL:"
+msgstr ""
+
+#: widgets/widget-subscribe.php:131
+msgctxt "Admin"
+msgid "Button Label:"
+msgstr ""
+
+#: widgets/widget-twitter.php:17
+msgctxt "Admin"
+msgid "Cheerup - Twitter"
+msgstr ""
+
+#: widgets/widget-twitter.php:88
+#: partials/comment.php:76
+msgid "Reply"
+msgstr ""
+
+#: widgets/widget-twitter.php:91
+msgid "Retweet"
+msgstr ""
+
+#: widgets/widget-twitter.php:94
+msgid "Like"
+msgstr ""
+
+#: widgets/widget-twitter.php:105
+msgid "Follow on twitter"
+msgstr ""
+
+#: widgets/widget-twitter.php:255
+msgctxt "Admin"
+msgid "Create your Twitter App"
+msgstr ""
+
+#: widgets/widget-twitter.php:264
+msgctxt "Admin"
+msgid "Username:"
+msgstr ""
+
+#: widgets/widget-twitter.php:270
+msgctxt "Admin"
+msgid "Consumer Key"
+msgstr ""
+
+#: widgets/widget-twitter.php:276
+msgctxt "Admin"
+msgid "Consumer Secret"
+msgstr ""
+
+#: widgets/widget-twitter.php:282
+msgctxt "Admin"
+msgid "Access Token"
+msgstr ""
+
+#: widgets/widget-twitter.php:288
+msgctxt "Admin"
+msgid "Access Token Secret"
+msgstr ""
+
+#: widgets/widget-twitter.php:294
+msgctxt "Admin"
+msgid "Number of Tweets:"
+msgstr ""
+
+#. Theme Name of the theme
+msgid "CheerUp"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://cheerup.theme-sphere.com"
+msgstr ""
+
+#. Description of the theme
+msgid "A luxury, powerful, and elegant Blog Theme designed by ThemeSphere."
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://theme-sphere.com"
+msgstr ""
+
+#: 404.php:27
+msgid "404"
+msgstr ""
+
+#: 404.php:39
+msgid "Go to Previous Page"
+msgstr ""
+
+#: 404.php:40
+msgid "Go to Homepage"
+msgstr ""
+
+#: admin/options-short.php:278
+#: admin/options/homepage.php:277
+msgid "Most Popular"
+msgstr ""
+
+#: admin/options-short.php:390
+#: admin/options/homepage.php:394
+msgid "Subscribe to my newsletter to get updates in your inbox!"
+msgstr ""
+
+#: admin/options-short.php:395
+#: admin/options/homepage.php:402
+msgid "Subscribe Now"
+msgstr ""
+
+#: admin/options-short.php:948
+#: admin/options/posts-single.php:365
+msgid "Share"
+msgstr ""
+
+#: admin/options-short.php:1509
+#: admin/options.php:155
+msgid "Pin It"
+msgstr ""
+
+#: admin/options-short.php:1527
+#: admin/options/layout-pages.php:51
+msgid "Page Not Found!"
+msgstr ""
+
+#: admin/options-short.php:1532
+#: admin/options/layout-pages.php:59
+msgid "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it and we'll try to fix it. In the meantime, try one of these options:"
+msgstr ""
+
+#: admin/options.php:61
+msgctxt "Admin"
+msgid "Skins & Demos"
+msgstr ""
+
+#: admin/options.php:67
+msgctxt "Admin"
+msgid "Import Theme Demos"
+msgstr ""
+
+#: admin/options.php:74
+msgctxt "Admin"
+msgid "Select the Skin"
+msgstr ""
+
+#: admin/options.php:80
+msgctxt "Admin"
+msgid "General"
+msgstr ""
+
+#: admin/options.php:81
+msgctxt "Admin"
+msgid "Beauty"
+msgstr ""
+
+#: admin/options.php:82
+msgctxt "Admin"
+msgid "Trendy"
+msgstr ""
+
+#: admin/options.php:83
+msgctxt "Admin"
+msgid "Miranda / Lifestyle"
+msgstr ""
+
+#: admin/options.php:84
+msgctxt "Admin"
+msgid "Rovella"
+msgstr ""
+
+#: admin/options.php:85
+msgctxt "Admin"
+msgid "Travel"
+msgstr ""
+
+#: admin/options.php:86
+msgctxt "Admin"
+msgid "Magazine"
+msgstr ""
+
+#: admin/options.php:87
+msgctxt "Admin"
+msgid "Bold Blog"
+msgstr ""
+
+#: admin/options.php:88
+msgctxt "Admin"
+msgid "Fashion"
+msgstr ""
+
+#: admin/options.php:89
+msgctxt "Admin"
+msgid "Mom / Parents"
+msgstr ""
+
+#: admin/options.php:90
+msgctxt "Admin"
+msgid "Fitness"
+msgstr ""
+
+#: admin/options.php:91
+msgctxt "Admin"
+msgid "Lifestyle Mag"
+msgstr ""
+
+#: admin/options.php:111
+msgctxt "Admin"
+msgid "Core Layouts"
+msgstr ""
+
+#: admin/options.php:122
+msgctxt "Admin"
+msgid "Posts & Listings"
+msgstr ""
+
+#: admin/options.php:134
+msgctxt "Admin"
+msgid "Pinterest on Images"
+msgstr ""
+
+#: admin/options.php:139
+msgctxt "Admin"
+msgid "Show Pin It On Hover?"
+msgstr ""
+
+#: admin/options.php:141
+msgctxt "Admin"
+msgid "When enabled, on single posts and large posts body, pin it button will show on hover (only works on non-touch devices)."
+msgstr ""
+
+#: admin/options.php:147
+msgctxt "Admin"
+msgid "Show Label"
+msgstr ""
+
+#: admin/options.php:154
+#: admin/options/homepage.php:401
+msgctxt "Admin"
+msgid "Button Label"
+msgstr ""
+
+#: admin/options.php:161
+msgctxt "Admin"
+msgid "Show On:"
+msgstr ""
+
+#: admin/options.php:165
+msgctxt "Admin"
+msgid "Single Post Images"
+msgstr ""
+
+#: admin/options.php:166
+msgctxt "Admin"
+msgid "Listings/Categories: Featured Images"
+msgstr ""
+
+#: admin/options.php:177
+msgctxt "Admin"
+msgid "Other Layouts"
+msgstr ""
+
+#: admin/options.php:187
+msgctxt "Admin"
+msgid "Misc. Features"
+msgstr ""
+
+#: admin/options.php:203
+msgctxt "Admin"
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/options.php:208
+msgctxt "Admin"
+msgid "Reset All Settings"
+msgstr ""
+
+#: admin/options.php:209
+msgctxt "Admin"
+msgid "Clicking the Reset button will revert all settings in the customizer except for menus, widgets and site identity."
+msgstr ""
+
+#: admin/options/archives.php:10
+msgctxt "Admin"
+msgid "Listings Sidebar"
+msgstr ""
+
+#: admin/options/archives.php:12
+msgctxt "Admin"
+msgid "Applies to all type of archives except home."
+msgstr ""
+
+#: admin/options/archives.php:16
+#: admin/options/homepage.php:79
+#: admin/options/layout-main.php:81
+#: admin/options/layout-pages.php:23
+#: admin/options/posts-single.php:37
+msgctxt "Admin"
+msgid "No Sidebar"
+msgstr ""
+
+#: admin/options/archives.php:23
+msgctxt "Admin"
+msgid "Category Listing Style"
+msgstr ""
+
+#: admin/options/archives.php:48
+msgctxt "Admin"
+msgid "Archive Listing Style"
+msgstr ""
+
+#: admin/options/archives.php:73
+msgctxt "Admin"
+msgid "Search Listing Style"
+msgstr ""
+
+#: admin/options/archives.php:100
+msgctxt "Admin"
+msgid "Show Category Descriptions?"
+msgstr ""
+
+#: admin/options/archives.php:110
+msgctxt "Admin"
+msgid "Categories & Archives"
+msgstr ""
+
+#: admin/options/colors-fonts.php:23
+msgctxt "Admin"
+msgid "Global Colors"
+msgstr ""
+
+#: admin/options/colors-fonts.php:32
+msgctxt "Admin"
+msgid "Main Theme Color"
+msgstr ""
+
+#: admin/options/colors-fonts.php:44
+msgctxt "Admin"
+msgid "Site Background Color"
+msgstr ""
+
+#: admin/options/colors-fonts.php:56
+msgctxt "Admin"
+msgid "Main Text Color"
+msgstr ""
+
+#: admin/options/colors-fonts.php:69
+msgctxt "Admin"
+msgid "Content / Excerpts Color"
+msgstr ""
+
+#: admin/options/colors-fonts.php:81
+msgctxt "Admin"
+msgid "Headings Color"
+msgstr ""
+
+#: admin/options/colors-fonts.php:82
+msgctxt "Admin"
+msgid "Affects post titles, widget/block headings, h elements in posts etc. Can be overridden with more specific settings."
+msgstr ""
+
+#: admin/options/colors-fonts.php:93
+msgctxt "Admin"
+msgid "Post Titles Color"
+msgstr ""
+
+#: admin/options/colors-fonts.php:94
+msgctxt "Admin"
+msgid "Changing this affects post title colors globally. See specifics in Single Post, Posts & Listings etc."
+msgstr ""
+
+#: admin/options/colors-fonts.php:111
+msgctxt "Admin"
+msgid "Global Typography"
+msgstr ""
+
+#: admin/options/colors-fonts.php:117
+msgctxt "Admin"
+msgid "Primary Font"
+msgstr ""
+
+#: admin/options/colors-fonts.php:119
+msgctxt "Admin"
+msgid "Used for text mainly. Select from list or click and type your own Google Font name (or TypeKit if you have configured it)."
+msgstr ""
+
+#: admin/options/colors-fonts.php:129
+msgctxt "Admin"
+msgid "Secondary Font"
+msgstr ""
+
+#: admin/options/colors-fonts.php:131
+msgctxt "Admin"
+msgid "Used for headings, meta, navigation and so on."
+msgstr ""
+
+#: admin/options/colors-fonts.php:149
+msgctxt "Admin"
+msgid "Headings Font"
+msgstr ""
+
+#: admin/options/colors-fonts.php:151
+msgctxt "Admin"
+msgid "Used for headings, post titles etc."
+msgstr ""
+
+#: admin/options/colors-fonts.php:166
+msgctxt "Admin"
+msgid "Post Titles Typography"
+msgstr ""
+
+#: admin/options/colors-fonts.php:168
+msgctxt "Admin"
+msgid "Global post title, affects all. For more typography settings, go to Posts & Listings and edit for specifc layouts like Grid."
+msgstr ""
+
+#: admin/options/colors-fonts.php:187
+msgctxt "Admin"
+msgid "Advanced: Base Sizes"
+msgstr ""
+
+#: admin/options/colors-fonts.php:197
+#: admin/options/posts-feat-grids.php:135
+msgctxt "Admin"
+msgid "Base: Small Title"
+msgstr ""
+
+#: admin/options/colors-fonts.php:210
+msgctxt "Admin"
+msgid "Base: Normal Title"
+msgstr ""
+
+#: admin/options/colors-fonts.php:223
+#: admin/options/posts-feat-grids.php:121
+msgctxt "Admin"
+msgid "Base: Medium Title"
+msgstr ""
+
+#: admin/options/colors-fonts.php:236
+#: admin/options/posts-feat-grids.php:107
+msgctxt "Admin"
+msgid "Base: Large Title"
+msgstr ""
+
+#: admin/options/colors-fonts.php:249
+msgctxt "Admin"
+msgid "Base: Text Size"
+msgstr ""
+
+#: admin/options/colors-fonts.php:274
+msgctxt "Admin"
+msgid "Google Font Settings"
+msgstr ""
+
+#: admin/options/colors-fonts.php:281
+msgctxt "Admin"
+msgid "Google Font Charsets"
+msgstr ""
+
+#: admin/options/colors-fonts.php:282
+msgctxt "Admin"
+msgid "Not generally required. Sometimes, an additional character sets maybe necessary."
+msgstr ""
+
+#: admin/options/colors-fonts.php:303
+msgctxt "Admin"
+msgid "Google Font Display Swap"
+msgstr ""
+
+#: admin/options/colors-fonts.php:305
+msgctxt "Admin"
+msgid "%sRead details here%s. You can control how font is rendered while it loads. Swap is best if you have slow connection users. Block if you dont want to see a different font at all."
+msgstr ""
+
+#: admin/options/colors-fonts.php:327
+msgctxt "Admin"
+msgid "Adobe Fonts / TypeKit"
+msgstr ""
+
+#: admin/options/colors-fonts.php:334
+msgctxt "Admin"
+msgid "Adobe Fonts Kit ID"
+msgstr ""
+
+#: admin/options/colors-fonts.php:336
+msgctxt "Admin"
+msgid "Refer to the documentation to learn about using Typekit."
+msgstr ""
+
+#: admin/options/colors-fonts.php:352
+msgctxt "Admin"
+msgid "Colors & Typography"
+msgstr ""
+
+#: admin/options/common-data.php:7
+msgctxt "Admin"
+msgid "Boxed Heading"
+msgstr ""
+
+#: admin/options/common-data.php:8
+msgctxt "Admin"
+msgid "Unboxed + Separator (Style B)"
+msgstr ""
+
+#: admin/options/common-data.php:9
+msgctxt "Admin"
+msgid "Simple Large (Style C)"
+msgstr ""
+
+#: admin/options/common-data.php:10
+msgctxt "Admin"
+msgid "Unboxed + Small Separator (Style D)"
+msgstr ""
+
+#: admin/options/common-data.php:11
+msgctxt "Admin"
+msgid "Fancy Centered Heading (Legacy)"
+msgstr ""
+
+#: admin/options/common-data.php:22
+msgctxt "Admin"
+msgid "Custom"
+msgstr ""
+
+#: admin/options/common-data.php:26
+msgctxt "Admin"
+msgid "Category"
+msgstr ""
+
+#: admin/options/common-data.php:27
+msgctxt "Admin"
+msgid "Author"
+msgstr ""
+
+#: admin/options/common-data.php:28
+msgctxt "Admin"
+msgid "Date"
+msgstr ""
+
+#: admin/options/common-data.php:29
+msgctxt "Admin"
+msgid "Comments"
+msgstr ""
+
+#: admin/options/common-data.php:30
+msgctxt "Admin"
+msgid "Read Time"
+msgstr ""
+
+#: admin/options/common-data.php:36
+msgctxt "Admin"
+msgid "Jump Recipe (Posts Only)"
+msgstr ""
+
+#: admin/options/common-data.php:57
+msgctxt "Admin"
+msgid "Post Meta: Global Items"
+msgstr ""
+
+#: admin/options/common-data.php:65
+#: admin/options/posts-global.php:105
+msgctxt "Admin"
+msgid "Items Above Title"
+msgstr ""
+
+#: admin/options/common-data.php:77
+#: admin/options/posts-global.php:116
+msgctxt "Admin"
+msgid "Items Below Title"
+msgstr ""
+
+#: admin/options/common-data.php:89
+msgctxt "Admin"
+msgid "Post Meta Style"
+msgstr ""
+
+#: admin/options/common-data.php:92
+msgctxt "Admin"
+msgid "Design style for post meta."
+msgstr ""
+
+#: admin/options/common-data.php:94
+#: admin/options/layout-pages.php:22
+#: admin/options/posts-single.php:36
+msgctxt "Admin"
+msgid "Default / Global"
+msgstr ""
+
+#: admin/options/common-data.php:97
+#: admin/options/posts-global.php:90
+msgctxt "Admin"
+msgid "Style 3"
+msgstr ""
+
+#: admin/options/footer.php:20
+msgctxt "Admin"
+msgid "Select layout"
+msgstr ""
+
+#: admin/options/footer.php:24
+msgctxt "Admin"
+msgid "Default Light"
+msgstr ""
+
+#: admin/options/footer.php:25
+msgctxt "Admin"
+msgid "Dark Contrast"
+msgstr ""
+
+#: admin/options/footer.php:26
+msgctxt "Admin"
+msgid "Alternate Light"
+msgstr ""
+
+#: admin/options/footer.php:27
+msgctxt "Admin"
+msgid "Stylish Dark"
+msgstr ""
+
+#: admin/options/footer.php:28
+msgctxt "Admin"
+msgid "Stylish Dark Alt"
+msgstr ""
+
+#: admin/options/footer.php:29
+msgctxt "Admin"
+msgid "Magazine / Classic Dark"
+msgstr ""
+
+#: admin/options/footer.php:30
+msgctxt "Admin"
+msgid "Bold Dark (Footer Links Supported)"
+msgstr ""
+
+#: admin/options/footer.php:31
+msgctxt "Admin"
+msgid "Bold Light (Footer Links Supported)"
+msgstr ""
+
+#: admin/options/footer.php:38
+msgctxt "Admin"
+msgid "Enable Upper Footer"
+msgstr ""
+
+#: admin/options/footer.php:46
+msgctxt "Admin"
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/options/footer.php:58
+msgctxt "Admin"
+msgid "Footer Logo Retina (2x)"
+msgstr ""
+
+#: admin/options/footer.php:70
+msgctxt "Admin"
+msgid "Upper Footer Background"
+msgstr ""
+
+#: admin/options/footer.php:81
+msgctxt "Admin"
+msgid "Footer Background Image"
+msgstr ""
+
+#: admin/options/footer.php:96
+msgctxt "Admin"
+msgid "Bg Image Opacity"
+msgstr ""
+
+#: admin/options/footer.php:98
+msgctxt "Admin"
+msgid "An opacity of 0.2 is recommended."
+msgstr ""
+
+#: admin/options/footer.php:116
+msgctxt "Admin"
+msgid "Post Titles in Widgets"
+msgstr ""
+
+#: admin/options/footer.php:155
+msgctxt "Admin"
+msgid "Hide Follow Me Overlay"
+msgstr ""
+
+#: admin/options/footer.php:165
+msgctxt "Admin"
+msgid "Padding/Spacing"
+msgstr ""
+
+#: admin/options/footer.php:176
+msgctxt "Admin"
+msgid "Total Columns"
+msgstr ""
+
+#: admin/options/footer.php:191
+msgctxt "Admin"
+msgid "Total Rows"
+msgstr ""
+
+#: admin/options/footer.php:211
+msgctxt "Admin"
+msgid "General & Upper Footer"
+msgstr ""
+
+#: admin/options/footer.php:217
+msgctxt "Admin"
+msgid "Instagram Area"
+msgstr ""
+
+#: admin/options/footer.php:223
+msgctxt "Admin"
+msgid "Lower Footer"
+msgstr ""
+
+#: admin/options/footer.php:229
+msgctxt "Admin"
+msgid "Enable Lower Footer"
+msgstr ""
+
+#: admin/options/footer.php:237
+msgctxt "Admin"
+msgid "Enable Footer Links"
+msgstr ""
+
+#: admin/options/footer.php:238
+msgctxt "Admin"
+msgid "After ticking here, save and add a menu from Appearance > Menus and assign it to footer links."
+msgstr ""
+
+#: admin/options/footer.php:246
+msgctxt "Admin"
+msgid "Copyright Message"
+msgstr ""
+
+#: admin/options/footer.php:254
+msgctxt "Admin"
+msgid "Show Back to Top"
+msgstr ""
+
+#: admin/options/footer.php:261
+msgctxt "Admin"
+msgid "Footer Social Icons"
+msgstr ""
+
+#: admin/options/footer.php:265
+#: admin/options/header.php:516
+msgctxt "Admin"
+msgid "NOTE: Configure these icons URLs from %1$sSocial Media Links%2$s."
+msgstr ""
+
+#: admin/options/footer.php:297
+msgctxt "Admin"
+msgid "Lower Footer Background"
+msgstr ""
+
+#: admin/options/footer.php:310
+msgctxt "Admin"
+msgid "Footer Settings"
+msgstr ""
+
+#: admin/options/footer.php:312
+msgctxt "Admin"
+msgid "Middle footer is activated by adding an instagram widget."
+msgstr ""
+
+#: admin/options/header.php:29
+msgctxt "Admin"
+msgid "Header Layout Style"
+msgstr ""
+
+#: admin/options/header.php:34
+msgctxt "Admin"
+msgid "Style 1: Classic Default"
+msgstr ""
+
+#: admin/options/header.php:35
+msgctxt "Admin"
+msgid "Style 2: Nav Below Logo"
+msgstr ""
+
+#: admin/options/header.php:36
+msgctxt "Admin"
+msgid "Style 3: Full-width Top"
+msgstr ""
+
+#: admin/options/header.php:37
+msgctxt "Admin"
+msgid "Style 4: Logo Left + Ad"
+msgstr ""
+
+#: admin/options/header.php:38
+msgctxt "Admin"
+msgid "Style 5: Special Topbar + Nav Below Logo"
+msgstr ""
+
+#: admin/options/header.php:39
+msgctxt "Admin"
+msgid "Style 6: Default + Social Icons + Search Icon"
+msgstr ""
+
+#: admin/options/header.php:40
+msgctxt "Admin"
+msgid "Style 7: Nav Below Logo with Social Icons"
+msgstr ""
+
+#: admin/options/header.php:41
+msgctxt "Admin"
+msgid "Style 8: Topbar + Logo & Nav (Compact)"
+msgstr ""
+
+#: admin/options/header.php:42
+msgctxt "Admin"
+msgid "Style 9: Logo + Nav + Icons (Full-width)"
+msgstr ""
+
+#: admin/options/header.php:43
+msgctxt "Admin"
+msgid "Style 10: Logo + Nav + Icons (Boxed)"
+msgstr ""
+
+#: admin/options/header.php:59
+msgctxt "Admin"
+msgid "Header Ad Code"
+msgstr ""
+
+#: admin/options/header.php:69
+msgctxt "Admin"
+msgid "Navigation Style"
+msgstr ""
+
+#: admin/options/header.php:74
+#: admin/options/header.php:292
+msgctxt "Admin"
+msgid "Light"
+msgstr ""
+
+#: admin/options/header.php:75
+msgctxt "Admin"
+msgid "Dark"
+msgstr ""
+
+#: admin/options/header.php:84
+msgctxt "Admin"
+msgid "Sticky Top Bar/Navigation"
+msgstr ""
+
+#: admin/options/header.php:86
+msgctxt "Admin"
+msgid "Make topbar or navigation sticky on scrolling."
+msgstr ""
+
+#: admin/options/header.php:90
+msgctxt "Admin"
+msgid "Enabled - Normal"
+msgstr ""
+
+#: admin/options/header.php:91
+msgctxt "Admin"
+msgid "Enabled - Smart (Show when scrolling to top)"
+msgstr ""
+
+#: admin/options/header.php:98
+msgctxt "Admin"
+msgid "Show Search"
+msgstr ""
+
+#: admin/options/header.php:108
+msgctxt "Admin"
+msgid "Search Style"
+msgstr ""
+
+#: admin/options/header.php:113
+msgctxt "Admin"
+msgid "Full-screen Modal"
+msgstr ""
+
+#: admin/options/header.php:114
+msgctxt "Admin"
+msgid "Small Overlay"
+msgstr ""
+
+#: admin/options/header.php:121
+msgctxt "Admin"
+msgid "Shopping Cart Icon"
+msgstr ""
+
+#: admin/options/header.php:123
+msgctxt "Admin"
+msgid "Only works when WooCommerce is installed."
+msgstr ""
+
+#: admin/options/header.php:131
+msgctxt "Admin"
+msgid "General Design"
+msgstr ""
+
+#: admin/options/header.php:140
+msgctxt "Admin"
+msgid "Top Border Color"
+msgstr ""
+
+#: admin/options/header.php:152
+msgctxt "Admin"
+msgid "Bottom Border Color"
+msgstr ""
+
+#: admin/options/header.php:178
+msgctxt "Admin"
+msgid "Search Icon Color"
+msgstr ""
+
+#: admin/options/header.php:189
+#: admin/options/header.php:201
+msgctxt "Admin"
+msgid "Search Text Color"
+msgstr ""
+
+#: admin/options/header.php:213
+msgctxt "Admin"
+msgid "Cart Icon Color"
+msgstr ""
+
+#: admin/options/header.php:226
+msgctxt "Admin"
+msgid "Cart Icon Separator"
+msgstr ""
+
+#: admin/options/header.php:239
+msgctxt "Admin"
+msgid "Header Background"
+msgstr ""
+
+#: admin/options/header.php:261
+msgctxt "Admin"
+msgid "Header Background Full Width"
+msgstr ""
+
+#: admin/options/header.php:280
+msgctxt "Admin"
+msgid "Top Bar"
+msgstr ""
+
+#: admin/options/header.php:293
+msgctxt "Admin"
+msgid "Dark / Contrast"
+msgstr ""
+
+#: admin/options/header.php:302
+msgctxt "Admin"
+msgid "Layout"
+msgstr ""
+
+#: admin/options/header.php:307
+msgctxt "Admin"
+msgid "Normal Container"
+msgstr ""
+
+#: admin/options/header.php:317
+msgctxt "Admin"
+msgid "Max Height"
+msgstr ""
+
+#: admin/options/header.php:332
+msgctxt "Admin"
+msgid "Posts Ticker"
+msgstr ""
+
+#: admin/options/header.php:343
+msgctxt "Admin"
+msgid "Posts Ticker Label"
+msgstr ""
+
+#: admin/options/header.php:353
+msgctxt "Admin"
+msgid "Posts Ticker Number"
+msgstr ""
+
+#: admin/options/header.php:364
+msgctxt "Admin"
+msgid "Posts Ticker Tag"
+msgstr ""
+
+#: admin/options/header.php:375
+msgctxt "Admin"
+msgid "Enable Topbar Navigation"
+msgstr ""
+
+#: admin/options/header.php:377
+msgctxt "Admin"
+msgid "Enabling this will disable topbar posts ticker."
+msgstr ""
+
+#: admin/options/header.php:387
+msgctxt "Admin"
+msgid "Remove Shadow"
+msgstr ""
+
+#: admin/options/header.php:402
+msgctxt "Admin"
+msgid "Background Color"
+msgstr ""
+
+#: admin/options/header.php:440
+msgctxt "Admin"
+msgid "Social Icons"
+msgstr ""
+
+#: admin/options/header.php:450
+msgctxt "Admin"
+msgid "Icons Color"
+msgstr ""
+
+#: admin/options/header.php:482
+msgctxt "Admin"
+msgid "Icons Size"
+msgstr ""
+
+#: admin/options/header.php:512
+msgctxt "Admin"
+msgid "Services to Show"
+msgstr ""
+
+#: admin/options/header.php:552
+msgctxt "Admin"
+msgid "Menu Font Family"
+msgstr ""
+
+#: admin/options/header.php:563
+msgctxt "Admin"
+msgid "Top-Level Typography"
+msgstr ""
+
+#: admin/options/header.php:588
+msgctxt "Admin"
+msgid "Dropdown Typography"
+msgstr ""
+
+#: admin/options/header.php:599
+msgctxt "Admin"
+msgid "Space Between Items"
+msgstr ""
+
+#: admin/options/header.php:638
+msgctxt "Admin"
+msgid "Hide Dropdown Arrows"
+msgstr ""
+
+#: admin/options/header.php:651
+msgctxt "Admin"
+msgid "Mega Menu: Titles Typography"
+msgstr ""
+
+#: admin/options/header.php:664
+msgctxt "Admin"
+msgid "Navigation Colors "
+msgstr ""
+
+#: admin/options/header.php:673
+msgctxt "Admin"
+msgid "Nav Background"
+msgstr ""
+
+#: admin/options/header.php:688
+msgctxt "Admin"
+msgid "Top-level Links Color"
+msgstr ""
+
+#: admin/options/header.php:696
+msgctxt "Admin"
+msgid "Top-level Hover"
+msgstr ""
+
+#: admin/options/header.php:704
+msgctxt "Admin"
+msgid "Top-level Active"
+msgstr ""
+
+#: admin/options/header.php:712
+msgctxt "Admin"
+msgid "Arrow Color"
+msgstr ""
+
+#: admin/options/header.php:771
+msgctxt "Admin"
+msgid "Dropdown Background"
+msgstr ""
+
+#: admin/options/header.php:779
+msgctxt "Admin"
+msgid "Dropdown Links"
+msgstr ""
+
+#: admin/options/header.php:787
+msgctxt "Admin"
+msgid "Dropdown Links Hover/Active"
+msgstr ""
+
+#: admin/options/header.php:796
+msgctxt "Admin"
+msgid "Mega Menu: Post Titles"
+msgstr ""
+
+#: admin/options/header.php:808
+msgctxt "Admin"
+msgid "Separator Lines"
+msgstr ""
+
+#: admin/options/header.php:877
+msgctxt "Admin"
+msgid "Header/Logo & Nav"
+msgstr ""
+
+#: admin/options/header.php:882
+msgctxt "Admin"
+msgid "General & Top Bar"
+msgstr ""
+
+#: admin/options/header.php:888
+msgctxt "Admin"
+msgid "Navigation Design"
+msgstr ""
+
+#: admin/options/header.php:889
+msgctxt "Admin"
+msgid "These settings only apply to desktop navigation."
+msgstr ""
+
+#: admin/options/header.php:895
+msgctxt "Admin"
+msgid "Logos"
+msgstr ""
+
+#: admin/options/header.php:901
+msgctxt "Admin"
+msgid "Logo Image"
+msgstr ""
+
+#: admin/options/header.php:902
+msgctxt "Admin"
+msgid "Highly recommended to use a logo image in PNG format."
+msgstr ""
+
+#: admin/options/header.php:911
+msgctxt "Admin"
+msgid "Logo Image Retina (2x)"
+msgstr ""
+
+#: admin/options/header.php:913
+msgctxt "Admin"
+msgid "This will be used for higher resolution devices like iPhone/Macbook."
+msgstr ""
+
+#: admin/options/header.php:923
+msgctxt "Admin"
+msgid "Mobile Logo Retina (2x - Optional)"
+msgstr ""
+
+#: admin/options/header.php:924
+msgctxt "Admin"
+msgid "Use a different logo for mobile devices. Upload a logo twice the normal width and height."
+msgstr ""
+
+#: admin/options/header.php:934
+msgctxt "Admin"
+msgid "Logo Padding Top"
+msgstr ""
+
+#: admin/options/header.php:948
+msgctxt "Admin"
+msgid "Logo Padding Bottom"
+msgstr ""
+
+#: admin/options/homepage.php:37
+msgctxt "Admin"
+msgid "Home Layout"
+msgstr ""
+
+#: admin/options/homepage.php:43
+msgctxt "Admin"
+msgid "Assorted - (Large Post + Sidebar, Shop, Grid + Sidebar)"
+msgstr ""
+
+#: admin/options/homepage.php:64
+msgctxt "Admin"
+msgid "Grid / Large Style, Pagination & More"
+msgstr ""
+
+#: admin/options/homepage.php:67
+msgctxt "Admin"
+msgid "There are multiple Grid Posts, Large Posts, Pagination styles, and many more options available. Customize them by going back and to %1$sPosts Listings & Blocks%2$s."
+msgstr ""
+
+#: admin/options/homepage.php:74
+msgctxt "Admin"
+msgid "Home Sidebar"
+msgstr ""
+
+#: admin/options/homepage.php:88
+msgctxt "Admin"
+msgid "When you wish to use different posts per page from global setting in Settings > Reading which applies to all archives too."
+msgstr ""
+
+#: admin/options/homepage.php:95
+msgctxt "Admin"
+msgid "Use H1 tag on Logo for SEO"
+msgstr ""
+
+#: admin/options/homepage.php:108
+msgctxt "Admin"
+msgid "Featured Type"
+msgstr ""
+
+#: admin/options/homepage.php:156
+msgctxt "Admin"
+msgid "Post Count"
+msgstr ""
+
+#: admin/options/homepage.php:212
+msgctxt "Admin"
+msgid "Slider Autoplay"
+msgstr ""
+
+#: admin/options/homepage.php:220
+msgctxt "Admin"
+msgid "Slider Animation"
+msgstr ""
+
+#: admin/options/homepage.php:225
+msgctxt "Admin"
+msgid "Fade Animation"
+msgstr ""
+
+#: admin/options/homepage.php:226
+msgctxt "Admin"
+msgid "Slide Animation"
+msgstr ""
+
+#: admin/options/homepage.php:233
+msgctxt "Admin"
+msgid "Slide Autoplay Delay"
+msgstr ""
+
+#: admin/options/homepage.php:248
+msgctxt "Admin"
+msgid "Enable Posts Carousel On Home"
+msgstr ""
+
+#: admin/options/homepage.php:250
+msgctxt "Admin"
+msgid "Will show a posts carousel below main slider."
+msgstr ""
+
+#: admin/options/homepage.php:256
+msgctxt "Admin"
+msgid "Carousel Style"
+msgstr ""
+
+#: admin/options/homepage.php:261
+msgctxt "Admin"
+msgid "Default - 4 Images"
+msgstr ""
+
+#: admin/options/homepage.php:262
+msgctxt "Admin"
+msgid "Style B - 3 Images and Boxed"
+msgstr ""
+
+#: admin/options/homepage.php:268
+msgctxt "Admin"
+msgid "Home Carousel Posts"
+msgstr ""
+
+#: admin/options/homepage.php:276
+msgctxt "Admin"
+msgid "Home Carousel Title"
+msgstr ""
+
+#: admin/options/homepage.php:284
+msgctxt "Admin"
+msgid "Title Style"
+msgstr ""
+
+#: admin/options/homepage.php:298
+msgctxt "Admin"
+msgid "Home Carousel Type"
+msgstr ""
+
+#: admin/options/homepage.php:304
+msgctxt "Admin"
+msgid "Latest / By Tag"
+msgstr ""
+
+#: admin/options/homepage.php:310
+msgctxt "Admin"
+msgid "Home Carousel Tag - Optional"
+msgstr ""
+
+#: admin/options/homepage.php:319
+msgctxt "Admin"
+msgid "Add Separator Below?"
+msgstr ""
+
+#: admin/options/homepage.php:328
+#: admin/options/posts-listings.php:268
+#: admin/options/posts-listings.php:478
+#: admin/options/posts-listings.php:816
+#: admin/options/posts-single.php:54
+msgctxt "Admin"
+msgid "Image Aspect Ratio"
+msgstr ""
+
+#: admin/options/homepage.php:337
+#: admin/options/posts-listings.php:278
+#: admin/options/posts-listings.php:487
+#: admin/options/posts-listings.php:825
+#: admin/options/posts-single.php:64
+msgctxt "Admin"
+msgid "Custom Ratio"
+msgstr ""
+
+#: admin/options/homepage.php:356
+#: admin/options/posts-listings.php:609
+#: admin/options/posts-listings.php:896
+#: admin/options/posts-single.php:488
+msgctxt "Admin"
+msgid "Post Meta"
+msgstr ""
+
+#: admin/options/homepage.php:378
+msgctxt "Admin"
+msgid "Enable Subscribe Box?"
+msgstr ""
+
+#: admin/options/homepage.php:386
+msgctxt "Admin"
+msgid "Mailchimp Form URL"
+msgstr ""
+
+#: admin/options/homepage.php:393
+msgctxt "Admin"
+msgid "Subscribe Message"
+msgstr ""
+
+#: admin/options/homepage.php:432
+msgctxt "Admin"
+msgid "Layout / General"
+msgstr ""
+
+#: admin/options/homepage.php:440
+msgctxt "Admin"
+msgid "Featured Area / Slider"
+msgstr ""
+
+#: admin/options/homepage.php:446
+msgctxt "Admin"
+msgid "Posts Carousel"
+msgstr ""
+
+#: admin/options/homepage.php:452
+msgctxt "Admin"
+msgid "Subscribe Box"
+msgstr ""
+
+#: admin/options/homepage.php:455
+msgctxt "Admin"
+msgid "Enable a Mailchimp subscribe box below the slider on home. IMPORTANT: Setup your form first by following %sthis guide%s."
+msgstr ""
+
+#: admin/options/homepage.php:463
+msgctxt "Admin"
+msgid "Homepage / Blog"
+msgstr ""
+
+#: admin/options/intro.php:22
+#: admin/options/tests.php:44
+msgctxt "Admin"
+msgid "Theme Intro & Help"
+msgstr ""
+
+#: admin/options/layout-main.php:8
+msgctxt "Admin"
+msgid "Custom Layout Width/Space"
+msgstr ""
+
+#: admin/options/layout-main.php:10
+msgctxt "Admin"
+msgid "Adjust layout width or padding."
+msgstr ""
+
+#: admin/options/layout-main.php:19
+msgctxt "Admin"
+msgid "Careful! The default layouts are optimized for all devices. Change these only if you understand the implications."
+msgstr ""
+
+#: admin/options/layout-main.php:25
+msgctxt "Admin"
+msgid "Layout Main Width"
+msgstr ""
+
+#: admin/options/layout-main.php:39
+msgctxt "Admin"
+msgid "Layout Width Percent"
+msgstr ""
+
+#: admin/options/layout-main.php:52
+msgctxt "Admin"
+msgid "Main Layout Padding"
+msgstr ""
+
+#: admin/options/layout-main.php:76
+msgctxt "Admin"
+msgid "Default Sidebar"
+msgstr ""
+
+#: admin/options/layout-main.php:78
+msgctxt "Admin"
+msgid "This setting can be changed per post or page."
+msgstr ""
+
+#: admin/options/layout-main.php:88
+msgctxt "Admin"
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: admin/options/layout-main.php:90
+msgctxt "Admin"
+msgid "Make the sidebar always stick around while scrolling."
+msgstr ""
+
+#: admin/options/layout-main.php:99
+msgctxt "Admin"
+msgid "Sidebar Styling"
+msgstr ""
+
+#: admin/options/layout-main.php:108
+msgctxt "Admin"
+msgid "Widgets Style"
+msgstr ""
+
+#: admin/options/layout-main.php:113
+msgctxt "Admin"
+msgid "Default Unboxed"
+msgstr ""
+
+#: admin/options/layout-main.php:114
+msgctxt "Admin"
+msgid "Boxed Widgets"
+msgstr ""
+
+#: admin/options/layout-main.php:121
+msgctxt "Admin"
+msgid "Widget Titles Style"
+msgstr ""
+
+#: admin/options/layout-main.php:142
+msgctxt "Admin"
+msgid "Widget Border Color"
+msgstr ""
+
+#: admin/options/layout-main.php:155
+msgctxt "Admin"
+msgid "Widget Box Spacing"
+msgstr ""
+
+#: admin/options/layout-main.php:169
+msgctxt "Admin"
+msgid "Titles Background"
+msgstr ""
+
+#: admin/options/layout-main.php:182
+msgctxt "Admin"
+msgid "Titles Color"
+msgstr ""
+
+#: admin/options/layout-main.php:193
+msgctxt "Admin"
+msgid "Titles Typography"
+msgstr ""
+
+#: admin/options/layout-main.php:205
+msgctxt "Admin"
+msgid "Titles Border Thickness"
+msgstr ""
+
+#: admin/options/layout-main.php:219
+msgctxt "Admin"
+msgid "Titles Border Width"
+msgstr ""
+
+#: admin/options/layout-main.php:235
+msgctxt "Admin"
+msgid "Titles Border Distance"
+msgstr ""
+
+#: admin/options/layout-main.php:249
+msgctxt "Admin"
+msgid "Titles Border Color"
+msgstr ""
+
+#: admin/options/layout-main.php:261
+msgctxt "Admin"
+msgid "Titles Border Top"
+msgstr ""
+
+#: admin/options/layout-main.php:274
+#: admin/options/layout-main.php:293
+msgctxt "Admin"
+msgid "Titles Text Align"
+msgstr ""
+
+#: admin/options/layout-main.php:281
+#: admin/options/layout-main.php:300
+#: admin/options/posts-global.php:135
+#: admin/options/posts-global.php:289
+#: admin/options/posts-listings.php:463
+#: admin/options/posts-listings.php:1053
+#: inc/customizer/controls/dimensions.php:90
+msgctxt "Admin"
+msgid "Left"
+msgstr ""
+
+#: admin/options/layout-main.php:282
+#: admin/options/layout-main.php:301
+#: admin/options/posts-global.php:134
+#: admin/options/posts-global.php:288
+#: admin/options/posts-listings.php:464
+#: admin/options/posts-listings.php:1054
+msgctxt "Admin"
+msgid "Center"
+msgstr ""
+
+#: admin/options/layout-main.php:283
+#: admin/options/layout-main.php:302
+#: admin/options/posts-listings.php:1055
+#: inc/customizer/controls/dimensions.php:76
+msgctxt "Admin"
+msgid "Right"
+msgstr ""
+
+#: admin/options/layout-main.php:320
+msgctxt "Admin"
+msgid "Titles Padding"
+msgstr ""
+
+#: admin/options/layout-main.php:334
+msgctxt "Admin"
+msgid "Titles Margin Below"
+msgstr ""
+
+#: admin/options/layout-main.php:347
+msgctxt "Admin"
+msgid "Widget Bottom Spacing"
+msgstr ""
+
+#: admin/options/layout-main.php:362
+msgctxt "Admin"
+msgid "Widget: Latest Posts"
+msgstr ""
+
+#: admin/options/layout-main.php:372
+msgctxt "Admin"
+msgid "Image Width"
+msgstr ""
+
+#: admin/options/layout-main.php:385
+msgctxt "Admin"
+msgid "Image Height"
+msgstr ""
+
+#: admin/options/layout-main.php:406
+msgctxt "Admin"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/options/layout-main.php:416
+msgctxt "Admin"
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: admin/options/layout-main.php:425
+msgctxt "Admin"
+msgid "On Search Page"
+msgstr ""
+
+#: admin/options/layout-main.php:434
+msgctxt "Admin"
+msgid "On Post/Single"
+msgstr ""
+
+#: admin/options/layout-main.php:443
+msgctxt "Admin"
+msgid "On Pages"
+msgstr ""
+
+#: admin/options/layout-main.php:452
+msgctxt "Admin"
+msgid "On Archives"
+msgstr ""
+
+#: admin/options/layout-main.php:466
+msgctxt "Admin"
+msgid "Main Layout & Sidebar"
+msgstr ""
+
+#: admin/options/layout-pages.php:17
+msgctxt "Admin"
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: admin/options/layout-pages.php:18
+#: admin/options/posts-single.php:32
+msgctxt "Admin"
+msgid "Default is from Main Layout settings. This setting can also be changed per post or page."
+msgstr ""
+
+#: admin/options/layout-pages.php:29
+msgctxt "Admin"
+msgid "Page Titles Typography"
+msgstr ""
+
+#: admin/options/layout-pages.php:43
+msgctxt "Admin"
+msgid "404 Page"
+msgstr ""
+
+#: admin/options/layout-pages.php:49
+#: admin/options/layout-pages.php:57
+msgctxt "Admin"
+msgid "404 Title"
+msgstr ""
+
+#: admin/options/layout-pages.php:69
+msgctxt "Admin"
+msgid "Pages Layouts"
+msgstr ""
+
+#: admin/options/misc.php:8
+msgctxt "Admin"
+msgid "Social Media Links"
+msgstr ""
+
+#: admin/options/misc.php:9
+msgctxt "Admin"
+msgid "Enter full URLs to your social media profiles. They will be used anywhere you use social profiles such as header, sidebar etc."
+msgstr ""
+
+#: admin/options/misc.php:62
+msgctxt "Admin"
+msgid "Google+"
+msgstr ""
+
+#: admin/options/misc.php:70
+msgctxt "Admin"
+msgid "YouTube"
+msgstr ""
+
+#: admin/options/misc.php:160
+msgctxt "Admin"
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: admin/options/misc.php:166
+msgctxt "Admin"
+msgid "Limit Search To Posts"
+msgstr ""
+
+#: admin/options/misc.php:167
+msgctxt "Admin"
+msgid "Enabling this feature will exclude pages from WordPress search."
+msgstr ""
+
+#: admin/options/misc.php:173
+msgctxt "Admin"
+msgid "Enable Lightbox for Images"
+msgstr ""
+
+#: admin/options/misc.php:181
+msgctxt "Admin"
+msgid "Lightbox on Small Screens"
+msgstr ""
+
+#: admin/options/misc.php:190
+msgctxt "Admin"
+msgid "AMP: Enable Theme Styles"
+msgstr ""
+
+#: admin/options/misc.php:192
+msgctxt "Admin"
+msgid "Enable our special changes for the AMP plugin. Note: Only works when the \"Bunyad AMP\" plugin is active."
+msgstr ""
+
+#: admin/options/misc.php:198
+msgctxt "Admin"
+msgid "Gutenberg: Add front-end Styles"
+msgstr ""
+
+#: admin/options/misc.php:200
+msgctxt "Admin"
+msgid "By default Gutenberg has its own styling. Ticking this will enable our custom styles so that the backend is similar looking to frontend."
+msgstr ""
+
+#: admin/options/misc.php:206
+msgctxt "Admin"
+msgid "Legacy: Load FontAwesome 4"
+msgstr ""
+
+#: admin/options/misc.php:208
+msgctxt "Admin"
+msgid "Legacy: If you used custom FA4 icons before CheerUp v7.0, enable this."
+msgstr ""
+
+#: admin/options/misc.php:218
+msgctxt "Admin"
+msgid "Performance"
+msgstr ""
+
+#: admin/options/misc.php:223
+msgctxt "Admin"
+msgid "LazyLoad Images"
+msgstr ""
+
+#: admin/options/misc.php:231
+msgctxt "Admin"
+msgid "Lazy Loader Type"
+msgstr ""
+
+#: admin/options/misc.php:236
+msgctxt "Admin"
+msgid "Normal - Load Images on scroll"
+msgstr ""
+
+#: admin/options/misc.php:237
+msgctxt "Admin"
+msgid "Smart - Preload Images on Desktops"
+msgstr ""
+
+#: admin/options/misc.php:243
+msgctxt "Admin"
+msgid "Aggressive Lazy Load"
+msgstr ""
+
+#: admin/options/misc.php:245
+msgctxt "Admin"
+msgid "By default, only featured and single images are lazyloaded. Aggressive enables lazyloading on all sidebar widgets and footer as well."
+msgstr ""
+
+#: admin/options/misc.php:251
+msgctxt "Admin"
+msgid "Disable BG Image Method"
+msgstr ""
+
+#: admin/options/misc.php:253
+msgctxt "Admin"
+msgid "Advanced: Plugins like WebP Express have a setting to inject <picture> tag when using a CDN. This will requires our bg image method to be disabled."
+msgstr ""
+
+#: admin/options/misc.php:262
+msgctxt "Admin"
+msgid "WooCommerce/Shop"
+msgstr ""
+
+#: admin/options/misc.php:263
+msgctxt "Admin"
+msgid "Settings here only apply if you have WooCommerce installed."
+msgstr ""
+
+#: admin/options/misc.php:268
+msgctxt "Admin"
+msgid "Shop Products / Page"
+msgstr ""
+
+#: admin/options/misc.php:276
+msgctxt "Admin"
+msgid "Product Page - Image Zoom"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:9
+msgctxt "Admin"
+msgid "Content Overlay Style"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:14
+msgctxt "Admin"
+msgid "Style A - Bottom Shade"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:15
+msgctxt "Admin"
+msgid "Style B - Full Overlay"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:21
+msgctxt "Admin"
+msgid "Content Position"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:27
+msgctxt "Admin"
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:28
+msgctxt "Admin"
+msgid "Bottom Centered"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:29
+msgctxt "Admin"
+msgid "Centered"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:30
+msgctxt "Admin"
+msgid "Top Centered"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:31
+msgctxt "Admin"
+msgid "Top Left"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:37
+msgctxt "Admin"
+msgid "Meta Below Title"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:48
+msgctxt "Admin"
+msgid "Show Meta on Hover"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:49
+msgctxt "Admin"
+msgid "Hide post meta at bottom until hover."
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:57
+msgctxt "Admin"
+msgid "Category Style"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:63
+msgctxt "Admin"
+msgid "Default / Simple Text"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:64
+msgctxt "Admin"
+msgid "Badge / BG Color"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:70
+msgctxt "Admin"
+msgid "Hover Effect"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:76
+msgctxt "Admin"
+msgid "None"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:77
+msgctxt "Admin"
+msgid "Zoom Image"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:86
+msgctxt "Admin"
+msgid "Titles / Headings"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:93
+msgctxt "Admin"
+msgid "Family / Typography"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:108
+msgctxt "Admin"
+msgid "Used for larger slides / images."
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:122
+msgctxt "Admin"
+msgid "Most Common - applies to all medium slides."
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:136
+msgctxt "Admin"
+msgid "Rarely used only for very small slides."
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:153
+msgctxt "Admin"
+msgid "Style A"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:160
+#: admin/options/posts-feat-grids.php:196
+msgctxt "Admin"
+msgid "Color"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:172
+#: admin/options/posts-feat-grids.php:208
+msgctxt "Admin"
+msgid "Opacity"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:189
+msgctxt "Admin"
+msgid "Style B"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:235
+msgctxt "Admin"
+msgid "Common Settings"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:240
+msgctxt "Admin"
+msgid "Overlay Styles"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:264
+msgctxt "Admin"
+msgid "Custom Image Ratio"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:277
+msgctxt "Admin"
+msgid "Advanced: Custom Height"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:309
+msgctxt "Admin"
+msgid "Grid Style %s"
+msgstr ""
+
+#: admin/options/posts-feat-grids.php:317
+msgctxt "Admin"
+msgid "Featured Grids"
+msgstr ""
+
+#: admin/options/posts-global.php:9
+msgctxt "Admin"
+msgid "Enable Post Likes"
+msgstr ""
+
+#: admin/options/posts-global.php:21
+msgctxt "Admin"
+msgid "Category Badges (Over Images)"
+msgstr ""
+
+#: admin/options/posts-global.php:28
+msgctxt "Admin"
+msgid "Category Badge Over Image"
+msgstr ""
+
+#: admin/options/posts-global.php:37
+msgctxt "Admin"
+msgid "Badges: Typography"
+msgstr ""
+
+#: admin/options/posts-global.php:48
+msgctxt "Admin"
+msgid "Badges: BG Color"
+msgstr ""
+
+#: admin/options/posts-global.php:59
+msgctxt "Admin"
+msgid "Badges: Text Color"
+msgstr ""
+
+#: admin/options/posts-global.php:70
+msgctxt "Admin"
+msgid "Badges: Padding"
+msgstr ""
+
+#: admin/options/posts-global.php:83
+msgctxt "Admin"
+msgid "Global Meta Style"
+msgstr ""
+
+#: admin/options/posts-global.php:86
+msgctxt "Admin"
+msgid "The style preset - each have separate settings below. The Meta Style can also be set per listing/block - find in Blocks and Featured Grid. settings"
+msgstr ""
+
+#: admin/options/posts-global.php:96
+msgctxt "Admin"
+msgid "Use Modified Date"
+msgstr ""
+
+#: admin/options/posts-global.php:127
+#: admin/options/posts-global.php:281
+msgctxt "Admin"
+msgid "Default Alignment"
+msgstr ""
+
+#: admin/options/posts-global.php:141
+msgctxt "Admin"
+msgid "Show All Categories"
+msgstr ""
+
+#: admin/options/posts-global.php:149
+msgctxt "Admin"
+msgid "Extra Text Labels"
+msgstr ""
+
+#: admin/options/posts-global.php:157
+msgctxt "Admin"
+msgid "Text Labels"
+msgstr ""
+
+#: admin/options/posts-global.php:169
+msgctxt "Admin"
+msgid "Force Disable Items"
+msgstr ""
+
+#: admin/options/posts-global.php:179
+msgctxt "Admin"
+msgid "Meta Font"
+msgstr ""
+
+#: admin/options/posts-global.php:250
+msgctxt "Admin"
+msgid "Typography"
+msgstr ""
+
+#: admin/options/posts-global.php:260
+msgctxt "Admin"
+msgid "Category Typography"
+msgstr ""
+
+#: admin/options/posts-global.php:295
+msgctxt "Admin"
+msgid "Items Color"
+msgstr ""
+
+#: admin/options/posts-global.php:308
+msgctxt "Admin"
+msgid "Category Color"
+msgstr ""
+
+#: admin/options/posts-global.php:317
+msgctxt "Admin"
+msgid "Divider Line"
+msgstr ""
+
+#: admin/options/posts-global.php:325
+msgctxt "Admin"
+msgid "Disable Separators"
+msgstr ""
+
+#: admin/options/posts-global.php:342
+msgctxt "Admin"
+msgid "Meta Design: Style %s"
+msgstr ""
+
+#: admin/options/posts-global.php:378
+msgctxt "Admin"
+msgid "Global Posts Settings"
+msgstr ""
+
+#: admin/options/posts-listings.php:21
+msgctxt "Admin"
+msgid "Pagination Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:25
+msgctxt "Admin"
+msgid "Older / Newer"
+msgstr ""
+
+#: admin/options/posts-listings.php:26
+msgctxt "Admin"
+msgid "Page Numbers"
+msgstr ""
+
+#: admin/options/posts-listings.php:27
+msgctxt "Admin"
+msgid "Load More"
+msgstr ""
+
+#: admin/options/posts-listings.php:32
+msgctxt "Admin"
+msgid "Show Post Format Icons"
+msgstr ""
+
+#: admin/options/posts-listings.php:34
+msgctxt "Admin"
+msgid "Post format icons (video, gallery) can be enabled on a few listing styles such as list and grid."
+msgstr ""
+
+#: admin/options/posts-listings.php:40
+msgctxt "Admin"
+msgid "Read More Text"
+msgstr ""
+
+#: admin/options/posts-listings.php:42
+msgctxt "Admin"
+msgid "Text used on all read more buttons and links."
+msgstr ""
+
+#: admin/options/posts-listings.php:60
+msgctxt "Admin"
+msgid "Design: General"
+msgstr ""
+
+#: admin/options/posts-listings.php:70
+msgctxt "Admin"
+msgid "Excerpts Color"
+msgstr ""
+
+#: admin/options/posts-listings.php:81
+msgctxt "Admin"
+msgid "Excerpts Typography"
+msgstr ""
+
+#: admin/options/posts-listings.php:96
+msgctxt "Admin"
+msgid "Design: Read More"
+msgstr ""
+
+#: admin/options/posts-listings.php:103
+msgctxt "Admin"
+msgid "Read More Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:108
+msgctxt "Admin"
+msgid "Text Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:109
+msgctxt "Admin"
+msgid "Button Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:127
+msgctxt "Admin"
+msgid "Button Background"
+msgstr ""
+
+#: admin/options/posts-listings.php:141
+msgctxt "Admin"
+msgid "Border Color"
+msgstr ""
+
+#: admin/options/posts-listings.php:153
+msgctxt "Admin"
+msgid "Text Color"
+msgstr ""
+
+#: admin/options/posts-listings.php:165
+msgctxt "Admin"
+msgid "Hover Color"
+msgstr ""
+
+#: admin/options/posts-listings.php:177
+msgctxt "Admin"
+msgid "Button Hover Background"
+msgstr ""
+
+#: admin/options/posts-listings.php:194
+msgctxt "Admin"
+msgid "Font & Typography"
+msgstr ""
+
+#: admin/options/posts-listings.php:207
+msgctxt "Admin"
+msgid "Button Padding"
+msgstr ""
+
+#: admin/options/posts-listings.php:237
+msgctxt "Admin"
+msgid "Large Posts Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:239
+msgctxt "Admin"
+msgid "When using a listing that uses large post, there are two styles to choose from."
+msgstr ""
+
+#: admin/options/posts-listings.php:242
+msgctxt "Admin"
+msgid "Style 1: Default - Title Below"
+msgstr ""
+
+#: admin/options/posts-listings.php:243
+msgctxt "Admin"
+msgid "Style 2: Title Above"
+msgstr ""
+
+#: admin/options/posts-listings.php:244
+msgctxt "Admin"
+msgid "Style 3: Overlay Bottom & No Excerpt"
+msgstr ""
+
+#: admin/options/posts-listings.php:249
+msgctxt "Admin"
+msgid "Post Body"
+msgstr ""
+
+#: admin/options/posts-listings.php:252
+msgctxt "Admin"
+msgid "Note: Only applies to Blog Listing style. Both support WordPress <!--more--> teaser."
+msgstr ""
+
+#: admin/options/posts-listings.php:254
+msgctxt "Admin"
+msgid "Full Post"
+msgstr ""
+
+#: admin/options/posts-listings.php:255
+msgctxt "Admin"
+msgid "Excerpts"
+msgstr ""
+
+#: admin/options/posts-listings.php:260
+#: admin/options/posts-single.php:44
+msgctxt "Admin"
+msgid "Crop Featured Image"
+msgstr ""
+
+#: admin/options/posts-listings.php:262
+msgctxt "Admin"
+msgid "Crop featured image for consistent sizing. For single post/article page crop settings, go to Customizer > Single Post Page."
+msgstr ""
+
+#: admin/options/posts-listings.php:297
+msgctxt "Admin"
+msgid "Enable Post Footer"
+msgstr ""
+
+#: admin/options/posts-listings.php:299
+msgctxt "Admin"
+msgid "Post footer is the extra info shown below post such as author, read more, and social icons."
+msgstr ""
+
+#: admin/options/posts-listings.php:305
+msgctxt "Admin"
+msgid "Show Author"
+msgstr ""
+
+#: admin/options/posts-listings.php:313
+msgctxt "Admin"
+msgid "Show Read More"
+msgstr ""
+
+#: admin/options/posts-listings.php:321
+msgctxt "Admin"
+msgid "Show Social"
+msgstr ""
+
+#: admin/options/posts-listings.php:330
+#: admin/options/posts-listings.php:657
+#: admin/options/posts-listings.php:859
+msgctxt "Admin"
+msgid "Excerpt Words"
+msgstr ""
+
+#: admin/options/posts-listings.php:341
+#: admin/options/posts-listings.php:665
+#: admin/options/posts-listings.php:868
+#: admin/options/posts-single.php:473
+#: admin/options/posts-single.php:555
+msgctxt "Admin"
+msgid "Post Title Size"
+msgstr ""
+
+#: admin/options/posts-listings.php:358
+msgctxt "Admin"
+msgid "Post Title (Style 3)"
+msgstr ""
+
+#: admin/options/posts-listings.php:379
+#: admin/options/posts-listings.php:718
+#: admin/options/posts-listings.php:880
+msgctxt "Admin"
+msgid "Title Typography"
+msgstr ""
+
+#: admin/options/posts-listings.php:391
+msgctxt "Admin"
+msgid "Excerpt/Body Typography"
+msgstr ""
+
+#: admin/options/posts-listings.php:407
+#: admin/options/posts-listings.php:592
+msgctxt "Admin"
+msgid "Gap Below Posts"
+msgstr ""
+
+#: admin/options/posts-listings.php:427
+msgctxt "Admin"
+msgid "When using a listing that uses grid posts, there are two types of grid posts to choose from"
+msgstr ""
+
+#: admin/options/posts-listings.php:430
+#: admin/options/posts-listings.php:801
+msgctxt "Admin"
+msgid "Style 1: Default - With Social"
+msgstr ""
+
+#: admin/options/posts-listings.php:431
+msgctxt "Admin"
+msgid "Style 2: Centered Text & Read More"
+msgstr ""
+
+#: admin/options/posts-listings.php:432
+msgctxt "Admin"
+msgid "Style 3: Cards"
+msgstr ""
+
+#: admin/options/posts-listings.php:437
+msgctxt "Admin"
+msgid "Enable Masonry"
+msgstr ""
+
+#: admin/options/posts-listings.php:439
+msgctxt "Admin"
+msgid "Enabling masonry makes grid posts display with uncropped images creating a dynamic look."
+msgstr ""
+
+#: admin/options/posts-listings.php:445
+msgctxt "Admin"
+msgid "Equal Columns Height"
+msgstr ""
+
+#: admin/options/posts-listings.php:457
+msgctxt "Admin"
+msgid "Align Content"
+msgstr ""
+
+#: admin/options/posts-listings.php:503
+msgctxt "Admin"
+msgid "Aspect Ratio - 2 Column"
+msgstr ""
+
+#: admin/options/posts-listings.php:512
+msgctxt "Admin"
+msgid "Custom Ratio - 2 Column"
+msgstr ""
+
+#: admin/options/posts-listings.php:528
+msgctxt "Admin"
+msgid "Aspect Ratio - 3 Column"
+msgstr ""
+
+#: admin/options/posts-listings.php:537
+msgctxt "Admin"
+msgid "Custom Ratio - 3 Column"
+msgstr ""
+
+#: admin/options/posts-listings.php:557
+msgctxt "Admin"
+msgid "Grid Spacings"
+msgstr ""
+
+#: admin/options/posts-listings.php:563
+msgctxt "Admin"
+msgid "Gap On Sides"
+msgstr ""
+
+#: admin/options/posts-listings.php:578
+msgctxt "Admin"
+msgid "Gap On Sides - 3 Col"
+msgstr ""
+
+#: admin/options/posts-listings.php:628
+#: admin/options/posts-listings.php:807
+msgctxt "Admin"
+msgid "Post Footer (Social + Likes)"
+msgstr ""
+
+#: admin/options/posts-listings.php:629
+msgctxt "Admin"
+msgid "Area below posts for Social Icons."
+msgstr ""
+
+#: admin/options/posts-listings.php:677
+msgctxt "Admin"
+msgid "Post Title - 2 Column"
+msgstr ""
+
+#: admin/options/posts-listings.php:697
+msgctxt "Admin"
+msgid "Post Title - 3 Column"
+msgstr ""
+
+#: admin/options/posts-listings.php:731
+msgctxt "Admin"
+msgid "Disable Box Shadow"
+msgstr ""
+
+#: admin/options/posts-listings.php:744
+msgctxt "Admin"
+msgid "Box Shadow Size"
+msgstr ""
+
+#: admin/options/posts-listings.php:756
+msgctxt "Admin"
+msgid "Box Shadow Intensity"
+msgstr ""
+
+#: admin/options/posts-listings.php:768
+msgctxt "Admin"
+msgid "Box Border Color"
+msgstr ""
+
+#: admin/options/posts-listings.php:779
+msgctxt "Admin"
+msgid "Box Border Width"
+msgstr ""
+
+#: admin/options/posts-listings.php:796
+msgctxt "Admin"
+msgid "List Posts Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:798
+msgctxt "Admin"
+msgid "When using a listing that uses list posts, there are two types of grid posts to choose from"
+msgstr ""
+
+#: admin/options/posts-listings.php:802
+msgctxt "Admin"
+msgid "Style 2: Spacious & Read More"
+msgstr ""
+
+#: admin/options/posts-listings.php:809
+msgctxt "Admin"
+msgid "Area below posts that shows likes count & social icons."
+msgstr ""
+
+#: admin/options/posts-listings.php:841
+msgctxt "Admin"
+msgid "Image Width %"
+msgstr ""
+
+#: admin/options/posts-listings.php:922
+msgctxt "Admin"
+msgid "Design: Block Headings"
+msgstr ""
+
+#: admin/options/posts-listings.php:930
+msgctxt "Admin"
+msgid "Edit Heading Style"
+msgstr ""
+
+#: admin/options/posts-listings.php:950
+msgctxt "Admin"
+msgid "Heading Background"
+msgstr ""
+
+#: admin/options/posts-listings.php:975
+msgctxt "Admin"
+msgid "Heading Typography"
+msgstr ""
+
+#: admin/options/posts-listings.php:988
+msgctxt "Admin"
+msgid "Heading Border Thickness"
+msgstr ""
+
+#: admin/options/posts-listings.php:1003
+msgctxt "Admin"
+msgid "Heading Border Width"
+msgstr ""
+
+#: admin/options/posts-listings.php:1019
+msgctxt "Admin"
+msgid "Heading Border Distance"
+msgstr ""
+
+#: admin/options/posts-listings.php:1033
+msgctxt "Admin"
+msgid "Heading Border Color"
+msgstr ""
+
+#: admin/options/posts-listings.php:1046
+msgctxt "Admin"
+msgid "Heading Text Align"
+msgstr ""
+
+#: admin/options/posts-listings.php:1074
+msgctxt "Admin"
+msgid "Heading Padding"
+msgstr ""
+
+#: admin/options/posts-listings.php:1088
+msgctxt "Admin"
+msgid "Heading Margin Below"
+msgstr ""
+
+#: admin/options/posts-listings.php:1145
+msgctxt "Admin"
+msgid "Common Shared Settings"
+msgstr ""
+
+#: admin/options/posts-listings.php:1151
+msgctxt "Admin"
+msgid "Listing: Classic / Large"
+msgstr ""
+
+#: admin/options/posts-listings.php:1158
+msgctxt "Admin"
+msgid "Listing: Grid / Masonry"
+msgstr ""
+
+#: admin/options/posts-listings.php:1165
+msgctxt "Admin"
+msgid "Listing: List Posts"
+msgstr ""
+
+#: admin/options/posts-listings.php:1174
+msgctxt "Admin"
+msgid "Post Listings & Blocks"
+msgstr ""
+
+#: admin/options/posts-single.php:9
+msgctxt "Admin"
+msgid "Default Post Style"
+msgstr ""
+
+#: admin/options/posts-single.php:15
+msgctxt "Admin"
+msgid "Creative - Overlay Style"
+msgstr ""
+
+#: admin/options/posts-single.php:31
+msgctxt "Admin"
+msgid "Single Post/Page Sidebar"
+msgstr ""
+
+#: admin/options/posts-single.php:46
+msgctxt "Admin"
+msgid "Crop featured image for consistent sizing. Does not apply to Cover and Creative style."
+msgstr ""
+
+#: admin/options/posts-single.php:83
+msgctxt "Admin"
+msgid "Show Post Tags"
+msgstr ""
+
+#: admin/options/posts-single.php:92
+msgctxt "Admin"
+msgid "Show Featured Image Area"
+msgstr ""
+
+#: admin/options/posts-single.php:94
+msgctxt "Admin"
+msgid "Stops displaying the featured image in large posts. Can also be set per post while adding/edit a post."
+msgstr ""
+
+#: admin/options/posts-single.php:100
+msgctxt "Admin"
+msgid "All Categories in Meta"
+msgstr ""
+
+#: admin/options/posts-single.php:102
+msgctxt "Admin"
+msgid "If unchecked, only the Primary Category is displayed."
+msgstr ""
+
+#: admin/options/posts-single.php:108
+msgctxt "Admin"
+msgid "Show Next/Previous Post"
+msgstr ""
+
+#: admin/options/posts-single.php:126
+msgctxt "Admin"
+msgid "Author Box"
+msgstr ""
+
+#: admin/options/posts-single.php:132
+msgctxt "Admin"
+msgid "Show Author Box"
+msgstr ""
+
+#: admin/options/posts-single.php:140
+msgctxt "Admin"
+msgid "Author Box Style"
+msgstr ""
+
+#: admin/options/posts-single.php:144
+msgctxt "Admin"
+msgid "Default / Auto"
+msgstr ""
+
+#: admin/options/posts-single.php:145
+msgctxt "Admin"
+msgid "Modern Style"
+msgstr ""
+
+#: admin/options/posts-single.php:146
+msgctxt "Admin"
+msgid "Classic Style"
+msgstr ""
+
+#: admin/options/posts-single.php:163
+msgctxt "Admin"
+msgid "Body Typography"
+msgstr ""
+
+#: admin/options/posts-single.php:175
+msgctxt "Admin"
+msgid "H1-H6 Typography"
+msgstr ""
+
+#: admin/options/posts-single.php:188
+msgctxt "Admin"
+msgid "Body Color"
+msgstr ""
+
+#: admin/options/posts-single.php:199
+msgctxt "Admin"
+msgid "Body Headings Color"
+msgstr ""
+
+#: admin/options/posts-single.php:200
+msgctxt "Admin"
+msgid "Does not affect post/page title. Only the h1-h6 within post body."
+msgstr ""
+
+#: admin/options/posts-single.php:213
+msgctxt "Admin"
+msgid "Heading Sizes"
+msgstr ""
+
+#: admin/options/posts-single.php:221
+msgctxt "Admin"
+msgid "Post Body H1"
+msgstr ""
+
+#: admin/options/posts-single.php:235
+msgctxt "Admin"
+msgid "Post Body H2"
+msgstr ""
+
+#: admin/options/posts-single.php:248
+msgctxt "Admin"
+msgid "Post Body H3"
+msgstr ""
+
+#: admin/options/posts-single.php:261
+msgctxt "Admin"
+msgid "Post Body H4"
+msgstr ""
+
+#: admin/options/posts-single.php:274
+msgctxt "Admin"
+msgid "Post Body H5"
+msgstr ""
+
+#: admin/options/posts-single.php:287
+msgctxt "Admin"
+msgid "Post Body H6"
+msgstr ""
+
+#: admin/options/posts-single.php:309
+msgctxt "Admin"
+msgid "Bottom Social Share"
+msgstr ""
+
+#: admin/options/posts-single.php:316
+msgctxt "Admin"
+msgid "Show Share Buttons"
+msgstr ""
+
+#: admin/options/posts-single.php:325
+#: admin/options/posts-single.php:386
+msgctxt "Admin"
+msgid "Share Services"
+msgstr ""
+
+#: admin/options/posts-single.php:337
+#: admin/options/posts-single.php:398
+msgctxt "Admin"
+msgid "Email"
+msgstr ""
+
+#: admin/options/posts-single.php:348
+msgctxt "Admin"
+msgid "Sticky Social Share"
+msgstr ""
+
+#: admin/options/posts-single.php:355
+msgctxt "Admin"
+msgid "Enable Sticky Social Buttons"
+msgstr ""
+
+#: admin/options/posts-single.php:364
+msgctxt "Admin"
+msgid "Share Text"
+msgstr ""
+
+#: admin/options/posts-single.php:374
+msgctxt "Admin"
+msgid "Share Style"
+msgstr ""
+
+#: admin/options/posts-single.php:378
+msgctxt "Admin"
+msgid "Squares"
+msgstr ""
+
+#: admin/options/posts-single.php:379
+msgctxt "Admin"
+msgid "Circles"
+msgstr ""
+
+#: admin/options/posts-single.php:411
+msgctxt "Admin"
+msgid "Show Related Posts"
+msgstr ""
+
+#: admin/options/posts-single.php:420
+msgctxt "Admin"
+msgid "Related Posts Match By"
+msgstr ""
+
+#: admin/options/posts-single.php:425
+msgctxt "Admin"
+msgid "Categories"
+msgstr ""
+
+#: admin/options/posts-single.php:426
+msgctxt "Admin"
+msgid "Tags"
+msgstr ""
+
+#: admin/options/posts-single.php:427
+msgctxt "Admin"
+msgid "Both"
+msgstr ""
+
+#: admin/options/posts-single.php:435
+msgctxt "Admin"
+msgid "Related Posts Number"
+msgstr ""
+
+#: admin/options/posts-single.php:444
+msgctxt "Admin"
+msgid "Number on Full Width Posts"
+msgstr ""
+
+#: admin/options/posts-single.php:454
+msgctxt "Admin"
+msgid "Related Posts Columns"
+msgstr ""
+
+#: admin/options/posts-single.php:459
+msgctxt "Admin"
+msgid "3 Columns"
+msgstr ""
+
+#: admin/options/posts-single.php:460
+msgctxt "Admin"
+msgid "2 Columns"
+msgstr ""
+
+#: admin/options/posts-single.php:511
+msgctxt "Admin"
+msgid "Enable Parallax?"
+msgstr ""
+
+#: admin/options/posts-single.php:519
+msgctxt "Admin"
+msgid "Featured Area Height"
+msgstr ""
+
+#: admin/options/posts-single.php:531
+#: admin/options/posts-sliders.php:55
+#: admin/options/posts-sliders.php:93
+msgctxt "Admin"
+msgid "Overlay Opacity"
+msgstr ""
+
+#: admin/options/posts-single.php:544
+msgctxt "Admin"
+msgid "Overlay Color"
+msgstr ""
+
+#: admin/options/posts-single.php:567
+msgctxt "Admin"
+msgid "Single Post Page"
+msgstr ""
+
+#: admin/options/posts-single.php:572
+msgctxt "Admin"
+msgid "General & Post Style"
+msgstr ""
+
+#: admin/options/posts-single.php:577
+msgctxt "Admin"
+msgid "Design - Single Post / Page"
+msgstr ""
+
+#: admin/options/posts-single.php:582
+msgctxt "Admin"
+msgid "Social Sharing"
+msgstr ""
+
+#: admin/options/posts-single.php:587
+msgctxt "Admin"
+msgid "Related Posts"
+msgstr ""
+
+#: admin/options/posts-single.php:592
+msgctxt "Admin"
+msgid "Post Style: Default"
+msgstr ""
+
+#: admin/options/posts-single.php:598
+msgctxt "Admin"
+msgid "Post Style: Creative"
+msgstr ""
+
+#: admin/options/posts-sliders.php:18
+msgctxt "Admin"
+msgid "Titles/Headings Typography"
+msgstr ""
+
+#: admin/options/posts-sliders.php:35
+msgctxt "Admin"
+msgid "Beauty Slider"
+msgstr ""
+
+#: admin/options/posts-sliders.php:43
+#: admin/options/posts-sliders.php:81
+msgctxt "Admin"
+msgid "Overlay Background"
+msgstr ""
+
+#: admin/options/posts-sliders.php:73
+msgctxt "Admin"
+msgid "Trendy Slider"
+msgstr ""
+
+#: admin/options/posts-sliders.php:106
+#: admin/options/posts-sliders.php:144
+#: admin/options/posts-sliders.php:182
+#: admin/options/posts-sliders.php:220
+#: admin/options/posts-sliders.php:258
+msgctxt "Admin"
+msgid "Post Title"
+msgstr ""
+
+#: admin/options/posts-sliders.php:125
+msgctxt "Admin"
+msgid "Fashion Slider"
+msgstr ""
+
+#: admin/options/posts-sliders.php:133
+#: admin/options/posts-sliders.php:171
+#: admin/options/posts-sliders.php:209
+#: admin/options/posts-sliders.php:247
+msgctxt "Admin"
+msgid "Overlay Color & Opacity"
+msgstr ""
+
+#: admin/options/posts-sliders.php:163
+msgctxt "Admin"
+msgid "Stylish Slider"
+msgstr ""
+
+#: admin/options/posts-sliders.php:201
+msgctxt "Admin"
+msgid "Classic Slider"
+msgstr ""
+
+#: admin/options/posts-sliders.php:239
+msgctxt "Admin"
+msgid "Bold/Full-Width Slider"
+msgstr ""
+
+#: admin/options/posts-sliders.php:284
+msgctxt "Admin"
+msgid "Featured Sliders"
+msgstr ""
+
+#: admin/options/privacy-gdpr.php:26
+msgctxt "Admin"
+msgid "EU GDPR & Privacy"
+msgstr ""
+
+#: admin/options/tests.php:85
+msgctxt "Admin"
+msgid "Group test"
+msgstr ""
+
+#: admin/options/tests.php:93
+msgctxt "Admin"
+msgid "Group test 2"
+msgstr ""
+
+#: admin/options/tests.php:102
+msgctxt "Admin"
+msgid "Toggle Parent"
+msgstr ""
+
+#: admin/options/tests.php:113
+msgctxt "Admin"
+msgid "Toggle Child + Context"
+msgstr ""
+
+#: admin/options/tests.php:131
+msgctxt "Admin"
+msgid "Toggle disabled"
+msgstr ""
+
+#: admin/options/tests.php:149
+msgctxt "Admin"
+msgid "Enable Something Else"
+msgstr ""
+
+#: admin/options/tests.php:176
+msgctxt "Admin"
+msgid "Inline-SM"
+msgstr ""
+
+#: admin/options/tests.php:188
+msgctxt "Admin"
+msgid "Inline-SM 2"
+msgstr ""
+
+#: admin/options/tests.php:199
+msgctxt "Admin"
+msgid "Inline"
+msgstr ""
+
+#: admin/options/tests.php:213
+msgctxt "Admin"
+msgid "Inline 2"
+msgstr ""
+
+#: admin/options/tests.php:242
+msgctxt "Admin"
+msgid "Enable Something Here 1"
+msgstr ""
+
+#: admin/options/tests.php:254
+msgctxt "Admin"
+msgid "Enable Something Else 1"
+msgstr ""
+
+#: admin/options/tests.php:289
+msgctxt "Admin"
+msgid "Padding"
+msgstr ""
+
+#: archive.php:35
+#: woocommerce.php:45
+#: woocommerce.php:48
+msgid "Browsing"
+msgstr ""
+
+#: archive.php:36
+msgid "Archive"
+msgstr ""
+
+#: archive.php:53
+msgid "Tag"
+msgstr ""
+
+#: archive.php:67
+msgid "Category"
+msgstr ""
+
+#: archive.php:82
+#: inc/theme.php:1029
+#: partials/header/layout-simple.php:51
+#: partials/header/top-bar-b.php:102
+#: partials/header/top-bar-b.php:109
+#: partials/header/top-bar.php:83
+msgid "Search"
+msgstr ""
+
+#: archive.php:83
+msgid "%s Results"
+msgstr ""
+
+#: archive.php:96
+#: partials/author-box.php:14
+msgid "Author"
+msgstr ""
+
+#: comments.php:25
+msgid "Comments"
+msgstr ""
+
+#: comments.php:26
+msgid "%s Comment"
+msgstr ""
+
+#: comments.php:27
+msgid "%s Comments"
+msgstr ""
+
+#: comments.php:46
+#: partials/mega-menu.php:100
+#: partials/pagination.php:41
+msgid "Previous"
+msgstr ""
+
+#: comments.php:47
+#: partials/mega-menu.php:101
+#: partials/pagination.php:42
+msgid "Next"
+msgstr ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:72
+msgctxt "Comment Form"
+msgid "Enter your comment here.."
+msgstr ""
+
+#: comments.php:78
+msgid "Logged in as %1$s. %2$s"
+msgstr ""
+
+#: comments.php:80
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:80
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:89
+msgctxt "Comment Form"
+msgid "Name"
+msgstr ""
+
+#: comments.php:95
+msgctxt "Comment Form"
+msgid "Email"
+msgstr ""
+
+#: comments.php:102
+msgctxt "Comment Form"
+msgid "Website"
+msgstr ""
+
+#: comments.php:127
+msgid "Write A Comment"
+msgstr ""
+
+#: comments.php:128
+msgid "Reply To %s"
+msgstr ""
+
+#: comments.php:138
+msgctxt "Comment Form"
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:140
+msgctxt "Comment Form"
+msgid "Cancel Reply"
+msgstr ""
+
+#: content-large-b.php:72
+msgctxt "Post Meta"
+msgid "%1$sBy%2$s %3$s"
+msgstr ""
+
+#: content-large.php:75
+#: partials/slider-bold.php:54
+msgctxt "Post Meta"
+msgid "by %s"
+msgstr ""
+
+#: footer.php:61
+#: partials/footer/layout-bold.php:98
+#: partials/footer/layout-classic.php:54
+#: partials/footer/layout-stylish-b.php:98
+#: partials/footer/layout-stylish.php:96
+msgid "Top"
+msgstr ""
+
+#: functions.php:33
+msgctxt "Admin"
+msgid "CheerUp requires %1$sPHP 5.6+%2$s same as requirement of latest WordPress. Please ask your webhost to upgrade to at least PHP 5.6. Recommended: %1$sPHP 7+%2$s%3$s"
+msgstr ""
+
+#: inc/admin.php:68
+msgctxt "Admin"
+msgid "Sphere Core"
+msgstr ""
+
+#: inc/admin.php:76
+msgctxt "Admin"
+msgid "CheerUp Core"
+msgstr ""
+
+#: inc/admin.php:84
+msgctxt "Admin"
+msgid "Bunyad Widget for Instagram"
+msgstr ""
+
+#: inc/admin.php:92
+msgctxt "Admin"
+msgid "WPBakery Page Builder (Required for Magazine)"
+msgstr ""
+
+#: inc/admin.php:100
+msgctxt "Admin"
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin.php:106
+msgctxt "Admin"
+msgid "Easy GDPR Consent Forms for MailChimp"
+msgstr ""
+
+#: inc/admin.php:113
+msgctxt "Admin"
+msgid "Self-Hosted Google Fonts"
+msgstr ""
+
+#: inc/admin.php:120
+msgctxt "Admin"
+msgid "Bunyad AMP"
+msgstr ""
+
+#: inc/admin.php:130
+msgctxt "Admin"
+msgid "WP Recipe Maker"
+msgstr ""
+
+#: inc/admin/dashboard.php:213
+msgctxt "Admin"
+msgid "The Bunyad Demo Import plugin is not installed. Please activate it from Appearance > Install Plugins."
+msgstr ""
+
+#: inc/admin/editor.php:38
+msgctxt "Admin"
+msgid "small"
+msgstr ""
+
+#: inc/admin/editor.php:39
+msgctxt "Admin"
+msgid "S"
+msgstr ""
+
+#: inc/admin/editor.php:44
+msgctxt "Admin"
+msgid "regular"
+msgstr ""
+
+#: inc/admin/editor.php:45
+msgctxt "Admin"
+msgid "M"
+msgstr ""
+
+#: inc/admin/editor.php:50
+msgctxt "Admin"
+msgid "large"
+msgstr ""
+
+#: inc/admin/editor.php:51
+msgctxt "Admin"
+msgid "L"
+msgstr ""
+
+#: inc/admin/editor.php:56
+msgctxt "Admin"
+msgid "larger"
+msgstr ""
+
+#: inc/admin/editor.php:57
+msgctxt "Admin"
+msgid "XL"
+msgstr ""
+
+#: inc/admin/import.php:231
+msgctxt "Admin"
+msgid "Bunyad Demo Import"
+msgstr ""
+
+#: inc/admin/import.php:239
+msgctxt "Admin"
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/admin/import.php:421
+msgctxt "Admin"
+msgid "You can import demo settings or full demo content from %1$s this page %2$s."
+msgstr ""
+
+#: inc/admin/import.php:431
+msgctxt "Admin"
+msgid "Please install and activate the required plugin \"Bunyad Demo Import\" from %1$sthis page%2$s."
+msgstr ""
+
+#: inc/customizer.php:283
+msgctxt "Admin"
+msgid "Site Background Image"
+msgstr ""
+
+#: inc/customizer.php:907
+msgctxt "Admin"
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer.php:919
+msgctxt "Admin"
+msgid "Size"
+msgstr ""
+
+#: inc/customizer.php:937
+msgctxt "Admin"
+msgid "Line Height"
+msgstr ""
+
+#: inc/customizer.php:955
+msgctxt "Admin"
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/customizer.php:973
+msgctxt "Admin"
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customizer.php:987
+msgctxt "Admin"
+msgid "Font Style"
+msgstr ""
+
+#: inc/customizer.php:1000
+msgctxt "Admin"
+msgid "Transform"
+msgstr ""
+
+#: inc/customizer/controls/base-trait.php:109
+msgctxt "Admin"
+msgid "Apply to large screens only."
+msgstr ""
+
+#: inc/customizer/controls/dimensions.php:69
+msgctxt "Admin"
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/controls/dimensions.php:83
+msgctxt "Admin"
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/controls/dimensions.php:94
+msgctxt "Admin"
+msgid "Link Values"
+msgstr ""
+
+#: inc/customizer/controls/font-family.php:53
+msgctxt "Admin"
+msgid "Sans-Serif Stack"
+msgstr ""
+
+#: inc/customizer/controls/font-family.php:58
+msgctxt "Admin"
+msgid "Serif Stack"
+msgstr ""
+
+#: inc/customizer/controls/font-family.php:63
+msgctxt "Admin"
+msgid "Helvetica"
+msgstr ""
+
+#: inc/customizer/controls/font-family.php:68
+msgctxt "Admin"
+msgid "Georgia"
+msgstr ""
+
+#: inc/customizer/controls/group.php:61
+msgctxt "Admin"
+msgid "Show Panel"
+msgstr ""
+
+#: inc/customizer/controls/select.php:39
+#: inc/customizer/controls/select.php:44
+msgctxt "Admin"
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer/controls/select.php:40
+msgctxt "Admin"
+msgid "Italic"
+msgstr ""
+
+#: inc/customizer/controls/select.php:45
+msgctxt "Admin"
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/controls/select.php:46
+msgctxt "Admin"
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/controls/select.php:47
+msgctxt "Admin"
+msgid "Capitalize"
+msgstr ""
+
+#: inc/galleries.php:73
+msgctxt "Admin"
+msgid "Special Gallery?"
+msgstr ""
+
+#: inc/galleries.php:76
+msgctxt "Admin"
+msgid "1+2 Columns (1 Full, 2 Half Width)"
+msgstr ""
+
+#: inc/helpers.php:240
+msgctxt "breadcrumbs"
+msgid "Home"
+msgstr ""
+
+#: inc/helpers.php:241
+msgctxt "breadcrumbs"
+msgid "Category: \"%s\""
+msgstr ""
+
+#: inc/helpers.php:242
+msgctxt "breadcrumbs"
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: inc/helpers.php:243
+msgctxt "breadcrumbs"
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: inc/helpers.php:244
+msgctxt "breadcrumbs"
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/helpers.php:245
+msgctxt "breadcrumbs"
+msgid "Error 404"
+msgstr ""
+
+#: inc/helpers.php:246
+msgctxt "breadcrumbs"
+msgid "Author: %s"
+msgstr ""
+
+#: inc/helpers.php:247
+msgctxt "breadcrumbs"
+msgid " (Page %d)"
+msgstr ""
+
+#: inc/helpers.php:585
+msgid "In"
+msgstr ""
+
+#: inc/helpers.php:636
+msgctxt "Post Meta"
+msgid "%sBy%s"
+msgstr ""
+
+#: inc/helpers.php:656
+msgid "%d Min Read"
+msgid_plural "%d Mins Read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/helpers.php:746
+msgctxt "search"
+msgid "Search"
+msgstr ""
+
+#: inc/likes.php:36
+msgid "You already liked this post. Thank You!"
+msgstr ""
+
+#: inc/skins/legacy.php:27
+msgid "Keep Reading"
+msgstr ""
+
+#: inc/skins/legacy.php:32
+#: partials/slider-large.php:41
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/social.php:21
+msgctxt "Admin"
+msgid "Social Counters"
+msgstr ""
+
+#: inc/social.php:75
+#: partials/author-box-b.php:31
+#: partials/author-box.php:32
+msgid "BlogLovin"
+msgstr ""
+
+#: inc/social.php:80
+msgid "RSS"
+msgstr ""
+
+#: inc/social.php:85
+msgid "Google Plus"
+msgstr ""
+
+#: inc/social.php:95
+msgid "Dribbble"
+msgstr ""
+
+#: inc/social.php:110
+msgid "Flickr"
+msgstr ""
+
+#: inc/social.php:115
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/social.php:125
+msgid "Last.fm"
+msgstr ""
+
+#: inc/social.php:130
+msgid "Steam"
+msgstr ""
+
+#: inc/theme.php:90
+msgctxt "Admin"
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/theme.php:91
+msgctxt "Admin"
+msgid "Mobile Menu (Optional)"
+msgstr ""
+
+#: inc/theme.php:95
+msgctxt "Admin"
+msgid "Topbar Menu (Optional)"
+msgstr ""
+
+#: inc/theme.php:100
+msgctxt "Admin"
+msgid "Footer Links (Bold Footer Only)"
+msgstr ""
+
+#: inc/theme.php:582
+msgctxt "Admin"
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/theme.php:584
+msgctxt "Admin"
+msgid "Widgets in this area will be shown in the default sidebar."
+msgstr ""
+
+#: inc/theme.php:593
+msgctxt "Admin"
+msgid "Split Sidebar - Top"
+msgstr ""
+
+#: inc/theme.php:595
+msgctxt "Admin"
+msgid "For when using Assorted home-page only - top part of the split."
+msgstr ""
+
+#: inc/theme.php:604
+msgctxt "Admin"
+msgid "Home Call To Action Boxes"
+msgstr ""
+
+#: inc/theme.php:606
+msgctxt "Admin"
+msgid "Use the \"CheerUp - Call To Action\" in this area to show CTAs below slider."
+msgstr ""
+
+#: inc/theme.php:615
+msgctxt "Admin"
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/theme.php:617
+msgctxt "Admin"
+msgid "Add three widgets for the footer area. (Optional)"
+msgstr ""
+
+#: inc/theme.php:628
+msgctxt "Admin"
+msgid "Footer Instagram"
+msgstr ""
+
+#: inc/theme.php:630
+msgctxt "Admin"
+msgid "Simply add a single widget using \"WP Instagram Widget\" plugin. (Optional)"
+msgstr ""
+
+#: inc/theme.php:1034
+#: partials/header/layout-simple.php:57
+msgid "Type and press enter"
+msgstr ""
+
+#: inc/woocommerce.php:175
+msgctxt "Admin"
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce.php:177
+msgctxt "Admin"
+msgid "Widgets in this area will be shown in the default sidebar on Shop page."
+msgstr ""
+
+#: inc/woocommerce.php:225
+msgctxt "woocommerce"
+msgid "Your Rating:"
+msgstr ""
+
+#: inc/woocommerce.php:226
+msgctxt "woocommerce"
+msgid "Rate&hellip;"
+msgstr ""
+
+#: inc/woocommerce.php:227
+msgctxt "woocommerce"
+msgid "Perfect"
+msgstr ""
+
+#: inc/woocommerce.php:228
+msgctxt "woocommerce"
+msgid "Good"
+msgstr ""
+
+#: inc/woocommerce.php:229
+msgctxt "woocommerce"
+msgid "Average"
+msgstr ""
+
+#: inc/woocommerce.php:230
+msgctxt "woocommerce"
+msgid "Not that bad"
+msgstr ""
+
+#: inc/woocommerce.php:231
+msgctxt "woocommerce"
+msgid "Very Poor"
+msgstr ""
+
+#: inc/woocommerce.php:237
+msgctxt "woocommerce"
+msgid "Add a review"
+msgstr ""
+
+#: inc/woocommerce.php:237
+msgctxt "woocommerce"
+msgid "Be the first to review"
+msgstr ""
+
+#: inc/woocommerce.php:242
+msgctxt "woocommerce"
+msgid "Name"
+msgstr ""
+
+#: inc/woocommerce.php:246
+msgctxt "woocommerce"
+msgid "Email"
+msgstr ""
+
+#: inc/woocommerce.php:252
+msgctxt "woocommerce"
+msgid "Your Review"
+msgstr ""
+
+#: inc/woocommerce.php:340
+msgid "View Cart"
+msgstr ""
+
+#: inc/woocommerce.php:345
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/woocommerce.php:417
+msgctxt "woocommerce"
+msgid "Qty"
+msgstr ""
+
+#: inc/woocommerce.php:425
+msgctxt "woocommerce"
+msgid "Price"
+msgstr ""
+
+#: inc/woocommerce.php:433
+msgctxt "woocommerce"
+msgid "Total"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Homepage / Visual Composer"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr ""
+
+#: partials/author-box-b.php:24
+#: partials/author-box.php:25
+msgid "Website"
+msgstr ""
+
+#: partials/author-box-b.php:33
+#: partials/author-box.php:34
+msgid "Dribble"
+msgstr ""
+
+#: partials/blocks/vc-templates/vc_widget_sidebar.php:35
+msgctxt "Admin"
+msgid "Edit this block and set a valid sidebar."
+msgstr ""
+
+#: partials/comment.php:30
+msgid "Pingback:"
+msgstr ""
+
+#: partials/comment.php:31
+#: partials/comment.php:71
+msgid "Edit"
+msgstr ""
+
+#: partials/comment.php:53
+msgid "Post Author"
+msgstr ""
+
+#: partials/comment.php:67
+msgid "%s ago"
+msgstr ""
+
+#: partials/comment.php:90
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: partials/home/block-shop.php:13
+msgid "From The Shop"
+msgstr ""
+
+#: partials/home/block-shop.php:19
+msgid "More Products"
+msgstr ""
+
+#: partials/home/block-subscribe.php:14
+msgid "Your name.."
+msgstr ""
+
+#: partials/home/block-subscribe.php:15
+msgid "Your email.."
+msgstr ""
+
+#: partials/mega-menu.php:41
+msgid "View All"
+msgstr ""
+
+#: partials/no-results.php:8
+msgid "Nothing Found!"
+msgstr ""
+
+#: partials/no-results.php:9
+msgid "Apologies, but no results were found for the requested archive. Try using the search with a relevant phrase to find the post you are looking for."
+msgstr ""
+
+#: partials/pagination.php:29
+msgid "Older Posts"
+msgstr ""
+
+#: partials/pagination.php:30
+msgid "Newer Posts"
+msgstr ""
+
+#: partials/pagination.php:80
+msgid "Load More"
+msgstr ""
+
+#: partials/search-modal.php:28
+msgctxt "search"
+msgid "Search..."
+msgstr ""
+
+#: partials/single/post-navigation.php:20
+#: partials/single/post-navigation.php:31
+msgid "Prev Post"
+msgstr ""
+
+#: partials/single/post-navigation.php:63
+#: partials/single/post-navigation.php:74
+msgid "Next Post"
+msgstr ""
+
+#: partials/single/related-posts.php:45
+msgid "Related Posts"
+msgstr ""
+
+#: searchform.php:7
+msgctxt "search"
+msgid "Type and hit enter..."
+msgstr ""
+
+#: searchform.php:22
+#: searchform.php:24
+#: searchform.php:32
+msgctxt "search"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:46
+msgid "Submit"
+msgstr ""
+
+#: searchform.php:51
+msgid "Type above and press %1$sEnter%2$s to search. Press %1$sEsc%2$s to cancel."
+msgstr ""
+
+#: woocommerce/page.php:11
+msgctxt "woocommerce"
+msgid "Browsing"
+msgstr ""
+
+#: woocommerce/page.php:15
+msgctxt "woocommerce"
+msgid "Viewing"
+msgstr ""
+
+#: woocommerce/page.php:16
+msgctxt "woocommerce"
+msgid "Shopping"
+msgstr ""
+
+#: woocommerce/page.php:20
+msgctxt "woocommerce"
+msgid "Finishing"
+msgstr ""
+
+#: woocommerce/page.php:24
+msgctxt "woocommerce"
+msgid "Account"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:21
+msgctxt "woocommerce"
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:22
+msgctxt "woocommerce"
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:27
+msgctxt "woocommerce"
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:29
+msgctxt "woocommerce"
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""

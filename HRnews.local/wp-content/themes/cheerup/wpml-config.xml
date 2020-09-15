@@ -1,0 +1,20 @@
+<wpml-config>
+  <custom-fields>
+	 <custom-field action="copy">_bunyad_layout_style</custom-field>
+	 <custom-field action="copy">_bunyad_layout_template</custom-field>
+	 <custom-field action="copy">_bunyad_cat_label</custom-field>
+	 <custom-field action="copy">_bunyad_featured_disable</custom-field>
+	 <custom-field action="copy">_bunyad_featured_video</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="cheerup_theme_options">
+	  <key name="post_read_more_text" />
+	  <key name="home_carousel_title" />
+  	  <key name="home_subscribe_label" />
+	  <key name="footer_copyright" />
+	  <key name="topbar_ticker_text" />
+	  <key name="page_404_title" />
+	  <key name="page_404_text" />
+    </key>
+  </admin-texts>
+</wpml-config>

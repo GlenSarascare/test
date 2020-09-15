@@ -1,0 +1,227 @@
+# Copyright (C) 2020 JNews Split
+# This file is distributed under the same license as the JNews Split package.
+msgid ""
+msgstr ""
+"Project-Id-Version: JNews Split\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;jnews_print_translation;jnews_return_translation\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wordpress/jnews-split/split-option.php:12
+msgid "Post Split Loader Style"
+msgstr ""
+
+#: wordpress/jnews-split/split-option.php:13
+msgid "Choose loader style for post split."
+msgstr ""
+
+#: wordpress/jnews-split/split-option.php:15
+msgid "Dot"
+msgstr ""
+
+#: wordpress/jnews-split/split-option.php:16
+msgid "Circle"
+msgstr ""
+
+#: wordpress/jnews-split/split-option.php:17
+msgid "Square"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:13
+msgid "Enable Post Split on this Post"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:14
+msgid "Enable post split on this page. Please don't use this feature with WordPress <!--nextpage-->. This plugin will only get first matched tag criteria (on same wrapper). If you have multiple row / column or child with tag that build by page builder, it will be ignored."
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:22, wordpress/jnews-split/metabox/post-split.php:23
+msgid "Post Split Option"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:35
+msgid "Post Split Template"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:36
+msgid "Choose post split template"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:42
+msgid "Split Post Template 1"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:47
+msgid "Split Post Template 2"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:52
+msgid "Split Post Template 3"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:57
+msgid "Split Post Template 4"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:62
+msgid "Split Post Template 5"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:67
+msgid "Split Post Template 6"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:72
+msgid "Split Post Template 7"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:77
+msgid "Split Post Template 8"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:82
+msgid "Split Post Template 9"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:87
+msgid "Split Post Template 10"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:92
+msgid "Split Post Template 11"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:97
+msgid "Split Post Template 12"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:102
+msgid "Split Post Template 13"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:107
+msgid "Split Post Template 14"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:112
+msgid "Split Post Template 15"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:117
+msgid "Split Post Template 16"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:122
+msgid "Split Post Template 17"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:127
+msgid "Split Post Template 18"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:132
+msgid "Split Post Template 19"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:137
+msgid "Split Post Template 20"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:149
+msgid "Split Post by using this Tag"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:150
+msgid "Your post will be split with this header as their mark"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:153
+msgid "Heading 1 ( H1 Tag )"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:154
+msgid "Heading 2 ( H2 Tag )"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:155
+msgid "Heading 3 ( H3 Tag )"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:156
+msgid "Heading 4 ( H4 Tag )"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:157
+msgid "Heading 5 ( H5 Tag )"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:158
+msgid "Heading 6 ( H6 Tag )"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:165
+msgid "Split Header Numbering"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:166
+msgid "Choose how your split page number used"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:169
+msgid "Descending (ex : 3, 2, 1)"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:170
+msgid "Ascending (ex : 1, 2, 3)"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:177
+msgid "Load Mode for Post Split"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:178
+msgid "Choose your how your post split will load"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:181
+msgid "Normal Load"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:182
+msgid "Load All Content"
+msgstr ""
+
+#: wordpress/jnews-split/metabox/post-split.php:183
+msgid "Load Content with Ajax"
+msgstr ""
+
+#: wordpress/jnews-split/type/class.jnews-split-type-1.php:28
+msgid "Jump to section"
+msgstr ""
+
+#: wordpress/jnews-split/type/class.jnews-split-type-1.php:40, wordpress/jnews-split/type/class.jnews-split-type-16.php:52, wordpress/jnews-split/type/class.jnews-split-type-19.php:52, wordpress/jnews-split/type/class.jnews-split-type-abstract.php:276
+msgid "Page %s of %s"
+msgstr ""
+
+#: wordpress/jnews-split/type/class.jnews-split-type-1.php:62, wordpress/jnews-split/type/class.jnews-split-type-2.php:69, wordpress/jnews-split/type/class.jnews-split-type-3.php:39, wordpress/jnews-split/type/class.jnews-split-type-4.php:36, wordpress/jnews-split/type/class.jnews-split-type-4.php:79, wordpress/jnews-split/type/class.jnews-split-type-5.php:75
+msgid "Previous"
+msgstr ""
+
+#: wordpress/jnews-split/type/class.jnews-split-type-1.php:66, wordpress/jnews-split/type/class.jnews-split-type-2.php:77, wordpress/jnews-split/type/class.jnews-split-type-3.php:42, wordpress/jnews-split/type/class.jnews-split-type-4.php:39, wordpress/jnews-split/type/class.jnews-split-type-4.php:87, wordpress/jnews-split/type/class.jnews-split-type-5.php:83
+msgid "Next"
+msgstr ""
+
+#: wordpress/jnews-split/type/class.jnews-split-type-abstract.php:286
+msgid "Page %s"
+msgstr ""
+
+#: wordpress/jnews-split/type/class.jnews-split-type-list.php:68
+msgid "of"
+msgstr ""

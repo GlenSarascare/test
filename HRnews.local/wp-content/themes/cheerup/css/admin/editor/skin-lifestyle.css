@@ -1,0 +1,153 @@
+/**
+ * Change Main Color
+ */
+:root {
+  --base-aa: initial;
+  --black-color: #454545;
+  --topbar-height: 48px;
+  --nav-text: 11px;
+  --nav-items-space: 21px;
+  --nav-drop-color: #535353;
+  --share-icons-size: 13px;
+  --section-head-size: 12px;
+  --section-head-ls: 0.04em;
+  --post-title-size: 25px;
+  --grid-post-title: 23px;
+  --list-post-title: 23px;
+  --list-post-title-b: 24px;
+  --overlay-post-title: 22px;
+  --carousel-post-title: 17px;
+  --feat-grid-title-l: 31px;
+  --feat-grid-title-m: 24px;
+  --single-content-size: var(--text-size);
+  --post-content-lh: 2;
+  --p-media-margin: 33px;
+  --w-posts-title-large: 16px;
+  --blockquote-font: "Merriweather", Georgia, serif;
+}
+
+:root {
+  --body-font: Nunito Sans, system-ui, sans-serif;
+  --base-aa: antialiased;
+  --title-font: HK Grotesk, system-ui, sans-serif;
+  --alt-font: HK Grotesk, system-ui, sans-serif;
+  --text-h-font: var(--title-font);
+  --text-size: 15px;
+  --single-content-size: 17px;
+  --post-content-size: 15px;
+  --text-lh: 1.7;
+  --post-content-lh: 1.71;
+  --title-size-xs: 15px;
+  --single-title-size: 27px;
+  --large-post-title: 27px;
+  --grid-post-title: 22px;
+  --list-post-title: 22px;
+  --list-post-title-b: 22px;
+  --related-posts-title: 17px;
+  --related-posts-2-title: 19px;
+  --title-size-xs: 15px;
+  --nav-text-ls: 0.05em;
+  --nav-text: 13px;
+  --nav-text-weight: 600;
+  --nav-drop-color: #414141;
+  --nav-drop-text: 12px;
+  --nav-drop-ls: 0.09em;
+  --blockquote-font: "IBM Plex Serif", Georgia, serif;
+  --main-color: #e84d15;
+  --main-color-rgb: 232, 77, 21;
+  --text-color: #292929;
+  --black-color: #292929;
+  --tags-color: #454545;
+  --share-icons-color: #161616;
+}
+
+.editor-styles-wrapper,
+.block-editor-block-list__layout {
+  -webkit-font-smoothing: initial;
+  color: #3b3b3b;
+}
+
+.editor-styles-wrapper blockquote,
+.block-editor-block-list__layout blockquote {
+  color: #555;
+}
+
+.editor-styles-wrapper .modern-quote,
+.editor-styles-wrapper .wp-block-quote.is-style-large,
+.block-editor-block-list__layout .modern-quote,
+.block-editor-block-list__layout .wp-block-quote.is-style-large {
+  color: #000;
+}
+
+@media (min-width: 1201px), (-mqpacker: on) {
+  .editor-styles-wrapper .modern-quote,
+  .editor-styles-wrapper .wp-block-quote.is-style-large,
+  .block-editor-block-list__layout .modern-quote,
+  .block-editor-block-list__layout .wp-block-quote.is-style-large {
+    font-size: 27px;
+  }
+}
+
+.editor-styles-wrapper .wp-block-pullquote,
+.block-editor-block-list__layout .wp-block-pullquote {
+  color: #000;
+}
+
+.editor-styles-wrapper blockquote,
+.block-editor-block-list__layout blockquote {
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.editor-styles-wrapper h1,
+.block-editor-block-list__layout h1 {
+  font-size: 29px;
+}
+
+.editor-styles-wrapper h2,
+.block-editor-block-list__layout h2 {
+  font-size: 26px;
+}
+
+.editor-styles-wrapper h3,
+.block-editor-block-list__layout h3 {
+  font-size: 22px;
+}
+
+.editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3, .editor-styles-wrapper h4, .editor-styles-wrapper h5, .editor-styles-wrapper h6,
+.block-editor-block-list__layout h1,
+.block-editor-block-list__layout h2,
+.block-editor-block-list__layout h3,
+.block-editor-block-list__layout h4,
+.block-editor-block-list__layout h5,
+.block-editor-block-list__layout h6 {
+  font-weight: 700;
+}
+
+.editor-styles-wrapper .wp-block-image figcaption,
+.editor-styles-wrapper .wp-caption-text,
+.editor-styles-wrapper figcaption,
+.block-editor-block-list__layout .wp-block-image figcaption,
+.block-editor-block-list__layout .wp-caption-text,
+.block-editor-block-list__layout figcaption {
+  font-size: 14px;
+  font-style: normal;
+  color: #888;
+}
+
+.editor-styles-wrapper p,
+.block-editor-block-list__layout p {
+  margin-bottom: 1.65em;
+}
+
+.editor-styles-wrapper p,
+.block-editor-block-list__layout p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.main-pagination.number,
+.widget_calendar tfoot a {
+  text-transform: none;
+}

@@ -1,0 +1,71 @@
+  section #origincode_videogallery #fullPreview {
+    background-color: #333333;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    padding: 50px 0 30px 0;
+    display: none; }
+    section #origincode_videogallery #fullPreview img,
+    section #origincode_videogallery #fullPreview .fullCaption {
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      display: block; }
+    section #origincode_videogallery #fullPreview .fullCaption {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      line-height: 15px;
+      font-weight: 300;
+      color: white;
+      margin: 15px auto 0 auto; }
+    section #origincode_videogallery #fullPreview figure {
+      background-image: url("../img/effects/close.png");
+      background-size: 100%;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      cursor: pointer; }
+  section #origincode_videogallery li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+	}
+
+      section #origincode_videogallery li a.spinner {
+        background-size: 100%;
+        background-image: url("../img/effects/spinner.gif");
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 95px;
+        top: 60px; }
+    section #origincode_videogallery li img {
+      border: none;
+      margin: 10px 10px 0 0; }
+
+      section #origincode_videogallery li .overLayer ul,
+      section #origincode_videogallery li .infoLayer ul {
+        padding: 1px 0 0 0; }
+        section #origincode_videogallery li .overLayer ul li,
+        section #origincode_videogallery li .infoLayer ul li {
+          display: block;
+          margin: 0 auto;
+          width: 85%;
+          padding: 0 0 5px 0; }
+          section #origincode_videogallery li .overLayer ul li:first-child,
+          section #origincode_videogallery li .infoLayer ul li:first-child {
+            border-bottom: 2px white solid; }
+          section #origincode_videogallery li .overLayer ul li:last-child,
+          section #origincode_videogallery li .infoLayer ul li:last-child {
+            padding: 5px 0 0 0;
+            text-transform: lowercase; }
+
+    section #origincode_videogallery li .projectInfo {
+      display: none; }
+	
+	#origincode_gallery li .overLayer ul, section #origincode_videogallery li .infoLayer ul {
+		padding: 0px;
+		margin: 0px;
+		margin-top: 10%;
+	}

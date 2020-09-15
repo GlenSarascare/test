@@ -1,0 +1,329 @@
+# Copyright (C) 2020 JNews Social Share
+# This file is distributed under the same license as the JNews Social Share package.
+msgid ""
+msgstr ""
+"Project-Id-Version: JNews Social Share\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;jnews_print_translation;jnews_return_translation\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:216
+msgid "VIEWS"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:238
+msgid "SHARES"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:548, wordpress/jnews-social-share/class.jnews-share-bar.php:556, wordpress/jnews-social-share/class.jnews-share-bar.php:564, wordpress/jnews-social-share/class.jnews-share-bar.php:568, wordpress/jnews-social-share/class.jnews-share-bar.php:572, wordpress/jnews-social-share/class.jnews-share-bar.php:576, wordpress/jnews-social-share/class.jnews-share-bar.php:591
+msgid "Share"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:552
+msgid "Tweet"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:560
+msgid "Pin"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:579
+msgid "Bookmark"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:582
+msgid "Scan"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-share-bar.php:585, wordpress/jnews-social-share/class.jnews-share-bar.php:588
+msgid "Send"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-social-option.php:51
+msgid "Social Bar, View & Like"
+msgstr ""
+
+#: wordpress/jnews-social-share/class.jnews-social-option.php:59
+msgid "Social Select & Share"
+msgstr ""
+
+#: wordpress/jnews-social-share/select-share-option.php:10
+msgid "Enable JNews Select & Share"
+msgstr ""
+
+#: wordpress/jnews-social-share/select-share-option.php:11
+msgid "Use JNews Select & Share on the article."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:13, wordpress/jnews-social-share/social-option.php:75
+msgid "View Counter Script"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:14, wordpress/jnews-social-share/social-option.php:76
+msgid ""
+"<ul>\n"
+"                        <li>Please choose view counter script on single page.</li>                        \n"
+"                        <li>Please be aware value of each counter script may be different.</li>\n"
+"                        <li>You will need to install one plugin of <strong>JNews - View Counter</strong> or <strong>Jetpack</strong> that based on option that you chosen below.</li>\n"
+"                        <li>We recommend you only to stick to one view counter script for more consistent result.</li>\n"
+"                    </ul>"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:24, wordpress/jnews-social-share/social-option.php:86
+msgid "JNews View Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:25, wordpress/jnews-social-share/social-option.php:87
+msgid "Jetpack View Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:65
+msgid "View Option"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:101
+msgid "Share Bar Social Icon"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:105
+msgid "Choose Share Network"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:106
+msgid "Facebook"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:107
+msgid "Twitter"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:108
+msgid "Linkedin"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:109
+msgid "Google+ ( Deprecated )"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:110
+msgid "Pinterest"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:111
+msgid "Stumbleupon"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:112
+msgid "Reddit"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:113
+msgid "Tumblr"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:114
+msgid "Whatsapp"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:115
+msgid "Telegram"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:116
+msgid "Vk"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:117
+msgid "QR Code"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:118
+msgid "Wechat"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:119
+msgid "Line"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:120
+msgid "Hatena"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:121
+msgid "Email"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:130
+msgid "Main Share Network"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:131
+msgid "Main share network will always show on your share post container. <br/>Fill share text if you need your share button to have share text on it, but leave it empty to make it look like default button."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:148
+msgid "Main Share Button"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:154, wordpress/jnews-social-share/social-option.php:196
+msgid "Share Network"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:160
+msgid "Share Text"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:178
+msgid "Secondary Share Network"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:179
+msgid "Secondary share network will not shown until user click plus (+) button on your share container."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:190
+msgid "Secondary Share"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:213
+msgid "Share Bar Setting Detail"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:223
+msgid "Social Share Threshold"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:224
+msgid "Only show social share total number if its more than this threshold."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:243
+msgid "Twitter Account"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:244
+msgid "Default Twitter account (username) as share reference."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:257
+msgid "Facebook App ID"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:258
+msgid "You can create an application and get Facebook App ID <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:268
+msgid "Facebook App Secret"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:269
+msgid "You can create an application and get Facebook App Secret <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:279
+msgid "Facebook Access Token"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:280
+msgid "Get your Facebook Access Token by clicking this <a class=\"%s\" href=\"%s\" target=\"_blank\">link</a>.<span class=\"jnews-spinner spinner\"></span>"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:287
+msgid "Initial Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:298
+msgid "Initial View Count"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:299
+msgid "This value will increase your initial view counter. This value will also affect social share value (if you choose to use social share option above)."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:319
+msgid "Social Share Value base on View"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:320
+msgid "We increase your social share value base on percentage of your view. You can change value of percentage using this input."
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:340
+msgid "Like Percentage base on View"
+msgstr ""
+
+#: wordpress/jnews-social-share/social-option.php:341
+msgid "We increase your like value base on percentage of your view. Dislike will also calculated by using your title length."
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:13
+msgid "Override View Counter Setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:14
+msgid "enable this option to override view counter setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:20
+msgid "Total View Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:21
+msgid "please insert number of view counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:35
+msgid "Override Share Counter Setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:36
+msgid "enable this option to override Share counter setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:42
+msgid "Total Share Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:43
+msgid "please insert number of share counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:58
+msgid "Override Like Counter Setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:59
+msgid "enable this option to override Like counter setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:65
+msgid "Total Like Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:66
+msgid "please insert number of like counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:80
+msgid "Override Dislike Counter Setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:81
+msgid "enable this option to override Dislike counter setting"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:87
+msgid "Total Dislike Counter"
+msgstr ""
+
+#: wordpress/jnews-social-share/metabox/initial-counter.php:88
+msgid "please insert number of dislike counter"
+msgstr ""

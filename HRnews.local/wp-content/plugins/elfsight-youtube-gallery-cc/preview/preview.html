@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elfsight YouTube Gallery Preview</title>
+
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        .eapps-preview-popup{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="eapps-preview eapps-preview-hidden">
+        <div class="yottie-preview"></div>
+        <div class="yottie-preview-clone"></div>
+
+        <div class="eapps-preview-popup">
+            <div class="eapps-preview-popup-overlay"></div>
+
+            <div class="eapps-preview-popup-inner">
+                <div class="eapps-preview-form">
+                    <div class="eapps-preview-form-image"></div>
+                    <div class="eapps-preview-form-title">Set your YouTube API key</div>
+
+                    <div class="eapps-preview-form-page eapps-preview-form-page-key-create">
+                        <div class="eapps-preview-form-description">
+                            <p>You have to create your own YouTube API key to use YouTube Gallery widget.</p>
+                            <p>The following tutorial explains the easy steps to get your YouTube API key: <a href="https://elfsight.ticksy.com/article/15496/" target="_blank">How to get YouTube API key</a>.</p>
+                        </div>
+
+                        <div class="eapps-preview-form-actions">
+                            <button class="eapps-preview-form-button" onclick="previewPopup.openCreateWindow()">Create an API key</button>
+                            <button class="eapps-preview-form-subtle-link" onclick="previewPopup.switchPage('input')">I already have a key</button>
+                        </div>
+                    </div>
+
+                    <div class="eapps-preview-form-page eapps-preview-form-page-key-input">
+                        <div class="eapps-preview-form-description">
+                            <p>Please, copy and paste your key in the field below. To&nbsp;manage your keys, please, go&nbsp;to&nbsp;<a href="https://console.cloud.google.com/apis/api/youtube.googleapis.com/credentials" target="_blank">Google Cloud Platform Console</a>.</p>
+                        </div>
+
+                        <input class="eapps-preview-form-input" placeholder="Your YouTube API key"/>
+
+                        <div class="eapps-preview-form-actions">
+                            <button class="eapps-preview-form-button" onclick="preview.setApiKey(this)">Save API key</button>
+                            <button class="eapps-preview-form-subtle-link" onclick="previewPopup.switchPage('create')">I don't have a key</button>
+                        </div>
+                    </div>
+
+                    <div class="eapps-preview-form-page eapps-preview-form-page-key-error">
+                        <div class="eapps-preview-form-description">
+                            <p>Your YouTube API Key was configured incorrectly :(</p>
+                            <p>Please, double check the <a href="https://elfsight.ticksy.com/article/15496/" target="_blank">tutorial</a></p>
+                        </div>
+
+                        <input class="eapps-preview-form-input" placeholder="Your YouTube API key"/>
+
+                        <div class="eapps-preview-form-actions">
+                            <button class="eapps-preview-form-button" onclick="preview.setApiKey(this)">Save API key</button>
+                            <button class="eapps-preview-form-subtle-link" onclick="previewPopup.switchPage('create')">Or create a new key</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="preview.youtube-gallery.js"></script></body>
+</html>

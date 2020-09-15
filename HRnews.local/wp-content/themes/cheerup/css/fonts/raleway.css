@@ -1,0 +1,43 @@
+/**
+ * Font: Modified Raleway
+ */
+
+ @font-face {
+	font-family: Raleway;
+	src: url('raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway/raleway-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url('raleway/raleway-medium-webfont.woff2') format('woff2'),
+         url('raleway/raleway-medium-webfont.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url('raleway/raleway-semibold-webfont.woff2') format('woff2'),
+         url('raleway/raleway-semibold-webfont.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url('raleway/raleway-bold-webfont.woff2') format('woff2'),
+         url('raleway/raleway-bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url('raleway/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('raleway/raleway-extrabold-webfont.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}

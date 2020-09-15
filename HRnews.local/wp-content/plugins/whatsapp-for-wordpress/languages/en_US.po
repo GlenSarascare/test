@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WhatsApp Chat by NinjaTeam\n"
+"POT-Creation-Date: 2019-04-09 09:20+0700\n"
+"PO-Revision-Date: 2019-04-09 09:20+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: whatsapp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/nta-whatsapp-post-type.php:16
+msgid "WhatsApp Accounts"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:17
+msgid "Whatsapp Account"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:18
+#: includes/nta-whatsapp-post-type.php:19
+msgid "Add New Account"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:20
+msgid "Edit Account"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:21
+msgid "New Account"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:22
+msgid "All Accounts"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:23
+msgid "View Accounts"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:24
+msgid "Search Account"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:25
+#: includes/nta-whatsapp-post-type.php:179
+msgid "Avatar"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:26
+msgid "Select an image"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:27
+msgid "Remove avatar"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:32
+msgid "Manager Accounts"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:178
+msgid "Account Name"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:180
+#: includes/nta-whatsapp-post-type.php:191
+msgid "Number"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:181
+#: views/nta-whatsapp-meta-accounts.php:19
+msgid "Title"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:182
+msgid "Active Days"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:183
+msgid "Shortcode"
+msgstr ""
+
+#: includes/nta-whatsapp-post-type.php:192
+msgid "Time Slot"
+msgstr ""
+
+#: includes/nta-whatsapp-setting.php:37
+msgid "Add New account"
+msgstr ""
+
+#: includes/nta-whatsapp-setting.php:38
+msgid "Floating Widget"
+msgstr ""
+
+#: includes/nta-whatsapp-setting.php:39 whatsapp.php:32
+msgid "Settings"
+msgstr ""
+
+#: includes/nta-whatsapp-shortcode.php:136
+#: includes/nta-whatsapp-shortcode.php:163
+msgid "Online"
+msgstr ""
+
+#: includes/nta-whatsapp-shortcode.php:148
+#: includes/nta-whatsapp-shortcode.php:176
+msgid "Offline"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:6
+msgid "Setting text and style for the floating widget."
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:9
+msgid "Show on desktop"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:18
+msgid "Show on mobile"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:27
+msgid "Widget Text"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:32
+msgid "Widget Label"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:37
+msgid "Response Time Text"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:42
+msgid "Widget Text Color"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:47
+msgid "Widget Background Color"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:52
+msgid "Widget Position"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:57
+msgid "Left"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:60
+msgid "Right"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:68
+msgid "Description"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:82
+msgid "GDPR Notice"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:97
+msgid "Display"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:101
+msgid "Display all pages but except"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:102
+msgid "Display for pages..."
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:109
+msgid "Select pages"
+msgstr ""
+
+#: views/nta-whatsapp-display-settings.php:166
+msgid "Save Display Settings"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:6
+msgid "Account Number or group chat URL"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:27
+msgid "Predefined Text"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:38
+msgid "Button Label"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:43
+msgid ""
+"This text applies only on shortcode button. Leave empty to use the default "
+"label."
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:49
+msgid "Always available online"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:61
+msgid "Custom Availability"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:69
+msgid "Sunday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:78
+msgid "Apply to All Days"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:84
+msgid "Monday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:98
+msgid "Tuesday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:111
+msgid "Wednesday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:126
+msgid "Thursday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:141
+msgid "Friday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:156
+msgid "Saturday"
+msgstr ""
+
+#: views/nta-whatsapp-meta-accounts.php:173
+msgid "Description text when offline"
+msgstr ""
+
+#: views/nta-whatsapp-meta-button-style.php:2
+msgid ""
+"This styling applies only to the shortcode buttons for this account. Leave "
+"blank to use the <a href=\"admin.php?page=nta_whatsapp\">default styles set "
+"on the settings page"
+msgstr ""
+
+#: views/nta-whatsapp-meta-button-style.php:5
+#: views/nta-whatsapp-settings.php:15
+msgid "Button Style"
+msgstr ""
+
+#: views/nta-whatsapp-meta-button-style.php:10
+#: views/nta-whatsapp-settings.php:20
+msgid "Round"
+msgstr ""
+
+#: views/nta-whatsapp-meta-button-style.php:13
+#: views/nta-whatsapp-settings.php:23
+msgid "Square"
+msgstr ""
+
+#: views/nta-whatsapp-meta-button-style.php:22
+#: views/nta-whatsapp-settings.php:32
+msgid "Button Background Color"
+msgstr ""
+
+#: views/nta-whatsapp-meta-button-style.php:29
+#: views/nta-whatsapp-settings.php:39
+msgid "Button Text Color"
+msgstr ""
+
+#: views/nta-whatsapp-selected-accounts.php:6
+#: views/nta-whatsapp-woocommerce-button.php:35
+msgid "Selected Accounts:"
+msgstr ""
+
+#: views/nta-whatsapp-selected-accounts.php:27
+msgid "Remove"
+msgstr ""
+
+#: views/nta-whatsapp-settings.php:5
+msgid ""
+"Use this form to set default style for shortcode buttons. You can reset the "
+"style for individual button when creating/editing a WhatsApp account."
+msgstr ""
+
+#: views/nta-whatsapp-settings.php:8
+msgid "Button Text"
+msgstr ""
+
+#: views/nta-whatsapp-settings.php:46
+msgid "Save Changes"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:8
+msgid "Enabled"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:17
+msgid "Button position"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:20
+msgid "Before Add to Cart button"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:21
+msgid "After Add to Cart button"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:22
+msgid "After short description"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:23
+msgid "After long description"
+msgstr ""
+
+#: views/nta-whatsapp-woocommerce-button.php:28
+msgid "Select accounts to display"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WhatsApp Chat by NinjaTeam"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://ninjateam.org/wordpress-whatsapp-chat"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Integrate your WhatsApp experience directly into your website. This is one "
+"of the best way to connect and interact with your customer."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NinjaTeam"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ninjateam.org"
+msgstr ""

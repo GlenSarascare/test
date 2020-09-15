@@ -1,0 +1,21 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">whatsapp-accounts</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">nta_whatsapp_accounts</custom-field>
+    <custom-field action="translate">nta_wabutton_style</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="nta_wabutton_setting">
+      <key name="button-text"/>
+    </key>
+    <key name="nta_whatsapp_setting">
+      <key name="widget_name"/>
+      <key name="widget_label"/>
+      <key name="widget_description"/>
+      <key name="widget_gdpr"/>
+      <key name="widget_responseText"/>
+    </key>
+  </admin-texts>
+</wpml-config>

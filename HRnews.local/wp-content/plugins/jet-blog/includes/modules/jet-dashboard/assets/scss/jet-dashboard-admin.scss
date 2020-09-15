@@ -1,0 +1,820 @@
+$direction: ltr !default;
+@import "mixins/direction";
+
+.cx-vui-notices {
+	z-index: 10000;
+}
+
+@if (rtl == $direction) {
+	.cx-vui-notices .cx-vui-notice {
+		&__icon {
+			margin: 0 0 0 15px;
+		}
+
+		&__close {
+			margin: -2px 10px 0 0;
+		}
+	}
+}
+
+.jet-dashboard-page {
+	font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	margin: 25px 15px 0 15px;
+
+	&__header {
+		position: relative;
+		padding: 40px;
+		background: getValueByDirection( linear-gradient(90deg, #5B77E7 0%, #49B5D2 53.65%, #26E8A8 100%), linear-gradient(90deg, #26E8A8 0%, #49B5D2 53.65%, #5B77E7 100%) );
+		border-radius: 6px 6px 0px 0px;
+
+		.header-title {
+			color: white;
+			font-size: 18px;
+			font-weight: normal;
+			margin: 0;
+		}
+
+		.header-bg {
+			position: absolute;
+			top: 0;
+			@include end(0);
+		}
+	}
+
+	&__content {
+		position: relative;
+		font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	}
+
+	&__footer {}
+
+	p {
+		font-size: 12px;
+		color: #7b7e81;
+		margin: 0 0 10px 0;
+	}
+
+	.dashicons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.cx-vui-subtitle {
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 40px;
+		padding-bottom: 16px;
+		border-bottom: 1px solid #DCDCDD;
+	}
+
+	.cx-vui-button {
+		background-color: transparent;
+
+		&:hover {
+			background-color: transparent;
+		}
+
+		.cx-vui-button__content {
+			> span {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+			}
+
+			.button-icon {
+				@include margin-end(5px);
+			}
+		}
+
+		&.cx-vui-button--style-accent {
+			color: #007cba;
+			box-shadow: inset 0 0 0 1px #007cba;
+
+			.cx-vui-button__loader {
+				svg, path {
+					fill: #007cba;
+				}
+			}
+
+			.button-icon, path {
+				fill: #007cba;
+			}
+		}
+
+		&.cx-vui-button--style-danger {
+			color: #D6336C;
+			box-shadow: inset 0 0 0 1px #D6336C;
+
+			.cx-vui-button__loader {
+				svg, path {
+					fill: #D6336C;
+				}
+			}
+
+			.button-icon, path {
+				fill: #D6336C;
+			}
+		}
+	}
+
+	.cx-vui-alert {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 10px 20px;
+		margin-top: 20px;
+		background-color: #F4F4F5;
+		border-radius: 4px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		.cx-vui-alert__icon {
+			margin-top: 3px;
+			@include margin-end(10px);
+		}
+
+		.cx-vui-alert__message {
+			flex: 1 1 auto;
+			color: #7B7E81;
+			font-size: 13px;
+		}
+
+		&.info-type {
+			background-color: #EDF6FA;
+
+			.cx-vui-alert__icon {
+				svg {
+					fill: #007CBA;
+				}
+			}
+
+			.cx-vui-alert__message {
+				color: #007CBA;
+			}
+		}
+
+		&.success-type {
+			background-color: #E9F6EA;
+
+			.cx-vui-alert__icon {
+				svg {
+					fill: #46B450;
+				}
+			}
+
+			.cx-vui-alert__message {
+				color: #46B450;
+			}
+		}
+
+		&.error-type {
+			background-color: #FBF0F0;
+
+			.cx-vui-alert__icon {
+				svg {
+					fill: #C92C2C;
+				}
+			}
+
+			.cx-vui-alert__message {
+				color: #C92C2C;
+			}
+		}
+	}
+
+	.cx-vui-popup {
+		.cx-vui-popup__header {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.cx-vui-popup__header-label {
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 36px;
+			text-align: center;
+			color: #23282D;
+		}
+
+		.cx-vui-popup__content {
+
+		}
+
+		&.license-manager-popup {
+
+			.cx-vui-popup__body {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: stretch;
+				overflow: hidden;
+				max-height: calc( 100% - 100px );
+			}
+
+			.cx-vui-popup__header {
+				padding-bottom: 15px;
+				border-bottom: 1px solid #DCDCDD;
+
+				.cx-vui-popup__header-inner {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+				}
+			}
+
+			.cx-vui-popup__content {
+				flex: 1 1 auto;
+				overflow-y: auto;
+
+				.license-manager {
+					width: 100%;
+					max-width: 1260px;
+
+				}
+			}
+		}
+
+		&.license-activation-popup {
+
+			.cx-vui-popup__header {
+				text-align: center;
+			}
+
+			.cx-vui-popup__body {
+
+			}
+
+			.popup-licence-control {
+				width: 100%;
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+				flex-wrap: wrap;
+				margin-top: 10px;
+
+				p {
+					width: 100%;
+				}
+
+				.popup-licence__key {
+					flex: 1 1 auto;
+
+					input {
+						border-radius: getValueByDirection(4px 0 0 4px, 0 4px 4px 0);
+					}
+				}
+
+				.popup-licence__action-button {
+					border-radius: getValueByDirection(0 4px 4px 0, 4px 0 0 4px);
+					box-shadow: none;
+				}
+			}
+		}
+
+		&.license-deactivation-popup {
+			.cx-vui-popup__content {
+				text-align: center;
+
+				.show-license-manager {
+					margin-top: 20px;
+				}
+			}
+		}
+
+		&.update-check-popup {
+
+			.cx-vui-popup__content {
+				text-align: center;
+
+				svg {
+					margin-bottom: 20px;
+				}
+
+				p {
+					text-align: center;
+					line-height: 30px;
+
+					span {
+						font-size: 20px;
+						color: #23282d;
+						display: block;
+					}
+				}
+
+				.cx-vui-button {
+					margin-top: 20px;
+				}
+			}
+		}
+
+		&.responce-data-popup {
+
+			.responce-data-popup__inner {
+
+				&.responce-type-error {
+					.responce-data-popup__title {
+						color: #C92C2C;
+					}
+				}
+
+				&.responce-type-success {
+					.responce-data-popup__title {
+						color: #46B450;
+					}
+				}
+
+				.responce-data-popup__header {
+					padding-bottom: 15px;
+					border-bottom: 1px solid #DCDCDD;
+					margin-bottom: 30px;
+				}
+
+				.responce-data-popup__title {
+					font-weight: 500;
+					font-size: 24px;
+					line-height: 36px;
+					color: #23282D;
+				}
+
+				p {
+					&:last-child {
+						padding-bottom: 0;
+					}
+
+					.activation-limit {
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						text-align: center;
+						justify-content: center;
+						align-items: center;
+						border-radius: 50%;
+						color: white;
+						background-color: #007CBA;
+					}
+				}
+
+				.responce-data-popup__activated-sites {
+					margin-bottom: 20px;
+
+					p {
+						padding-bottom: 5px;
+					}
+
+					.site-list {
+						display: flex;
+						justify-content: flex-start;
+						align-items: flex-start;
+						flex-wrap: wrap;
+						max-height: 100px;
+						overflow-y: auto;
+
+						.site-item {
+							@include margin(0, 0, 0, 10px);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.jet-dashboard-license-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+
+	.ready-for-use-plugins {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+		padding: 40px;
+	}
+
+	.avaliable-plugins {
+		margin-top: 50px;
+	}
+
+	.license-manager-button {
+		align-self: flex-end;
+	}
+
+	.plugin-list--more-plugins {
+		display: flex;
+		justify-content: flex-start;
+		align-items: stretch;
+		flex-wrap: wrap;
+
+		.plugin-item {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: stretch;
+			flex-wrap: wrap;
+			width: 19%;
+			min-width: 200px;
+			@include margin-end(1%);
+			margin-bottom: 30px;
+
+			&__inner {
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: stretch;
+
+				.plugin-tumbnail {
+					flex: 1 1 100%;
+
+					img {
+						width: auto;
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.plugin-list {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-wrap: wrap;
+
+		.plugin-item {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: stretch;
+			width: 30%;
+			min-width: 400px;
+			@include margin-end(2%);
+			margin-bottom: 40px;
+
+			&__inner {
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+			}
+
+			&.is-installed {}
+
+			&.is-activated {}
+
+			&.update-avaliable {
+				.plugin-version {
+					background-color: #D6336C;
+				}
+			}
+
+			&--more {
+
+				.plugin-item__inner {
+					flex-direction: column;
+					align-items: stretch;
+
+					.plugin-tumbnail {
+						margin: 0;
+
+						img {
+							width: auto;
+						}
+					}
+				}
+			}
+		}
+
+		.plugin-tumbnail {
+			position: relative;
+			@include margin-end(20px);
+
+			img {
+				width: 100px;
+			}
+		}
+
+		.plugin-info {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex: 1 1 auto;
+		}
+
+		.plugin-name {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			font-size: 15px;
+			color: #23282d;
+			font-weight: 500;
+		}
+
+		.plugin-desc {
+			margin: 10px 0 0 0;
+		}
+
+		.plugin-version {
+			font-size: 12px;
+			padding: 2px 6px;
+			border-radius: 3px;
+			background-color: #46B450;
+			color: white;
+			@include margin-start(10px);
+		}
+
+		.plugin-actions {
+			width: 100%;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-top: 20px;
+
+			.cx-vui-button {
+				font-size: 13px;
+				@include margin-start(20px);
+
+				&:first-child {
+					@include margin-start(0);
+				}
+
+			}
+
+			.show-license-control {
+				color: #46B450;
+			}
+
+			.deactivate-plugin-button {
+				color: #D6336C;
+			}
+		}
+
+		.plugin-update-label {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			margin-top: 10px;
+			color: #7B7E81;
+			font-size: 13px;
+
+			.latest-version {
+				color: #007DBA;
+				font-weight: 500;
+				margin: 0 3px;
+			}
+
+			.cx-vui-button {
+				font-size: 13px;
+				@include margin-start(3px);
+			}
+		}
+	}
+
+	.add-new-license {
+		display: flex;
+
+		.cx-vui-button__content {
+			> span {
+				display: flex;
+			}
+			.dashicons {
+				font-size: 16px;
+				@include margin(0, 4px, 0, -5px);
+			}
+		}
+	}
+
+	.license-manager {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+
+		.license-list {
+			width: 100%;
+			display: flex;
+			justify-content: flex-start;
+			align-items: stretch;
+			flex-wrap: wrap;
+
+			.license-item {
+				margin: 10px;
+			}
+		}
+	}
+
+	.license-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+		width: 400px;
+
+		&__label {
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 36px;
+			text-align: center;
+			color: #23282D;
+			margin-bottom: 40px;
+		}
+
+		&__control {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: stretch;
+
+			.license-item__activation-message {
+				text-align: center;
+				margin-bottom: 30px;
+			}
+
+			.license-item__key {
+			}
+
+			.license-item__action-button {
+				margin-top: 10px;
+			}
+		}
+
+		&__details {}
+
+		&__deactivation {
+			align-self: flex-start;
+		}
+
+		&.license-activated {
+			.license-status {
+				color: #46B450;
+			}
+
+			.license-item__deactivation {
+				color: #D6336C;
+				box-shadow: inset 0 0 0 1px #D6336C;
+			}
+		}
+	}
+
+	.license-details {
+		margin: 30px 0;
+
+		&__label {
+			color: #23282D;
+			font-size: 15px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+
+		&__fields {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: stretch;
+		}
+
+		&__field {
+			display: flex;
+			justify-content: flex-start;
+			align-items: stretch;
+			margin-bottom: 10px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			.label {
+				min-width: 120px;
+				font-weight: 700;
+				white-space: nowrap;
+				color: #23282D;
+			}
+
+			.status-label {
+				text-transform: capitalize;
+				color: #46B450;
+			}
+
+			.license-type {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				svg {
+					width: 110px;
+					height: auto;
+				}
+			}
+
+			.included-plugin-list {
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+				flex-wrap: wrap;
+				flex: 1 1 auto;
+
+				.included-plugin {
+					width: 50%;
+					margin-bottom: 10px;
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+
+					svg {
+						@include margin-end(5px);
+					}
+				}
+			}
+
+			&.license-status {
+				color: #C92C2C;
+				font-weight: 700;
+				text-transform: capitalize;
+			}
+
+			&.license-type {
+				text-transform: capitalize;
+			}
+
+			&.license-plugins {
+				flex: 1 1 auto;
+			}
+		}
+
+		&__actions {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 20px;
+
+			.show-license-manager {
+				font-size: 13px;
+			}
+
+			.cx-vui-button {
+				@include margin-start(5px);
+
+				&:first-child {
+					@include margin-start(0);
+				}
+			}
+		}
+	}
+
+	.debug-console-popup {
+
+		&__form {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+
+			> .cx-vui-component-raw {
+				flex: 1 1 auto;
+
+				select {
+					max-width: 100%;
+				}
+			}
+
+			.cx-vui-button {
+				@include margin-start(10px);
+			}
+		}
+	}
+}
+
+.popup-enter {
+	opacity: 0;
+
+	.cx-vui-popup__body {
+		transform: translateY(10px);
+	}
+}
+.popup-enter-active {
+	transition: opacity .3s;
+
+	.cx-vui-popup__body {
+		transition: transform .3s;
+	}
+}
+.popup-enter-to {
+	opacity: 1;
+	transform: translateY(0);
+
+	.cx-vui-popup__body {
+		transform: translateY(0px);
+	}
+}
+.popup-leave {
+	opacity: 1;
+}
+.popup-leave-leave {
+	transition: opacity .1s;
+}
+.popup-leave-to {
+	opacity: 0;
+}

@@ -1,0 +1,1211 @@
+{
+  "observerUrl": "./preview/dist/youtube-gallery-observer.js",
+  "preferences": {
+    "previewUpdateTimeout": 300,
+    "enableCustomCSS": true
+  },
+  "settings": {
+    "tabs": [
+      {
+        "id": "source",
+        "name": "Source",
+        "active": "true"
+      },
+      {
+        "id": "layout",
+        "name": "Layout"
+      },
+      {
+        "id": "colors",
+        "name": "Colors"
+      },
+      {
+        "id": "advanced",
+        "name": "Advanced"
+      }
+    ],
+    "properties": [
+      {
+        "id": "channel",
+        "name": "YouTube channel URL",
+        "tab": "source",
+        "type": "text",
+        "defaultValue": "https://www.youtube.com/user/latenight",
+        "allowEmpty": true,
+        "description": "Insert URL of a YouTube channel to display its information and videos in the plugin."
+      },
+      {
+        "id": "sourceGroups",
+        "name": "Source groups",
+        "tab": "source",
+        "type": "complex",
+        "complex": {
+          "properties": [
+            {
+              "id": "name",
+              "name": "Group name",
+              "type": "text",
+              "defaultValue": "Untitled",
+              "description": "Create custom groups of videos from any YouTube source (channels, playlists, videos)."
+            },
+            {
+              "id": "sources",
+              "name": "Sources",
+              "type": "tags",
+              "tags": {
+                "placeholder": "YouTube URLs (channel, playlist, video)"
+              },
+              "defaultValue": [],
+              "description": "List of YouTube source URLs (channels, playlists, videos)."
+            }
+          ]
+        },
+        "description": "Create custom groups of videos from any YouTube source (channels, playlists, videos)"
+      },
+      {
+        "id": "layoutHeader",
+        "name": "Header",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "headerVisible",
+              "name": "Show header",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Turn on/off the header in the plugin."
+            },
+            {
+              "id": "headerLayout",
+              "name": "Header layout",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": "classic",
+                    "name": "Classic"
+                  },
+                  {
+                    "value": "accent",
+                    "name": "Accent"
+                  },
+                  {
+                    "value": "minimal",
+                    "name": "Minimal"
+                  }
+                ]
+              },
+              "defaultValue": "classic",
+              "description": "Choose one of three header layouts: classic (like in YouTube), accent (pay more attention to your channel), minimal (attract more attention to your playlist)."
+            },
+            {
+              "id": "headerInfo",
+              "name": "Header elements",
+              "type": "checklist",
+              "checklist": {
+                "options": [
+                  {
+                    "value": "logo",
+                    "name": "Logo"
+                  },
+
+                  {
+                    "value": "banner",
+                    "name": "Banner"
+                  },
+
+                  {
+                    "value": "channelName",
+                    "name": "Channel name"
+                  },
+
+                  {
+                    "value": "channelDescription",
+                    "name": "Channel description"
+                  },
+
+                  {
+                    "value": "videosCounter",
+                    "name": "Videos counter"
+                  },
+
+                  {
+                    "value": "subscribersCounter",
+                    "name": "Subscribers counter"
+                  },
+
+                  {
+                    "value": "viewsCounter",
+                    "name": "Views counter"
+                  },
+
+                  {
+                    "value": "subscribeButton",
+                    "name": "Subscribe button"
+                  }
+                ]
+              },
+              "defaultValue": [
+                "logo",
+                "banner",
+                "channelName",
+                "videosCounter",
+                "subscribersCounter",
+                "viewsCounter",
+                "subscribeButton"
+              ],
+              "description": "Check elements which should be displayed in the header."
+            },
+            {
+              "id": "headerChannelName",
+              "name": "Custom channel name",
+              "type": "text",
+              "description": "Specify custom channel name instead of your channel name in YouTube."
+            },
+            {
+              "id": "headerChannelDescription",
+              "name": "Custom channel description",
+              "type": "textarea",
+              "description": "Specify custom channel description instead of your channel description in YouTube."
+            },
+            {
+              "id": "headerChannelLogo",
+              "name": "Custom channel logo URL (100x100)",
+              "type": "file",
+              "description": "Specify custom channel logo instead of your channel logo in YouTube. The required image size is 100x100."
+            },
+            {
+              "id": "headerChannelBanner",
+              "name": "Custom channel banner URL (2120x352)",
+              "type": "file",
+              "description": "Specify custom channel banner instead of your channel banner in YouTube. The required image size is 2120x352."
+            }
+          ]
+        }
+      },
+      {
+        "id": "layoutColumnsAndRows",
+        "name": "Columns & Rows",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "contentColumns",
+              "name": "Columns",
+              "type": "number",
+              "defaultValue": 3,
+              "number": {
+                "min": 1
+              },
+              "description": "Number of columns in the grid."
+            },
+            {
+              "id": "contentRows",
+              "name": "Rows",
+              "type": "number",
+              "defaultValue": 1,
+              "number": {
+                "min": 1
+              },
+              "description": "Number of rows in the grid."
+            },
+            {
+              "id": "contentGutter",
+              "name": "Space between videos (px)",
+              "type": "number",
+              "defaultValue": 20,
+              "description": "Interval between videos in the grid in pixels."
+            },
+            {
+              "id": "contentResponsive",
+              "name": "Mobile optimization",
+              "type": "complex",
+              "complex": {
+                "properties": [
+                  {
+                    "id": "minWidth",
+                    "name": "Window width (px)",
+                    "type": "text",
+                    "defaultValue": "",
+                    "description": "Minimal window width in pixels to accept the breakpoint`s settings."
+                  },
+                  {
+                    "id": "columns",
+                    "name": "Columns",
+                    "type": "text",
+                    "defaultValue": "",
+                    "allowEmpty": true,
+                    "description": "Number of columns in the widget`s grid."
+                  },
+                  {
+                    "id": "rows",
+                    "name": "Rows",
+                    "type": "text",
+                    "allowEmpty": true,
+                    "defaultValue": "",
+                    "description": "Number of rows in the widget`s grid."
+                  },
+                  {
+                    "id": "gutter",
+                    "name": "Space between videos (px)",
+                    "type": "text",
+                    "allowEmpty": true,
+                    "defaultValue": "",
+                    "description": "Interval between photos in the widget`s grid in pixels."
+                  }
+                ]
+              },
+              "defaultValue": [
+                {
+                  "minWidth": 375,
+                  "columns": 1,
+                  "rows": 1,
+                  "gutter": "20"
+                },
+                {
+                  "minWidth": 768,
+                  "columns": 2,
+                  "rows": 1,
+                  "gutter": "20"
+                }
+              ],
+              "description": "Specify the breakpoints to set the columns, rows and gutter in the video gallery grid depending on a window width."
+            },
+            {
+              "id": "width",
+              "name": "Width (px, auto)",
+              "type": "text",
+              "defaultValue": "auto",
+              "description": "Plugin width (any CSS valid value: px, %, em, etc). Set \"auto\" to make the plugin responsive."
+            }
+          ]
+        }
+      },
+      {
+        "id": "layoutVideo",
+        "name": "Video",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "videoLayout",
+              "name": "Video layout",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": "classic",
+                    "name": "Classic"
+                  },
+                  {
+                    "value": "horizontal",
+                    "name": "Horizontal"
+                  },
+                  {
+                    "value": "cinema",
+                    "name": "Cinema"
+                  }
+                ]
+              },
+              "defaultValue": "classic",
+              "description": "Choose one of three video layouts: classic (video card with full information), cinema (pay more attention to video preview. Info displays on hover), horizontal (appropriate layout for displaying videos in 1-2 columns as a list)."
+            },
+            {
+              "id": "videoInfo",
+              "name": "Video elements",
+              "type": "checklist",
+              "checklist": {
+                "options": [
+                  {
+                    "value": "playIcon",
+                    "name": "Play icon"
+                  },
+                  {
+                    "value": "duration",
+                    "name": "Duration"
+                  },
+                  {
+                    "value": "title",
+                    "name": "Title"
+                  },
+                  {
+                    "value": "date",
+                    "name": "Date"
+                  },
+                  {
+                    "value": "description",
+                    "name": "Description"
+                  },
+                  {
+                    "value": "viewsCounter",
+                    "name": "Views counter"
+                  },
+                  {
+                    "value": "likesCounter",
+                    "name": "Likes counter"
+                  },
+                  {
+                    "value": "commentsCounter",
+                    "name": "Comments counter"
+                  }
+                ]
+              },
+              "defaultValue": [
+                "playIcon",
+                "duration",
+                "title",
+                "date",
+                "description",
+                "viewsCounter",
+                "likesCounter",
+                "commentsCounter"
+              ],
+              "description": "Check video elements which should be displayed in the video gallery."
+            },
+            {
+              "id": "videoPlayMode",
+              "name": "Play mode",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": "popup",
+                    "name": "Popup"
+                  },
+                  {
+                    "value": "inline",
+                    "name": "Inline"
+                  },
+                  {
+                    "value": "youtube",
+                    "name": "YouTube"
+                  }
+                ]
+              },
+              "defaultValue": "popup",
+              "description": "Choose the mode of watching videos: in popup (\"popup\"), directly in the video gallery (\"inline\"), or in a new browser tab right in YouTube (\"youtube\")."
+            }
+          ]
+        }
+      },
+      {
+        "id": "layoutPopup",
+        "name": "Popup",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "popupInfo",
+              "name": "Popup elements",
+              "type": "checklist",
+              "checklist": {
+                "options": [
+                  {
+                    "value": "title",
+                    "name": "Title"
+                  },
+                  {
+                    "value": "channelLogo",
+                    "name": "Channel logo"
+                  },
+                  {
+                    "value": "channelName",
+                    "name": "Channel name"
+                  },
+                  {
+                    "value": "subscribeButton",
+                    "name": "Subscribe button"
+                  },
+                  {
+                    "value": "viewsCounter",
+                    "name": "Views counter"
+                  },
+                  {
+                    "value": "likesCounter",
+                    "name": "Likes counter"
+                  },
+                  {
+                    "value": "dislikesCounter",
+                    "name": "Dislikes counter"
+                  },
+                  {
+                    "value": "likesRatio",
+                    "name": "Likes ratio"
+                  },
+                  {
+                    "value": "share",
+                    "name": "Share"
+                  },
+                  {
+                    "value": "date",
+                    "name": "Date"
+                  },
+                  {
+                    "value": "description",
+                    "name": "Description"
+                  },
+                  {
+                    "value": "descriptionMoreButton",
+                    "name": "Description more button"
+                  },
+                  {
+                    "value": "comments",
+                    "name": "Comments"
+                  }
+                ]
+              },
+              "defaultValue": [
+                "title",
+                "channelLogo",
+                "channelName",
+                "subscribeButton",
+                "viewsCounter",
+                "likesCounter",
+                "dislikesCounter",
+                "likesRatio",
+                "share",
+                "date",
+                "description",
+                "descriptionMoreButton",
+                "comments"
+              ],
+              "description": "Check elements which should be displayed in the popup."
+            },
+            {
+              "id": "popupAutoplay",
+              "name": "Autoplay",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Turn on/off autoplay while openning a video in the popup."
+            }
+          ]
+        }
+      },
+      {
+        "id": "layoutSlider",
+        "name": "Slider Settings",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "contentDirection",
+              "name": "Direction",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": "horizontal",
+                    "name": "Horizontal"
+                  },
+                  {
+                    "value": "vertical",
+                    "name": "Vertical"
+                  }
+                ]
+              },
+              "defaultValue": "horizontal",
+              "description": "Moving direction of video gallery’s slides (horizontal or vertical)."
+            },
+            {
+              "id": "contentArrowsControl",
+              "name": "Show Navigation Arrows",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate arrows in the video gallery."
+            },
+            {
+              "id": "contentScrollControl",
+              "name": "Scroll to Navigate",
+              "type": "toggle",
+              "defaultValue": false,
+              "description": "Activate scroll in the video gallery."
+            },
+            {
+              "id": "contentDragControl",
+              "name": "Drag to Navigate",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate drag in the video gallery."
+            },
+            {
+              "id": "contentPaginationControl",
+              "name": "Show Pagination",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate pagination in source group."
+            },
+            {
+              "id": "contentScrollbar",
+              "name": "Show Scrollbar",
+              "type": "toggle",
+              "defaultValue": false,
+              "description": "Show scrollbar in the video gallery."
+            },
+            {
+              "id": "contentSearch",
+              "name": "Show Search Bar",
+              "type": "toggle",
+              "defaultValue": false,
+              "description": "Turn on/off search by title and description in source group."
+            },
+            {
+              "id": "contentDivider1",
+              "type": "divider"
+            },
+            {
+              "id": "contentTransitionSpeed",
+              "name": "Slide Switch Speed (ms)",
+              "type": "number",
+              "defaultValue": 600,
+              "description": "Animation speed of slide switching (in ms)."
+            },
+            {
+              "id": "contentTransitionEffect",
+              "name": "Slide Switch Effect",
+              "type": "select",
+              "select": {
+                "options": [
+                  {
+                    "value": "slide",
+                    "name": "Slide"
+                  },
+
+                  {
+                    "value": "fade",
+                    "name": "Fade"
+                  },
+
+                  {
+                    "value": "coverflow",
+                    "name": "Coverflow"
+                  },
+
+                  {
+                    "value": "cube",
+                    "name": "Cube"
+                  },
+
+                  {
+                    "value": "flip",
+                    "name": "Flip"
+                  }
+                ]
+              },
+              "defaultValue": "slide",
+              "description": "Slide, fade, coverflow, cube and flip animation of slide switching."
+            },
+            {
+              "id": "contentFreeMode",
+              "name": "Free mode",
+              "type": "toggle",
+              "defaultValue": false,
+              "description": "Switch the video gallery in free scroll mode."
+            },
+            {
+              "id": "contentDivider2",
+              "type": "divider"
+            },
+            {
+              "id": "contentAuto",
+              "name": "Autoplay Speed (ms)",
+              "type": "number",
+              "defaultValue": 0,
+              "description": "Autorotation of slides in the video gallery (in ms). Set \"0\" to turn it off."
+            },
+            {
+              "id": "contentAutoPauseOnHover",
+              "name": "Pause Autoplay on Hover",
+              "type": "toggle",
+              "defaultValue": false,
+              "description": "Disable auto slide switching by hovering on the video slider."
+            }
+          ]
+        }
+      },
+      {
+        "id": "colorScheme",
+        "name": "Color scheme",
+        "tab": "colors",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "value": "default",
+              "name": "Default"
+            },
+            {
+              "value": "dark",
+              "name": "Dark"
+            },
+            {
+              "value": "red",
+              "name": "Red"
+            },
+            {
+              "value": "deep-blue",
+              "name": "Deep blue"
+            },
+            {
+              "value": "custom",
+              "name": "Custom"
+            }
+          ]
+        },
+        "defaultValue": "default",
+        "description": "Choose one of 4 ready-made color schemes to get the appropriate look of the widget. Then you can adjust the desired colors of the chosen scheme using 60 color options."
+      },
+      {
+        "id": "colorsHeader",
+        "name": "Header",
+        "tab": "colors",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "colorHeaderBg",
+              "name": "Header background",
+              "type": "color",
+              "defaultValue": "rgb(250, 250, 250)"
+            },
+            {
+              "id": "colorHeaderBannerOverlay",
+              "name": "Header banner overlay",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 0.92)"
+            },
+            {
+              "id": "colorHeaderChannelName",
+              "name": "Header channel name",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorHeaderChannelNameHover",
+              "name": "Header channel name on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorHeaderChannelDescription",
+              "name": "Header channel description",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorHeaderAnchor",
+              "name": "Header description links",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorHeaderAnchorHover",
+              "name": "Header description links on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorHeaderCounters",
+              "name": "Header counters",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "colorsGroups",
+        "name": "Menu",
+        "tab": "colors",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "colorGroupsBg",
+              "name": "Groups background",
+              "type": "color",
+              "defaultValue": "rgb(250, 250, 250)"
+            },
+            {
+              "id": "colorGroupsLink",
+              "name": "Groups link",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17, 0.5)"
+            },
+            {
+              "id": "colorGroupsLinkHover",
+              "name": "Groups link on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorGroupsLinkActive",
+              "name": "Groups active link",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorGroupsHighlightHover",
+              "name": "Groups highlight on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorGroupsHighlightActive",
+              "name": "Groups highlight active",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "colorsVideo",
+        "name": "Video",
+        "tab": "colors",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "colorVideoBg",
+              "name": "Video background",
+              "type": "color",
+              "visible": false,
+              "defaultValue": "rgb(255, 255, 255)"
+            },
+            {
+              "id": "colorVideoOverlay",
+              "name": "Video overlay",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 0.95)"
+            },
+            {
+              "id": "colorVideoPlayIcon",
+              "name": "Video play icon",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 0.4)"
+            },
+            {
+              "id": "colorVideoPlayIconHover",
+              "name": "Video play icon on hover",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 0.8)"
+            },
+            {
+              "id": "colorVideoDuration",
+              "name": "Video duration",
+              "type": "color",
+              "defaultValue": "rgb(255, 255, 255)"
+            },
+            {
+              "id": "colorVideoDurationBg",
+              "name": "Video duration background",
+              "type": "color",
+              "defaultValue": "rgba(34, 34, 34, 0.81)"
+            },
+            {
+              "id": "colorVideoTitle",
+              "name": "Video title",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorVideoTitleHover",
+              "name": "Video title on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorVideoDate",
+              "name": "Video date",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            },
+            {
+              "id": "colorVideoDescription",
+              "name": "Video description",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorVideoAnchor",
+              "name": "Video description anchors",
+              "type": "color",
+              "defaultValue": "rgb(26, 137, 222)"
+            },
+            {
+              "id": "colorVideoAnchorHover",
+              "name": "Video description anchors on hover",
+              "type": "color",
+              "defaultValue": "rgb(47, 165, 255)"
+            },
+            {
+              "id": "colorVideoCounters",
+              "name": "Video counters",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "colorsPopup",
+        "name": "Popup",
+        "tab": "colors",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "colorPopupBg",
+              "name": "Popup background",
+              "type": "color",
+              "defaultValue": "rgb(255, 255, 255)"
+            },
+            {
+              "id": "colorPopupAnchor",
+              "name": "Popup links",
+              "type": "color",
+              "defaultValue": "rgb(26, 137, 222)"
+            },
+            {
+              "id": "colorPopupAnchorHover",
+              "name": "Popup links on hover",
+              "type": "color",
+              "defaultValue": "rgb(47, 165, 255)"
+            },
+            {
+              "id": "colorPopupOverlay",
+              "name": "Popup overlay",
+              "type": "color",
+              "defaultValue": "rgba(0, 0, 0, 0.7)"
+            },
+            {
+              "id": "colorPopupTitle",
+              "name": "Popup title",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupChannelName",
+              "name": "Popup channel name",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupChannelNameHover",
+              "name": "Popup channel name on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupViewsCounter",
+              "name": "Popup views counter",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            },
+            {
+              "id": "colorPopupLikesRatio",
+              "name": "Popup likes ratio",
+              "type": "color",
+              "defaultValue": "rgb(47, 165, 255)"
+            },
+            {
+              "id": "colorPopupDislikesRatio",
+              "name": "Popup dislikes ratio",
+              "type": "color",
+              "defaultValue": "rgb(207, 207, 207)"
+            },
+            {
+              "id": "colorPopupLikesCounter",
+              "name": "Popup likes counter",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.5)"
+            },
+            {
+              "id": "colorPopupDislikesCounter",
+              "name": "Popup dislikes counter",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.5)"
+            },
+            {
+              "id": "colorPopupShare",
+              "name": "Popup share button",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.5)"
+            },
+            {
+              "id": "colorPopupDate",
+              "name": "Popup date",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            },
+            {
+              "id": "colorPopupDescription",
+              "name": "Popup description",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupDescriptionMoreButton",
+              "name": "Popup description more button",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.5)"
+            },
+            {
+              "id": "colorPopupDescriptionMoreButtonHover",
+              "name": "Popup description more button on hover",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            },
+            {
+              "id": "colorPopupCommentsUsername",
+              "name": "Popup comments username",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupCommentsUsernameHover",
+              "name": "Popup comments username on hover",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupCommentsPassedTime",
+              "name": "Popup comments passed time",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.7)"
+            },
+            {
+              "id": "colorPopupCommentsLikes",
+              "name": "Popup comments likes",
+              "type": "color",
+              "defaultValue": "rgba(17, 17, 17, 0.5)"
+            },
+            {
+              "id": "colorPopupCommentsText",
+              "name": "Popup comments text",
+              "type": "color",
+              "defaultValue": "rgb(17, 17, 17)"
+            },
+            {
+              "id": "colorPopupControls",
+              "name": "Popup controls",
+              "type": "color",
+              "defaultValue": "rgb(160, 160, 160)"
+            },
+            {
+              "id": "colorPopupControlsHover",
+              "name": "Popup controls on hover",
+              "type": "color",
+              "defaultValue": "rgb(220, 220, 220)"
+            },
+            {
+              "id": "colorPopupControlsMobile",
+              "name": "Popup mobile controls",
+              "type": "color",
+              "defaultValue": "rgb(220, 220, 220)"
+            },
+            {
+              "id": "colorPopupControlsMobileBg",
+              "name": "Popup mobile controls background",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 0)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "colorsContent",
+        "name": "Slider",
+        "tab": "colors",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "colorContentBg",
+              "name": "Content background",
+              "type": "color",
+              "defaultValue": "rgb(255, 255, 255)"
+            },
+            {
+              "id": "colorContentArrows",
+              "name": "Content arrows",
+              "type": "color",
+              "defaultValue": "rgb(0, 0, 0)"
+            },
+            {
+              "id": "colorContentArrowsHover",
+              "name": "Content arrows on hover",
+              "type": "color",
+              "defaultValue": "rgb(0, 0, 0)"
+            },
+            {
+              "id": "colorContentArrowsBg",
+              "name": "Content arrows background",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 0.8)"
+            },
+            {
+              "id": "colorContentArrowsBgHover",
+              "name": "Content arrows background on hover",
+              "type": "color",
+              "defaultValue": "rgba(255, 255, 255, 1)"
+            },
+            {
+              "id": "colorContentScrollbarBg",
+              "name": "Content scrollbar background",
+              "type": "color",
+              "defaultValue": "rgb(204, 204, 204)"
+            },
+            {
+              "id": "colorContentScrollbarSliderBg",
+              "name": "Content scrollbar slider background",
+              "type": "color",
+              "defaultValue": "rgba(0, 0, 0, 0.4)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "lang",
+        "name": "Language",
+        "tab": "advanced",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "value": "cs",
+              "name": "Čeština"
+            },
+            {
+              "value": "de",
+              "name": "Deutsch"
+            },
+            {
+              "value": "en",
+              "name": "English"
+            },
+            {
+              "value": "es",
+              "name": "Español"
+            },
+            {
+              "value": "fr",
+              "name": "Français"
+            },
+            {
+              "value": "hr",
+              "name": "Hrvatski"
+            },
+            {
+              "value": "it",
+              "name": "Italiano"
+            },
+            {
+              "value": "nl",
+              "name": "Nederlands"
+            },
+            {
+              "value": "no",
+              "name": "Norsk"
+            },
+            {
+              "value": "pl",
+              "name": "Polski"
+            },
+            {
+              "value": "pt-BR",
+              "name": "Português"
+            },
+            {
+              "value": "sk",
+              "name": "Slovenčina"
+            },
+            {
+              "value": "sv",
+              "name": "Svenska"
+            },
+            {
+              "value": "tr",
+              "name": "Türkçe"
+            },
+            {
+              "value": "ru",
+              "name": "Русский"
+            },
+            {
+              "value": "hi",
+              "name": "हिन्दी"
+            },
+            {
+              "value": "zh-HK",
+              "name": "中文"
+            },
+            {
+              "value": "ja",
+              "name": "日本語"
+            },
+            {
+              "value": "ko",
+              "name": "한국어"
+            },
+            {
+              "value": "ro",
+              "name": "Romanian"
+            },
+            {
+              "value": "he",
+              "name": "עברית"
+            },
+            {
+              "value": "hu",
+              "name": "Magyar"
+            }
+          ]
+        },
+        "defaultValue": "en",
+        "description": "Choose one of 18 available languages of plugin's UI."
+      },
+      {
+        "id": "adSense",
+        "name": "AdSense",
+        "tab": "advanced",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "adsClient",
+              "name": "AdSense client",
+              "type": "text",
+              "description": "Yottie supports AdSense Advertisement platform. Specify AdSense client (pubId) to turn it on."
+            },
+            {
+              "id": "adsSlotsContent",
+              "name": "AdSense content slot",
+              "type": "text",
+              "description": "Slot identifier for adv block in content (video gallery)."
+            },
+            {
+              "id": "adsSlotsPopup",
+              "name": "AdSense popup slot",
+              "type": "text",
+              "description": "Slot identifier for adv block in popup."
+            }
+          ]
+        }
+      },
+      {
+        "id": "noCookies",
+        "name": "Privacy-Enhanced Mode",
+        "tab": "advanced",
+        "type": "toggle",
+        "default": false,
+        "description": "This option enables Privacy-Enhanced Mode, which uses youtube-nocookie.com domain upon watching videos. This mode also disables Subscribe Button in the header and popup, since this button uses cookie. It was added in attempt to achieve more compliance with the European Union's GDRP, the General Data Protection Regulation, on May 25, 2018."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+#jet-blog-settings-page {
+	visibility: hidden;
+
+	&.is-mounted {
+		visibility: visible;
+	}
+}
+
+.jet-blog-settings-page {
+	margin: 25px 15px 0 15px;
+
+	.cx-vui-tabs-panel {
+		> .cx-vui-subtitle {
+			padding: 20px;
+			margin-top: 20px;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.jet-blog-avaliable-widgets-control {
+		.cx-vui-checkgroup {
+			display: flex;
+			flex-flow: row wrap;
+
+			.cx-vui-checkbox-wrap {
+				width: 25%;
+
+				@media screen and (max-width: 1200px) {
+					width: 50%;
+				}
+
+				@media screen and (max-width: 782px) {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	&__avaliable-controls {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	&__avaliable-control {
+		width: 33.3333%;
+
+		@media screen and (max-width: 1200px) {
+			width: 50%;
+		}
+
+		@media screen and (max-width: 782px) {
+			width: 100%;
+		}
+
+		.cx-vui-component {
+			padding: 10px 0;
+		}
+	}
+
+	&__disable-all-widgets {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		border-bottom: 1px solid #ECECEC;
+		padding-bottom: 20px;
+		margin: 20px 0;
+
+		.cx-vui-component__label {
+			margin-right: 10px;
+		}
+	}
+
+}

@@ -1,0 +1,356 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 15, 2018, 4:01:41 PM
+    Author     : tatthang96
+*/
+.img-size-table{
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.ui-autocomplete-loading{
+    background-position-x: 365px !important;
+}
+
+
+.time-available  td{
+    padding: 0px;
+}
+
+.time-available{
+    margin: 0px;
+}    
+/*List Account*/
+.nta-list-box-accounts{
+    max-width: 390px;
+}
+
+.nta-list-box-select{
+    max-width: 388px;
+    box-shadow: 0px 8px 7px 0px rgba(0, 0, 0, 0.05);
+}
+.nta-list-box-accounts .nta-list-items{
+    background-color: #fff;
+}
+
+.nta-list-box-accounts .nta-list-items:hover{
+    cursor: move;
+}
+
+.nta-list-box-accounts .nta-list-items:hover .icon-block img{
+    opacity: 1;
+}
+
+:not(:last-child).nta-list-items{
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.nta-list-items .box-content:not(.box-content-woo){
+    display: table;
+    padding: 10px;
+}
+
+.nta-list-items .box-content-woo{
+    padding: 10px;
+}
+
+.box-content .box-row{
+    display: table-row;
+}
+
+.box-content .btn-remove-account{
+    color: red;
+}
+
+.box-content .account-avatar{
+    display: table-cell;
+    text-align: center;
+    width: 50px;
+    vertical-align: top;
+}
+
+.icon-block img{
+    opacity: 0.7;
+}
+
+.account-avatar .wa_img_wrap{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+
+}
+
+.box-content .container-block{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.box-content .container-block a{
+    text-decoration: none;
+}
+
+.box-content .container-block ul{
+    margin: 0px;
+}
+
+.nta-list-box-select .box-content .container-block span{
+
+}
+
+.box-content .container-block span{
+    margin-right: 3px;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: #C9CFD6;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.box-content .container-block span.active-date{
+    background-color: #00BC28;
+}
+
+.box-content .container-block h4{
+    color: #3584b5;
+    margin: 0px 0px 5px;
+}
+
+.box-content .container-block p{
+    margin: 0px 0px 5px;
+}
+
+.nta-list-box-accounts .box-content .container-block{
+    width: 280px;
+}
+
+.box-content .icon-block{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*All Accounts Admin Page*/
+
+/*Selected Account*/
+
+#nta_wa_avatar{
+    width: 8%;
+}
+
+#nta_wa_number{
+    width: 15%;
+}
+
+.nta-shortcode-table{
+    min-width: 165px;
+}
+
+.post-type-whatsapp-accounts #remove-post-thumbnail{
+    color: #a00;
+}
+
+.nta-list-box-select {
+    max-height: 293px;
+    overflow-y: auto;
+}
+
+.nta-list-box-select .ui-menu-item:hover{
+    background-color: #F7F9FB;
+    cursor: pointer;
+}
+
+.nta-list-box-select .ui-menu-item{
+    padding: 0px;
+}
+
+:not(:last-child).ui-menu-item{
+    border-bottom: 1px solid #F2F2F2;
+}
+
+
+
+#input-account{
+    width: 390px;
+}
+
+.nta-list-box-select .box-content .container-block{
+    width: 300px;
+}
+
+
+#input-users, #input-users-woo{
+    width: 390px;
+    background-color: #F7F9FB;
+}
+
+
+/*ADMIN TAB STYLE*/
+.nta-tab-wrapper .nav-tab-active{
+    border-bottom: 1px solid #fff;
+}
+
+.nta-selected-tab{
+    margin-left: 0px;
+    background: #fff;
+}
+
+.nta-display-setting-tab{
+    background: #fff;
+}
+
+.nta-tabs-content{
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    padding: 20px;
+    background: #fff;
+}
+
+
+/*SVG SIZE AVTAR*/
+.nta-whatsapp-default-avatar{
+    width: 48px;
+    height: 48px;
+}
+
+/*ON/OFF BUTTON STYLE*/
+
+#nta-wa-switch:checked + label.red {
+    background: #ECA9A7;
+}
+#nta-wa-switch:checked + label.red:after {
+    background: #D9534F;
+}
+#nta-wa-switch:checked + label.green {
+    background: #AEDCAE;
+}
+#nta-wa-switch:checked + label.green:after {
+    background: #5CB85C;
+}
+#nta-wa-switch:checked + label:after {
+    left: calc(100% - 18px);
+}
+#nta-wa-switch + label {
+    background: #ddd;
+    border-radius: 20px;
+}
+#nta-wa-switch + label:after {
+    background: #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 2px;
+}
+
+/* Duplication for another checkbox */
+/* Display on mobile */
+#nta-wa-switch-mb:checked + label.green {
+    background: #AEDCAE;
+}
+#nta-wa-switch-mb:checked + label.green:after {
+    background: #5CB85C;
+}
+#nta-wa-switch-mb:checked + label:after {
+    left: calc(100% - 18px);
+}
+#nta-wa-switch-mb + label {
+    background: #ddd;
+    border-radius: 20px;
+}
+#nta-wa-switch-mb + label:after {
+    background: #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 2px;
+}
+/* Display GDPR */
+#nta-wa-switch-gdpr:checked + label.green {
+    background: #AEDCAE;
+}
+#nta-wa-switch-gdpr:checked + label.green:after {
+    background: #5CB85C;
+}
+#nta-wa-switch-gdpr:checked + label:after {
+    left: calc(100% - 18px);
+}
+#nta-wa-switch-gdpr + label {
+    background: #ddd;
+    border-radius: 20px;
+}
+#nta-wa-switch-gdpr + label:after {
+    background: #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    top: 2px;
+    left: 2px;
+}
+/* End of duplication */
+
+
+.nta-wa-switch-control input[type=checkbox] {
+    display: none;
+}
+.nta-wa-switch-control input[type=checkbox] + label {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    transition: 0.3s;
+    /*margin: 0px 20px;*/
+    box-sizing: border-box;
+}
+.nta-wa-switch-control input[type=checkbox] + label:after, input[type=checkbox] + label:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* JQUERY UI AUTOCOMPLE CUSTOM */
+.whatsapp_page_floating-widget-whatsapp .ui-autocomplete .ui-menu-item.ui-state-focus{
+    background-color: #F7F9FB;
+}
+
+.toplevel_page_nta_whatsapp .ui-autocomplete .ui-menu-item.ui-state-focus{
+    background-color: #F7F9FB;
+}
+
+.wa-validate-error{
+    color: red;
+}
+
+/* DISPLAY PAGES FLOATING WIDGET CSS */
+.nta-wa-pages-content{
+    padding-top: 20px !important;
+}
+
+#nta-wa-pages-checkall-show, #nta-wa-pages-checkall-hide{
+    margin-left: 16px;
+}
+
+#nta-wa-display-pages-list{
+    max-height: 150px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+}
+
+.hide-select{
+    display: none !important;
+}
