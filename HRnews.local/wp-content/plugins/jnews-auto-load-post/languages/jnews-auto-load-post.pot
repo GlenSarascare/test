@@ -1,0 +1,400 @@
+# Copyright (C) 2020 JNews Auto Load Post
+# This file is distributed under the same license as the JNews Auto Load Post package.
+msgid ""
+msgstr ""
+"Project-Id-Version: JNews Auto Load Post\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;jnews_print_translation;jnews_return_translation\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:6
+msgid "Auto"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:7
+msgid "Hide"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:8
+msgid "120 x 90"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:9
+msgid "120 x 240"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:10
+msgid "120 x 600"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:11
+msgid "125 x 125"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:12
+msgid "160 x 90"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:13
+msgid "160 x 600"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:14
+msgid "180 x 90"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:15
+msgid "180 x 150"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:16
+msgid "200 x 90"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:17
+msgid "200 x 200"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:18
+msgid "234 x 60"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:19
+msgid "250 x 250"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:20
+msgid "320 x 100"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:21
+msgid "300 x 250"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:22
+msgid "300 x 600"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:23
+msgid "320 x 50"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:24
+msgid "336 x 280"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:25
+msgid "468 x 15"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:26
+msgid "468 x 60"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:27
+msgid "728 x 15"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:28
+msgid "728 x 90"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:29
+msgid "970 x 90"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:30
+msgid "970 x 250"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:31
+msgid "240 x 400"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:32
+msgid "250 x 360"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:33
+msgid "580 x 400"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:34
+msgid "750 x 100"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:35
+msgid "750 x 200"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:36
+msgid "750 x 300"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:37
+msgid "980 x 120"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:38
+msgid "930 x 180"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:45
+msgid "Attention"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:46
+msgid ""
+"<ul>\n"
+"                    <li>All setting on single post customizer option or single post metabox overwritten by this option.</li>\n"
+"                    <li>Several option will also disabled. Such as Sidebar on Mobile, Next Prev link, Popup for related post.</li>\n"
+"                    <li>We disable autoload effect on customizer. But you can see it on your website.</li>\n"
+"                </ul>"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:56
+msgid "Single Template & Layout"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:65
+msgid "Single Blog Post Template"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:66
+msgid "Choose your single blog post template."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:91
+msgid "Single Blog Post Layout"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:92
+msgid "Choose your single blog post layout."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:119
+msgid "Single post sidebar"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:120
+msgid "Choose your post sidebar. If you need another sidebar, you can create from WordPress Admin &raquo; Appearance &raquo; Widget."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:145
+msgid "Single post second sidebar"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:146
+msgid "Choose your post second sidebar. If you need another sidebar, you can create from WordPress Admin &raquo; Appearance &raquo; Widget."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:171
+msgid "Show / Hide Comment"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:172
+msgid "Choose if you want to hide comment on single post."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:174
+msgid "Hide Comment"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:175
+msgid "Show Comment"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:199
+msgid "Autoload Content"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:208
+msgid "Autoload Content Filter"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:209
+msgid "Choose which the most relevant content will autoload after current post."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:211
+msgid "By Sequence"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:212
+msgid "By Category"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:213
+msgid "By Tag"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:214
+msgid "By Sidefeed"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:235
+msgid "Autoload Content Limit"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:236
+msgid "Set limit for autoload post."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:301
+msgid "Autoload Ads Separator"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:310
+msgid "Enable Advertisement"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:311
+msgid "Show advertisement as separator on autoload post."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:326
+msgid "Advertisement Type"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:327
+msgid "Choose which type of advertisement you want to use."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:330
+msgid "Image Ads"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:331
+msgid "Google Ads"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:332
+msgid "Script Code"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:333
+msgid "Shortcode"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:356
+msgid "Advertisement Image Desktop"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:357
+msgid "Upload your ads image that will be shown on the desktop view."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:373
+msgid "Advertisement Image Tablet"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:374
+msgid "Upload your ads image that will be shown on the tablet view."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:390
+msgid "Advertisement Image Phone"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:391
+msgid "Upload your ads image that will be shown on the phone view."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:407
+msgid "Advertisement Link"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:408
+msgid "Please put where this advertisement image will be heading."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:424
+msgid "Alternate Text"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:425
+msgid "Insert alternate text for advertisement image."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:441
+msgid "Open in New Tab"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:442
+msgid "Enable open in new tab when advertisement image is clicked."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:458
+msgid "Google Publisher ID"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:459
+msgid "Insert data-ad-client / google_ad_client content."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:475
+msgid "Google Ad Slot ID"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:476
+msgid "Insert data-ad-slot / google_ad_slot content."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:492
+msgid "Desktop Ad Size"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:493
+msgid "Choose ad size to be shown on desktop, recommended to use auto."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:510
+msgid "Tab Ad Size"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:511
+msgid "Choose ad size to be shown on tablet, recommended to use auto."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:528
+msgid "Phone Ad Size"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:529
+msgid "Choose ad size to be shown on phone, recommended to use auto."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:547
+msgid "Ads Script Code"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:548
+msgid "Put your ad's script code right here."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:564
+msgid "Ads Shortcode"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:565
+msgid "Put your ad's shortcode right here."
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/autoload-option.php:581
+msgid "Show Advertisement Text"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/class.jnews-auto-load-post-option.php:47
+msgid "Auto Load Scroll Post Option"
+msgstr ""
+
+#: wordpress/jnews-auto-load-post/jnews-auto-load-post.php:388
+msgid "ADVERTISEMENT"
+msgstr ""

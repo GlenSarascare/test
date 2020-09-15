@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* CSS Document */
+.widget-content a{
+	cursor:pointer;
+}
+.rwf-required, .rwf-optional, .rwf-layout, .rwf-settings, .rwf-advance, .rwf-styling {
+	padding: 14px 0px 18px 4px;
+	border: 1px solid #CCC;
+	margin: 10px 0 0 0;
+	line-height: 4px;
+}
+.rwf-optional{
+	border:1px solid #CCC;
+}
+.rwf-layout{
+	border:1px solid #CCC;
+}
+.rwf-settings{
+	border:1px solid #CCC;
+}
+.rfw-esettings .hide{
+	display:none;
+}
+.rwf-styling {
+	border:1px solid #CCC;
+	margin: 10px 0 20px 0;
+}
+.rwf-required strong, .rwf-optional strong, .rwf-layout strong, .rwf-settings strong, .rwf-advance strong, .rwf-styling strong {
+	border-bottom: 1px solid #CCC;
+	color: #000;
+	float: left;
+	font-size: 14px;
+	margin: 0 0 4px;
+	padding: 0 4px 14px;
+	width: 97%;
+	cursor: pointer;
+}
+.rwf-optional strong{  
+	color: #000;
+	border-bottom: 1px solid #CCC;
+}
+.rwf-layout strong{  
+	color: #000;
+	border-bottom: 1px solid #CCC;
+}
+.rwf-settings strong{  
+	color: #000;
+	border-bottom: 1px solid #CCC;
+}
+.rwf-advance strong,
+.rwf-styling strong{  
+	color: #000;
+	border-bottom: 1px solid #CCC;
+}
+.rwf-required p,
+.rwf-optional p,
+.rwf-layout p,
+.rwf-settings p,
+.rwf-advance p,
+.rwf-styling p{
+    margin: 0;
+    padding: 0 4px;
+}
+.rwf-collapsed {
+    height: 16px;
+}
+.rwf-collapsed.rwf-required strong,
+.rwf-collapsed.rwf-layout strong,
+.rwf-collapsed.rwf-optional strong,
+.rwf-collapsed.rwf-advance strong,
+.rwf-collapsed.rwf-styling strong{
+	border:none;
+}
+.rwf-collapsed p{
+	display:none;
+}
+.wp-list-table.styles{
+	
+}
+.wp-list-table.styles ul{
+	position:relative;
+}
+.wp-list-table.styles ul li {
+	float: left;
+	margin: 0 0px 0 0;
+	width: auto;
+	cursor:pointer;
+	position:inherit;
+}
+.wp-list-table.styles ul li img{
+	max-width: 198px;	
+	border:6px solid #fff;	
+}
+.wp-list-table.styles ul li:hover img,
+.wp-list-table.styles ul li.selected img{
+	border:6px solid #0073aa;
+}
+.wp-list-table.styles ul li span {
+	background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+	bottom: 0;
+	color: #fff;
+	font-size: 12px;
+	left: 0;
+	padding: 0 0 8px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+.rwf-required .rss_url_area{
+	position:relative;
+}
+.rwf-required .rss_url_area .widefat{
+	padding:10px;
+	margin:20px auto 0;
+}
+.rwf-styling > p{
+	width:100%;
+	clear:both;
+}
+.rwf-styling a.rwf-styling-link {
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	padding: 6px 0;
+	text-align: center;
+	width: 90%;
+	text-decoration:none;
+	margin:20px auto;
+}
+.rwf-required .rss_url_area > label > a{
+	display:inline-block;
+}
+.rwf-required .rss_url_area > label > a:hover {
+	background-color: #252525;
+}
+.rwf-required .hide{
+	display:none !important;
+}
+.rwf-layout textarea{
+	width:100%;
+	height:200px;
+}

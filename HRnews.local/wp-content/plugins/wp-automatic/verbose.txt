@@ -1,0 +1,258 @@
+*   Trying 31.13.69.35:443...
+* TCP_NODELAY set
+* Connected to facebook.com (31.13.69.35) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Facebook, Inc.; CN=*.facebook.com
+*  start date: Jul 21 00:00:00 2020 GMT
+*  expire date: Oct 12 12:00:00 2020 GMT
+*  subjectAltName: host "facebook.com" matched cert's "facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7ff8ff0e5800)
+> GET /cnn HTTP/2
+Host: facebook.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 301 
+< strict-transport-security: max-age=15552000; includeSubDomains
+< location: https://www.facebook.com/cnn
+< access-control-expose-headers: X-FB-Debug, X-Loader-Length
+< access-control-allow-credentials: true
+< vary: Origin
+< access-control-allow-origin: https://facebook.com
+< access-control-allow-methods: OPTIONS
+< content-type: text/html; charset="utf-8"
+< x-fb-debug: tb86xBkW4ED5KqrKtv6086gV/7AvNjwLGQOyHzajDe48vw+daSh7L7LfSiF4uyblp3RglzS/zzAx0VKxTCmqXQ==
+< content-length: 0
+< date: Wed, 02 Sep 2020 00:20:33 GMT
+< alt-svc: h3-29=":443"; ma=3600,h3-27=":443"; ma=3600
+< 
+* Connection #0 to host facebook.com left intact
+* Issue another request to this URL: 'https://www.facebook.com/cnn'
+*   Trying 31.13.69.35:443...
+* TCP_NODELAY set
+* Connected to www.facebook.com (31.13.69.35) port 443 (#1)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Facebook, Inc.; CN=*.facebook.com
+*  start date: Jul 21 00:00:00 2020 GMT
+*  expire date: Oct 12 12:00:00 2020 GMT
+*  subjectAltName: host "www.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7ff8ff0e5800)
+> GET /cnn HTTP/2
+Host: www.facebook.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 200 
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< pragma: no-cache
+< strict-transport-security: max-age=15552000; preload
+< content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm https://api.mapbox.com https://*.tiles.mapbox.com;block-all-mixed-content;upgrade-insecure-requests;
+< vary: Accept-Encoding
+< x-content-type-options: nosniff
+< x-frame-options: DENY
+< x-xss-protection: 0
+< content-type: text/html; charset="utf-8"
+< x-fb-debug: +Qjxs4DQt56Wf7LwNNNejQI4764/RbuMfNUy+NdCUmS1RKL6iqQ1wln2fAKwk1L0vz+4/EBKiVqhyHY270b5/Q==
+< date: Wed, 02 Sep 2020 00:20:34 GMT
+< alt-svc: h3-29=":443"; ma=3600,h3-27=":443"; ma=3600
+< 
+* Connection #1 to host www.facebook.com left intact
+*   Trying 31.13.69.1:443...
+* TCP_NODELAY set
+* Connected to mbasic.facebook.com (31.13.69.1) port 443 (#2)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=Menlo Park; O=Facebook, Inc.; CN=*.facebook.com
+*  start date: Jul 21 00:00:00 2020 GMT
+*  expire date: Oct 12 12:00:00 2020 GMT
+*  subjectAltName: host "mbasic.facebook.com" matched cert's "*.facebook.com"
+*  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7ff8ff0e5800)
+> GET /5550296508 HTTP/2
+Host: mbasic.facebook.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 302 
+* Added cookie datr="WeVOXxnWfdibBZHAYYzSxS5O" for domain facebook.com, path /, expire 1662078042
+< set-cookie: datr=WeVOXxnWfdibBZHAYYzSxS5O; expires=Fri, 02-Sep-2022 00:20:41 GMT; Max-Age=63072000; path=/; domain=.facebook.com; secure; httponly; SameSite=None
+< location: https://mbasic.facebook.com/cnn/?_rdr
+< content-type: text/html; charset=utf-8
+< strict-transport-security: max-age=15552000; preload
+< x-fb-debug: 33RZQFCSCFCaei++pqhETrKj7ppkKvfoVUPjI0axHXtPwvHBHz3o7RMWUa8997nUmyU5FjOwuzKsC3mEd1n8Pg==
+< content-length: 0
+< date: Wed, 02 Sep 2020 00:20:41 GMT
+< alt-svc: h3-29=":443"; ma=3600,h3-27=":443"; ma=3600
+< 
+* Connection #2 to host mbasic.facebook.com left intact
+* Found bundle for host mbasic.facebook.com: 0x7ff900b93f80 [can multiplex]
+* Re-using existing connection! (#2) with host mbasic.facebook.com
+* Connected to mbasic.facebook.com (31.13.69.1) port 443 (#2)
+* Using Stream ID: 3 (easy handle 0x7ff8ff0e5800)
+> GET /cnn/?_rdr HTTP/2
+Host: mbasic.facebook.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: datr=WeVOXxnWfdibBZHAYYzSxS5O; xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+< HTTP/2 200 
+* Added cookie sb="WeVOX1HCRdg2xDZa2uBTzSqL" for domain facebook.com, path /, expire 1662078043
+< set-cookie: sb=WeVOX1HCRdg2xDZa2uBTzSqL; expires=Fri, 02-Sep-2022 00:20:41 GMT; Max-Age=63072000; path=/; domain=.facebook.com; secure; httponly; SameSite=None
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< vary: Accept-Encoding
+< x-content-type-options: nosniff
+< pragma: no-cache
+< strict-transport-security: max-age=15552000; preload
+< content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;block-all-mixed-content;upgrade-insecure-requests;
+< content-type: text/html; charset=utf-8
+< x-frame-options: DENY
+< x-xss-protection: 0
+< x-fb-debug: pPLNBOdckiunOLryjVDqCIxJR4XGCAgOcx3Vqycz8o4hjncuad1ZXzbiUyR4pNPfRpiSjLWjhLUT0PnGLSuZsg==
+< date: Wed, 02 Sep 2020 00:20:42 GMT
+< alt-svc: h3-29=":443"; ma=3600,h3-27=":443"; ma=3600
+< 
+* Connection #2 to host mbasic.facebook.com left intact
+* Found bundle for host mbasic.facebook.com: 0x7ff900b93f80 [can multiplex]
+* Re-using existing connection! (#2) with host mbasic.facebook.com
+* Connected to mbasic.facebook.com (31.13.69.1) port 443 (#2)
+* Using Stream ID: 5 (easy handle 0x7ff8ff0e5800)
+> GET /cnn/?_rdr HTTP/2
+Host: mbasic.facebook.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: datr=WeVOXxnWfdibBZHAYYzSxS5O; sb=WeVOX1HCRdg2xDZa2uBTzSqL; xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+< HTTP/2 200 
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< vary: Accept-Encoding
+< x-content-type-options: nosniff
+< pragma: no-cache
+< strict-transport-security: max-age=15552000; preload
+< content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;block-all-mixed-content;upgrade-insecure-requests;
+< content-type: text/html; charset=utf-8
+< x-frame-options: DENY
+< x-xss-protection: 0
+< x-fb-debug: YIFCO3/YqOV3hT6cc+Euiizvvm3iwrAmYyKQIqOQOljRFW1lHiKfp7mmR6PWduh6sDRB61YcNIgu7UQfhnWw+Q==
+< date: Wed, 02 Sep 2020 00:20:43 GMT
+< alt-svc: h3-29=":443"; ma=3600,h3-27=":443"; ma=3600
+< 
+* Connection #2 to host mbasic.facebook.com left intact
+* Found bundle for host www.facebook.com: 0x7ff900976b50 [can multiplex]
+* Re-using existing connection! (#1) with host www.facebook.com
+* Connected to www.facebook.com (31.13.69.35) port 443 (#1)
+* Using Stream ID: 3 (easy handle 0x7ff8ff0e5800)
+> GET /5550296508/posts/10161250255991509 HTTP/2
+Host: www.facebook.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://www.bing.com/
+Cookie: datr=WeVOXxnWfdibBZHAYYzSxS5O; sb=WeVOX1HCRdg2xDZa2uBTzSqL; xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+< HTTP/2 200 
+< cache-control: private, no-cache, no-store, must-revalidate
+< expires: Sat, 01 Jan 2000 00:00:00 GMT
+< pragma: no-cache
+< strict-transport-security: max-age=15552000; preload
+< content-security-policy: default-src * data: blob: 'self';script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm https://api.mapbox.com https://*.tiles.mapbox.com;block-all-mixed-content;upgrade-insecure-requests;
+< vary: Accept-Encoding
+< x-content-type-options: nosniff
+< x-frame-options: DENY
+< x-xss-protection: 0
+< content-type: text/html; charset="utf-8"
+< x-fb-debug: 45Budv3AS0MTXtDXsZ2oMuJnFVRxm8gEBBzgsDOnWBYN/XM1hp6qWIfjOC60AlTTO2NreOCBuuGfIF82Wao64Q==
+< date: Wed, 02 Sep 2020 00:20:45 GMT
+< alt-svc: h3-29=":443"; ma=3600,h3-27=":443"; ma=3600
+< 
+* Connection #1 to host www.facebook.com left intact
+*   Trying 2.21.248.92:443...
+* TCP_NODELAY set
+* Connected to cdn.cnn.com (2.21.248.92) port 443 (#3)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=Georgia; L=Atlanta; O=TURNER BROADCASTING SYSTEM, INC.; CN=www.turner.com
+*  start date: Aug 17 20:01:02 2020 GMT
+*  expire date: Aug 18 20:01:02 2022 GMT
+*  subjectAltName: host "cdn.cnn.com" matched cert's "*.cnn.com"
+*  issuer: C=BE; O=GlobalSign nv-sa; CN=GlobalSign RSA OV SSL CA 2018
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7ff8ff0e5800)
+> GET /cnnnext/dam/assets/200901130320-arthur-love-iv-presser-0831-super-tease.jpg HTTP/2
+Host: cdn.cnn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Accept: */*
+Referer: http://cdn.cnn.com
+Cookie: xs=30:d6YMoY1x0m181Q:2:1579014395:-1:-1::AcVFHgISyus5UBtCjfXjh1zWl116zHkD7vUdDnb2OA;c_user=100024318878767
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 200 
+< server: Apache-Coyote/1.1
+< content-type: image/jpeg
+< content-length: 49995
+< cache-control: max-age=3600
+< expires: Wed, 02 Sep 2020 01:20:51 GMT
+< date: Wed, 02 Sep 2020 00:20:51 GMT
+< access-control-allow-methods: GET,POST,OPTIONS
+< access-control-allow-origin: *
+< 
+* Connection #3 to host cdn.cnn.com left intact

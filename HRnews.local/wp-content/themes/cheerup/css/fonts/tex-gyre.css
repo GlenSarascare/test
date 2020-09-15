@@ -1,0 +1,11 @@
+/**
+ * Font: TexGyreAdventor
+ */
+@font-face {
+	font-family: 'TexGyreAdventor';
+	src: url('tex-gyre/texgyreadventor-bold-webfont-webfont.woff2') format('woff2'),
+		  url('tex-gyre/texgyreadventor-bold-webfont-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+ 

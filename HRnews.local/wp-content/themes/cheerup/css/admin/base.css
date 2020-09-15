@@ -1,0 +1,176 @@
+
+/* Core bug for themes page */
+.themes-php .notice {
+	display: block;
+}
+
+/**
+ * Dashboard
+ */
+.ts-dash {
+	position: relative;
+	margin: 25px 40px 0 20px;
+	max-width: 1050px;
+	/* readability */
+	font-size: 15px;
+}
+
+.ts-dash .ts-version {
+	display: inline-block;
+	margin-bottom: -9px;
+	margin-left: 3px;
+	color: #777;
+	font-size: 17px;
+	font-weight: 400;
+	vertical-align: baseline;
+}
+
+.ts-dash .nav-tab-wrapper {
+	margin-top: 0;
+}
+
+.ts-dash h1 {
+	margin: 34px 200px 25px 0;
+	margin-bottom: 25px;
+	padding: 0;
+	color: #32373c;
+	line-height: 1.2em;
+	font-size: 33px;
+	font-weight: 400;
+}
+
+.ts-dash h3 {
+	margin: 1.25em 0 .6em;
+	font-size: 1.4em;
+	line-height: 1.5;
+}
+
+.ts-dash p {
+	font-size: 15px;
+}
+
+.ts-dash .nav-tab {
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 17px;
+}
+
+.ts-dash .about-text {
+	margin: 1em 0 1em 0;
+	min-height: 60px;
+	color: #555d66;
+}
+
+.ts-dash .about-text p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.ts-dash [class$="-col"] {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.ts-dash .three-col .col {
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+	min-width: 31%;
+	max-width: 31%;
+}
+
+.ts-dash-box {
+	position: relative;
+	margin: 16px 0;
+	margin-bottom: 35px;
+	padding: 25px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	background: #fff;
+	font-size: 13px;
+	line-height: 2.1em;
+	overflow: hidden;
+}
+
+.ts-dash-box.activate-box {
+	border-color: #008ec2;
+}
+
+.ts-dash-box .button-hero {
+	margin-top: 8px;
+}
+
+.ts-dash-box .content {
+	position: relative;
+}
+
+.ts-dash-box .bg {
+	position: absolute;
+	z-index: 0;
+	right: 220px;
+	top: -15px;
+	font-size: 270px;
+	color: #006799;
+	opacity: 0.05;
+}
+
+.ts-dash-box h3 {
+	margin-top: 0;
+}
+
+.ts-dash-box ol {
+	font-size: 14px;
+}
+
+.ts-dash-box li {
+	margin-bottom: 3px;
+}
+
+.ts-dash-box p {
+	max-width: initial;
+	line-height: 1.6;
+}
+
+.ts-support-info hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.ts-support-info .dashicons {
+	vertical-align: middle;
+	margin-bottom: 6px;
+	margin-right: 12px;
+	margin-left: -4px;
+	color: #0084b9;
+	font-size: 24px;
+}
+
+.ts-support-info .button {
+	margin-top: 10px;
+}
+
+.ts-support-info .col p {
+	font-size: 14px;
+}
+
+.ts-dash-plugins h3 {
+	margin-top: 45px;
+}
+
+@media (max-width: 940px) {
+	.ts-dash .three-col .col {
+		min-width: 48% !important;
+		max-width: 48% !important;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.ts-dash .three-col .col {
+		min-width: 100% !important;
+		max-width: 100% !important;
+	}
+}

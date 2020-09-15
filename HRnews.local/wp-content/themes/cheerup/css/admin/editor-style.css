@@ -1,0 +1,15 @@
+/**
+ * TinyMCE Admin Editor Styling 
+ */
+
+body {
+	margin: 30px;
+	max-width: 770px;
+	background: #fff;
+}
+
+.wp-caption-dd {
+	font-size: inherit;
+	font-style: italic;
+	text-align: center;
+}

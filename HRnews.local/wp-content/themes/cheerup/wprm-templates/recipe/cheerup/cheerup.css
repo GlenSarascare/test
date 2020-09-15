@@ -1,0 +1,354 @@
+/**
+ * CSS for CheerUp theme's custom recipe template.
+ */
+.wprm-recipe-template-cheerup {
+  --box-pad: 30px;
+  margin: 2.5em auto;
+  font-size: 1em;
+  /* wprm_main_font_size type=font_size */
+  border-style: solid;
+  /* wprm_border_style type=border */
+  border-width: 1px;
+  /* wprm_border_width type=size */
+  border-color: #efefef;
+  /* wprm_border type=color */
+  padding: var(--box-pad);
+  background-color: #ffffff;
+  /* wprm_background type=color */
+  max-width: 950px;
+  /* wprm_max_width type=size */
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+@media (max-width: 540px) {
+  .wprm-recipe-template-cheerup {
+    margin-left: -18px;
+    margin-right: -18px;
+    --box-pad: 20px;
+  }
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-template-ts-container > :last-child {
+  margin-bottom: 0;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-img {
+  position: relative;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-image {
+  max-height: 400px;
+  min-height: 25px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-image img {
+  margin: calc(-1 * var(--box-pad));
+  margin-bottom: 30px;
+  width: calc(100% + (var(--box-pad) * 2));
+  height: auto;
+  max-width: initial;
+  max-height: inherit;
+  object-fit: cover;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-image amp-img > img {
+  object-fit: cover;
+}
+
+.wprm-recipe-template-cheerup:hover .wprm-ts-buttons {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-buttons {
+  position: absolute;
+  bottom: 8px;
+  right: -16px;
+}
+
+@media (min-width: 1201px) {
+  .wprm-recipe-template-cheerup .wprm-ts-buttons {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: 12px;
+  font-family: var(--ui-font);
+  font-weight: 500;
+  line-height: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-buttons svg {
+  transform: scale(0.88);
+  margin-right: 5px;
+  opacity: .7;
+}
+
+.wprm-recipe-template-cheerup .wprm-block-text-bold {
+  font-weight: 600 !important;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-header .wprm-recipe-name {
+  margin-bottom: 10px;
+  font-size: calc(18px + 0.65em);
+  line-height: 1.2;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-rating {
+  margin-top: -6px;
+  margin-bottom: 15px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-rating .wprm-recipe-rating-details {
+  color: #7e7e7e;
+  letter-spacing: 0.08em;
+  margin-left: 20px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-rating svg {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-summary {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-main-meta {
+  font-size: 14px;
+  color: #7e7e7e;
+  margin-bottom: 20px;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-main-meta .wprm-recipe-details-label {
+  text-transform: lowercase;
+  font-style: italic;
+  margin-right: 9px;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-main-meta .wprm-recipe-details-label:after {
+  content: ":";
+  margin-left: -3px;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-main-meta .wprm-recipe-details,
+.wprm-recipe-template-cheerup .wprm-ts-main-meta .wprm-recipe-details-unit {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9em;
+  letter-spacing: .08em;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-main-meta .wprm-recipe-details-unit {
+  font-size: .8em;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-times-container {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-times-container:before,
+.wprm-recipe-template-cheerup .wprm-recipe-servings-container:before {
+  content: "\f017";
+  font-family: ts-icons;
+  font-size: 15px;
+  opacity: .5;
+  margin-right: 8px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-servings-container:before {
+  content: "\f0f5";
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #efefef;
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-header .wprm-toggle-container {
+  font-size: 12px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-group-name {
+  margin-top: 22px !important;
+  margin-bottom: 11px;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-ingredients li,
+.wprm-recipe-template-cheerup .wprm-recipe-equipment li {
+  margin-bottom: 0.35em;
+  list-style-type: none !important;
+  position: relative;
+  padding-left: 5px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-ingredients li:before,
+.wprm-recipe-template-cheerup .wprm-recipe-equipment li:before {
+  position: absolute;
+  content: "";
+  background: var(--main-color, #000);
+  width: 5px;
+  height: 5px;
+  margin-left: -22px;
+  margin-top: 0.8em;
+  display: inline-flex;
+  align-self: center;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-ingredient-notes {
+  margin-left: 3px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-instructions,
+.wprm-recipe-template-cheerup .wprm-recipe-notes {
+  counter-reset: ts-recipe-inst;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-instructions li,
+.wprm-recipe-template-cheerup .wprm-recipe-notes li {
+  position: relative;
+  padding-left: 14px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-instructions li:before,
+.wprm-recipe-template-cheerup .wprm-recipe-notes li:before {
+  position: absolute;
+  display: flex;
+  content: counter(ts-recipe-inst);
+  counter-increment: ts-recipe-inst;
+  margin-top: .2em;
+  left: 0;
+  transform: translateX(-100%);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--main-color, #000);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-instruction-group-name {
+  margin-top: 35px !important;
+  margin-bottom: 15px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes > :last-child {
+  margin-bottom: 0;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes ul {
+  margin-top: 10px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes ul:last-child li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes li:before {
+  content: "i";
+  font-style: italic;
+  font-weight: 700;
+  background: #ccc;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes-container {
+  margin: 2.5em 0;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  border: 1px solid #efefef;
+  background: #f7f7f7;
+}
+
+> .wprm-recipe-template-cheerup .wprm-recipe-notes-container {
+  padding: 0;
+}
+
+.wprm-recipe-template-cheerup .wprm-recipe-notes-container .wprm-recipe-notes-header {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  opacity: .7;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-meta {
+  margin-bottom: -10px;
+  font-size: 14px;
+  opacity: .8;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-meta .wprm-recipe-block-container-inline {
+  margin-bottom: 10px;
+}
+
+.wprm-recipe-template-cheerup .wprm-ts-meta svg {
+  margin-right: 5px;
+  opacity: .25;
+}
+
+.wprm-print-recipe .wprm-recipe-template-cheerup {
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.wprm-print-recipe .wprm-recipe-template-cheerup .wprm-recipe-rating {
+  display: none;
+}
+
+.post-content .wprm-recipe-link {
+  display: inline-block;
+  -webkit-appearance: none;
+  background: var(--main-color);
+  color: #fff;
+  padding: 13px 20px;
+  font-family: var(--ui-font);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  height: auto;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #fff !important;
+  border-radius: 2px;
+}

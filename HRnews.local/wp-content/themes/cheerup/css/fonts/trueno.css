@@ -1,0 +1,10 @@
+/**
+ * Font: Trueno
+ */
+@font-face {
+	font-family: 'Trueno';
+	src: url('trueno/truenorg-webfont.woff2') format('woff2'),
+         url('trueno/truenorg-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

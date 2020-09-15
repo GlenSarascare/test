@@ -1,0 +1,13 @@
+
+drop table if exists  atef_demo_2020.wp_10001_automatic_amazon_links;
+drop table if exists  atef_demo_2020.wp_10001_automatic_articles_keys;
+drop table if exists  atef_demo_2020.wp_10001_automatic_articles_links;
+drop table if exists  atef_demo_2020.wp_10001_automatic_cached;
+drop table if exists  atef_demo_2020.wp_10001_automatic_camps;
+drop table if exists  atef_demo_2020.wp_10001_automatic_categories;
+drop table if exists  atef_demo_2020.wp_10001_automatic_clickbank_links;
+drop table if exists  atef_demo_2020.wp_10001_automatic_general;
+drop table if exists  atef_demo_2020.wp_10001_automatic_keywords;
+drop table if exists  atef_demo_2020.wp_10001_automatic_links;
+drop table if exists  atef_demo_2020.wp_10001_automatic_log;
+drop table if exists  atef_demo_2020.wp_10001_automatic_youtube_links;

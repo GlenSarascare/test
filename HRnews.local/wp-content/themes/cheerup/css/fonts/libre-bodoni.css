@@ -1,0 +1,11 @@
+/**
+ * Font: Libre Bodoni
+ */
+
+@font-face {
+	font-family: 'LibreBodoni';
+	src: url('libre-bodoni/librebodoni-regular-webfont.woff2') format('woff2'),
+         url('libre-bodoni/librebodoni-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,59 @@
+# Copyright (C) 2020 Vafpress Post Formats Ui Develop
+# This file is distributed under the same license as the Vafpress Post Formats Ui Develop package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Vafpress Post Formats Ui Develop\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;jnews_print_translation;jnews_return_translation\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wordpress/vafpress-post-formats-ui-develop/vafpress-post-formats-ui-develop.php:89
+msgid "Loading..."
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/vafpress-post-formats-ui-develop.php:91
+msgid "Pick Gallery Images"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/vafpress-post-formats-ui-develop.php:92
+msgid "Add Image(s)"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-audio.php:3
+msgid "Audio URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-gallery.php:2
+msgid "Gallery Images"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-gallery.php:23
+msgid "Pick Images"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-link.php:3
+msgid "URL"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-quote.php:4
+msgid "Source Name"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-quote.php:8
+msgid "Source URL"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/format-video.php:3
+msgid "Video URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: wordpress/vafpress-post-formats-ui-develop/views/tabs.php:9
+msgid "Standard"
+msgstr ""

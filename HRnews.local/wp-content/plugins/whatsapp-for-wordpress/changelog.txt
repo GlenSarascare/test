@@ -1,0 +1,85 @@
+May 15, 2020 - Version 2.3.2
+- Fixed: WPML and Polylang translation compatibility
+
+Feb 24, 2020 - Version 2.3.1
+- Fixed: Get pages error (thanks to bhdrdnz)
+
+Feb 12, 2020 - Version 2.3
+- Fixed: Replace link detected in device
+- Fixed: Time availability not correctly 
+- Fixed: Display in page chosen
+
+Nov 21, 2019 - Version 2.2.1
+- Fixed: WPML conflict
+
+Apr 9, 2019 - Version 2.2
+- Added: Translation files (Spanish, Portuguese, German, French, Russian)
+
+Feb 28, 2019 - Version 2.1.1
+- Fixed: Widget disappears once there are too many accounts
+
+Jan 28, 2019 - Version 2.1
+- Added: Option to enable/ disable GDPR
+- Improved: Work on WordPress with/ without Gutenberg
+- Fixed: Small bugs
+
+Jan 24, 2019 - Version 2.0
+- Added: GDPR notice with privacy policy link
+- Added: Support Gutenberg
+- Fixed: Work with sever cache
+- Fixed: GDPR CSS
+- Fixed: Error on WooCommerce variable products
+- Fixed: Some small bugs
+
+Jan 3, 2019 - Version 1.8
+- Added: Select pages to display WhatsApp box
+- Added: Select devices desktop/ mobile
+- Added: Notice alert for wrong phone number/ group link input
+- Added: Option always online
+- Improved: Translation with PoEdit
+- Improved: Clean code
+- Fixed: Small bugs
+
+Dec 3, 2018 - Version 1.7
+- Added: Edit response time text
+- Improved: CSS
+- Fixed: Group link, links in label description
+
+Nov 22, 2018 – Version 1.6
+- Improved: Optimize plugin
+- Improved: UI/UX
+- Improved: Loading speed when select account
+- Fixed: Some small bugs
+
+Nov 14, 2018 – Version 1.5
+- Improved: UI/UX
+- Fixed: Loading languages
+- Fixed: Update options for new version
+- Fixed: CSS for button
+
+Nov 06, 2018 – Version 1.4
+- Added: On/Off for widget
+- Added: Multi-Languages
+- Added: Widget label option
+- Improved: Important updates
+- Fixed: Small CSS bugs
+
+Nov 04, 2018 – Version 1.3
+- Improved: Link to WhatsApp app on phone
+
+Oct 29, 2017 – Version 1.2
+- Added: Default settings
+- Added: Ajax accounts loading
+- Improved: List accounts pages
+- Improved: UI/UX
+- Fixed: Display settings for WhatsApp Widget
+- Fixed: Some small bugs
+
+Oct 15, 2017 – Version 1.1
+- Added: Time Availability
+- Added: Shortcode [njwa_time_work] for each account
+- Added: Button shortcode
+- Improved: UI/UX
+
+Oct 1, 2018 – Version 1.0
+- Version 1.0 Initial Release

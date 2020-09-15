@@ -1,0 +1,35 @@
+.njt-pricing-table-redesign-wrapper a, .njt-pricing-table-redesign-wrapper abbr, .njt-pricing-table-redesign-wrapper acronym, .njt-pricing-table-redesign-wrapper address, .njt-pricing-table-redesign-wrapper applet, .njt-pricing-table-redesign-wrapper article, .njt-pricing-table-redesign-wrapper aside, .njt-pricing-table-redesign-wrapper audio, .njt-pricing-table-redesign-wrapper b, .njt-pricing-table-redesign-wrapper blockquote, .njt-pricing-table-redesign-wrapper big, .njt-pricing-table-redesign-wrapper body, .njt-pricing-table-redesign-wrapper center, .njt-pricing-table-redesign-wrapper canvas, .njt-pricing-table-redesign-wrapper caption, .njt-pricing-table-redesign-wrapper cite, .njt-pricing-table-redesign-wrapper code, .njt-pricing-table-redesign-wrapper command, .njt-pricing-table-redesign-wrapper datalist, .njt-pricing-table-redesign-wrapper dd, .njt-pricing-table-redesign-wrapper del, .njt-pricing-table-redesign-wrapper details, .njt-pricing-table-redesign-wrapper dfn, .njt-pricing-table-redesign-wrapper dl, .njt-pricing-table-redesign-wrapper div, .njt-pricing-table-redesign-wrapper dt, .njt-pricing-table-redesign-wrapper em, .njt-pricing-table-redesign-wrapper embed, .njt-pricing-table-redesign-wrapper fieldset, .njt-pricing-table-redesign-wrapper figcaption, .njt-pricing-table-redesign-wrapper figure, .njt-pricing-table-redesign-wrapper font, .njt-pricing-table-redesign-wrapper footer, .njt-pricing-table-redesign-wrapper form, .njt-pricing-table-redesign-wrapper h1, .njt-pricing-table-redesign-wrapper h2, .njt-pricing-table-redesign-wrapper h3, .njt-pricing-table-redesign-wrapper h4, .njt-pricing-table-redesign-wrapper h5, .njt-pricing-table-redesign-wrapper h6, .njt-pricing-table-redesign-wrapper header, .njt-pricing-table-redesign-wrapper hgroup, .njt-pricing-table-redesign-wrapper html, .njt-pricing-table-redesign-wrapper i, .njt-pricing-table-redesign-wrapper iframe, .njt-pricing-table-redesign-wrapper img, .njt-pricing-table-redesign-wrapper ins, .njt-pricing-table-redesign-wrapper kbd, .njt-pricing-table-redesign-wrapper keygen, .njt-pricing-table-redesign-wrapper label, .njt-pricing-table-redesign-wrapper legend, .njt-pricing-table-redesign-wrapper li, .njt-pricing-table-redesign-wrapper meter, .njt-pricing-table-redesign-wrapper nav, .njt-pricing-table-redesign-wrapper object, .njt-pricing-table-redesign-wrapper ol, .njt-pricing-table-redesign-wrapper output, .njt-pricing-table-redesign-wrapper p, .njt-pricing-table-redesign-wrapper pre, .njt-pricing-table-redesign-wrapper progress, .njt-pricing-table-redesign-wrapper q, .njt-pricing-table-redesign-wrapper s, .njt-pricing-table-redesign-wrapper samp, .njt-pricing-table-redesign-wrapper section, .njt-pricing-table-redesign-wrapper small, .njt-pricing-table-redesign-wrapper span, .njt-pricing-table-redesign-wrapper source, .njt-pricing-table-redesign-wrapper strike, .njt-pricing-table-redesign-wrapper strong, .njt-pricing-table-redesign-wrapper sub, .njt-pricing-table-redesign-wrapper sup, .njt-pricing-table-redesign-wrapper table, .njt-pricing-table-redesign-wrapper tbody, .njt-pricing-table-redesign-wrapper tfoot, .njt-pricing-table-redesign-wrapper thead, .njt-pricing-table-redesign-wrapper th, .njt-pricing-table-redesign-wrapper tr, .njt-pricing-table-redesign-wrapper tdvideo, .njt-pricing-table-redesign-wrapper tt, .njt-pricing-table-redesign-wrapper u, .njt-pricing-table-redesign-wrapper ul, .njt-pricing-table-redesign-wrapper var {
+  background: transparent;
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none; }
+
+.njt-pricing-table-redesign-wrapper ol, .njt-pricing-table-redesign-wrapper ul {
+  list-style: none; }
+
+.njt-pricing-table-redesign-wrapper blockquote, .njt-pricing-table-redesign-wrapper q {
+  quotes: none; }
+
+.njt-pricing-table-redesign-wrapper table, .njt-pricing-table-redesign-wrapper table td {
+  padding: 0;
+  border: none;
+  border-collapse: collapse; }
+
+.njt-pricing-table-redesign-wrapper img {
+  vertical-align: top; }
+
+.njt-pricing-table-redesign-wrapper embed {
+  vertical-align: top; }
+
+.njt-pricing-table-redesign-wrapper article, .njt-pricing-table-redesign-wrapper aside, .njt-pricing-table-redesign-wrapper audio, .njt-pricing-table-redesign-wrapper canvas, .njt-pricing-table-redesign-wrapper command, .njt-pricing-table-redesign-wrapper datalist, .njt-pricing-table-redesign-wrapper details, .njt-pricing-table-redesign-wrapper embed, .njt-pricing-table-redesign-wrapper figcaption, .njt-pricing-table-redesign-wrapper figure, .njt-pricing-table-redesign-wrapper footer, .njt-pricing-table-redesign-wrapper header, .njt-pricing-table-redesign-wrapper hgroup, .njt-pricing-table-redesign-wrapper keygen, .njt-pricing-table-redesign-wrapper meter, .njt-pricing-table-redesign-wrapper nav, .njt-pricing-table-redesign-wrapper output, .njt-pricing-table-redesign-wrapper progress, .njt-pricing-table-redesign-wrapper section, .njt-pricing-table-redesign-wrapper source, .njt-pricing-table-redesign-wrapper video {
+  display: block; }
+
+.njt-pricing-table-redesign-wrapper mark, .njt-pricing-table-redesign-wrapper rp, .njt-pricing-table-redesign-wrapper rt, .njt-pricing-table-redesign-wrapper ruby, .njt-pricing-table-redesign-wrapper summary, .njt-pricing-table-redesign-wrapper time {
+  display: inline; }

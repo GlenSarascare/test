@@ -1,0 +1,167 @@
+# Translation of Featured Images in RSS
+# Copyright (C) 2019 5StarPkugins.com
+# This file can be distributed under the 5StarPlugins terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Images in RSS Feed (1.4)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-15 11:47+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/freemius\n"
+
+#: featured_images_in_rss.php:144
+msgid "Featured Images In RSS Feeds"
+msgstr ""
+
+#: featured_images_in_rss.php:146
+#, php-format
+msgid "In partnership with <a href=\"%1$s\" target=_blank>%2$s</a>"
+msgstr ""
+
+#: featured_images_in_rss.php:147
+#, php-format
+msgid ""
+"We can help with WordPress design, maintenance, and development: <a href=\"%s"
+"\" target=_blank>Contact us</a>"
+msgstr ""
+
+#: featured_images_in_rss.php:157
+msgid "Choose the featured image size to include in your RSS feeds."
+msgstr ""
+
+#: featured_images_in_rss.php:167
+msgid "Width"
+msgstr ""
+
+#: featured_images_in_rss.php:169
+msgid "Height"
+msgstr ""
+
+#: featured_images_in_rss.php:174
+#, php-format
+msgid ""
+"(Customize image pixel sizes in <br/><a href=\"%1$s\">Media Options</a>, "
+"then you'll need to <a href=\"%2$s\" target=_blank>Regenerate Thumbnails</"
+"a>.)"
+msgstr ""
+
+#: featured_images_in_rss.php:178
+msgid "Choose the positioning of the featured images in your RSS feeds."
+msgstr ""
+
+#: featured_images_in_rss.php:181
+msgid "Image Left Above Text"
+msgstr ""
+
+#: featured_images_in_rss.php:182
+msgid "Image Centered Above Text"
+msgstr ""
+
+#: featured_images_in_rss.php:183
+msgid "Image Left Text Wraps"
+msgstr ""
+
+#: featured_images_in_rss.php:184
+msgid "Image Right Text Wraps"
+msgstr ""
+
+#: featured_images_in_rss.php:189
+msgid "Customize the padding around images."
+msgstr ""
+
+#: featured_images_in_rss.php:198
+msgid "Save Changes"
+msgstr ""
+
+#: featured_images_in_rss.php:200
+#, php-format
+msgid ""
+"Here's your site's RSS feed for viewing/troubleshooting: <a href=\"%s\" "
+"target=_blank><?php echo site_url(); ?>/feed/</a>"
+msgstr ""
+
+#: featured_images_in_rss.php:201
+msgid ""
+"If it redirects to the Feedburner feed you may need to disable that for this "
+"plugin to work."
+msgstr ""
+
+#: featured_images_in_rss.php:202
+#, php-format
+msgid ""
+"We recommend using this Chrome extension to view your feed as HTML: <a href="
+"\"%s\" target=_blank>RSS Subscription Extension (by Google)</a>"
+msgstr ""
+
+#: featured_images_in_rss.php:203
+#, php-format
+msgid ""
+"Clear your browser cache [usually shift-reload] to view RSS feed changes. "
+"Note that Feedburner caches feeds, you should <a href=\"%s\" "
+"target=_blank>Ping Feedburner</a> so it updates your feed."
+msgstr ""
+
+#: featured_images_in_rss.php:204
+#, php-format
+msgid ""
+"<a target=_blank href=\"%s\">Donate</a> now to drive development and get the "
+"features you want. If this plugin saved you time, perhaps send a donation "
+"with an amount you feel your time is worth, or just say thanks. :)"
+msgstr ""
+
+#: featured_images_in_rss.php:205
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=_blank>Rate and Review</a> so others can "
+"benefit from your experiences with it. Share on your social networks, too."
+msgstr ""
+
+#: featured_images_in_rss.php:206
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=_blank>submit a new Support Thread</a> for "
+"troubleshooting help or feature requests."
+msgstr ""
+
+#: featured_images_in_rss.php:234
+msgid "Please rate and review"
+msgstr ""
+
+#: includes/premium/premium.php:118
+msgid "Pre-Feed Content"
+msgstr ""
+
+#: includes/premium/premium.php:121 includes/premium/premium.php:128
+msgid "HTML is Allowed."
+msgstr ""
+
+#: includes/premium/premium.php:125
+msgid "Post-Feed Content"
+msgstr ""
+
+#: includes/premium/premium.php:132
+msgid "Publish Delay"
+msgstr ""
+
+#: includes/premium/premium.php:134
+msgid "minute(s)"
+msgstr ""
+
+#: includes/premium/premium.php:135
+msgid ""
+"Delays the publishing of the feed after post is published. Leave empty to "
+"publish immediately."
+msgstr ""

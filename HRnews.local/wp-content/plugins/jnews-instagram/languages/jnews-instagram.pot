@@ -1,0 +1,215 @@
+# Copyright (C) 2020 JNews Instagram
+# This file is distributed under the same license as the JNews Instagram package.
+msgid ""
+msgstr ""
+"Project-Id-Version: JNews Instagram\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;jnews_print_translation;jnews_return_translation\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:15
+msgid "JNews - Horizontal Instagram"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:20
+msgid "JNews - Footer"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:28, wordpress/jnews-instagram/instagram-option.php:70
+msgid "Fetch Method"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:29, wordpress/jnews-instagram/instagram-option.php:71
+msgid "Select fetch Instagram feed method that you want to use."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:32, wordpress/jnews-instagram/instagram-option.php:74
+msgid "Instagram Username (12 maximun image feed)"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:33, wordpress/jnews-instagram/instagram-option.php:75
+msgid "Instagram API (20 maximum image feed, get more by sending request)"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:41, wordpress/jnews-instagram/instagram-option.php:90
+msgid "Instagram Username"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:42, wordpress/jnews-instagram/instagram-option.php:91
+msgid "Insert your Instagram username."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:48, wordpress/jnews-instagram/instagram-option.php:106
+msgid "Info :"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:49, wordpress/jnews-instagram/instagram-option.php:107
+msgid "You will be asked to enter redirect URI when you configure the app. Please use this url: %s"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:58, wordpress/jnews-instagram/instagram-option.php:125
+msgid "Instagram Client ID"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:59, wordpress/jnews-instagram/instagram-option.php:126
+msgid "You need to create an Instagram application to get your Instagram Client ID <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:67, wordpress/jnews-instagram/instagram-option.php:148
+msgid "Instagram Access Token"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:68, wordpress/jnews-instagram/instagram-option.php:149
+msgid "Get your Instagram Access Token by clicking this <a class=\"%s\" href=\"%s\" target=\"_blank\">link</a> and refer to next page URL."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:75, wordpress/jnews-instagram/instagram-option.php:171
+msgid "Number Of Rows"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:76, wordpress/jnews-instagram/instagram-option.php:172
+msgid "Number of rows for footer Instagram feed."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:86, wordpress/jnews-instagram/instagram-option.php:197
+msgid "Number Of Columns"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:87, wordpress/jnews-instagram/instagram-option.php:198
+msgid "Number of Instagram feed columns."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:97, wordpress/jnews-instagram/instagram-option.php:220
+msgid "Sort Feed Type"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:98, wordpress/jnews-instagram/instagram-option.php:221
+msgid "Sort the Instagram feed in a set order."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:101, wordpress/jnews-instagram/instagram-option.php:224
+msgid "Most Recent"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:102, wordpress/jnews-instagram/instagram-option.php:225
+msgid "Least Recent"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:103, wordpress/jnews-instagram/instagram-option.php:226
+msgid "Most Liked"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:104, wordpress/jnews-instagram/instagram-option.php:227
+msgid "Least Liked"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:105, wordpress/jnews-instagram/instagram-option.php:228
+msgid "Most Commented "
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:106, wordpress/jnews-instagram/instagram-option.php:229
+msgid "Least Commented "
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:113, wordpress/jnews-instagram/instagram-option.php:247
+msgid "Hover Style"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:114, wordpress/jnews-instagram/instagram-option.php:248
+msgid "Choose hover effect style."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:117, wordpress/jnews-instagram/instagram-option.php:251
+msgid "Normal"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:118, wordpress/jnews-instagram/instagram-option.php:252
+msgid "Show Icon"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:119, wordpress/jnews-instagram/instagram-option.php:253
+msgid "Show Like Count"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:120, wordpress/jnews-instagram/instagram-option.php:254
+msgid "Show Comment Count"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:121, wordpress/jnews-instagram/instagram-option.php:255
+msgid "Zoom"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:122, wordpress/jnews-instagram/instagram-option.php:256
+msgid "Zoom Rotate"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:123, wordpress/jnews-instagram/instagram-option.php:257
+msgid "No Effect"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:130, wordpress/jnews-instagram/instagram-option.php:275
+msgid "Follow Button Text"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:131
+msgid "Leave empty if you wont show it"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:137, wordpress/jnews-instagram/instagram-option.php:292
+msgid "Open New Tab"
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-module-option.php:138, wordpress/jnews-instagram/instagram-option.php:293
+msgid "Open Instagram profile page on new tab."
+msgstr ""
+
+#: wordpress/jnews-instagram/class.jnews-instagram-option.php:47
+msgid "Instagram Feed Setting"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:29
+msgid "Instagram Feed"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:37
+msgid "Footer Instagram Compatibility"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:38
+msgid "Footer Instagram only compatible with <strong>Footer Type 5</strong> and <strong>Footer Type 6</strong>."
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:48
+msgid "Enable Instagram Feed"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:49
+msgid "Show the Instagram feed only on header, footer or both."
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:52
+msgid "Only Header"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:53
+msgid "Only Footer"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:54
+msgid "Header + Footer"
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:55
+msgid "Hide "
+msgstr ""
+
+#: wordpress/jnews-instagram/instagram-option.php:276
+msgid "Leave empty if you wont show it."
+msgstr ""

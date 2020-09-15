@@ -1,0 +1,10 @@
+/**
+ * Font: Lato2 (Only the missing semibold in lato at Google fonts)
+ */
+@font-face {
+	font-family: 'Lato';
+	src: url('lato2/lato-semibold-webfont.woff2') format('woff2'),
+         url('lato2/lato-semibold-webfont.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}

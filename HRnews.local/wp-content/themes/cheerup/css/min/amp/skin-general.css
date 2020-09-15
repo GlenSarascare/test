@@ -1,0 +1,408 @@
+/**
+ * Skin Specifics for General
+ */
+:root {
+  --base-aa: initial;
+  --black-color: #454545;
+  --topbar-height: 48px;
+  --nav-text: 11px;
+  --nav-items-space: 21px;
+  --nav-drop-color: #535353;
+  --share-icons-size: 13px;
+  --section-head-size: 12px;
+  --section-head-ls: 0.04em;
+  --post-title-size: 25px;
+  --grid-post-title: 23px;
+  --list-post-title: 23px;
+  --list-post-title-b: 24px;
+  --overlay-post-title: 22px;
+  --carousel-post-title: 17px;
+  --feat-grid-title-l: 31px;
+  --feat-grid-title-m: 24px;
+  --single-content-size: var(--text-size);
+  --post-content-lh: 2;
+  --p-media-margin: 33px;
+  --w-posts-title-large: 16px;
+  --blockquote-font: "Merriweather", Georgia, serif;
+}
+
+.t.n {
+  --topbar-social-color: rgba(255, 255, 255, 0.75);
+}
+
+.r.i {
+  --nav-text-ls: 0.035em;
+}
+
+.s .o {
+  font-size: 13px;
+}
+
+.u.a .f {
+  margin-top: 0;
+}
+
+.u.a .f li {
+  font-size: 12px;
+}
+
+.u.l {
+  --topbar-height: 36px;
+}
+
+.u.l .c {
+  letter-spacing: 0.075em;
+}
+
+.c {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.c a {
+  letter-spacing: inherit;
+}
+
+.h {
+  font-size: 10px;
+}
+
+.h .p {
+  margin-bottom: 0;
+}
+
+.h .d > a {
+  letter-spacing: 0.09em;
+}
+
+.h .v {
+  padding: 0;
+}
+
+.h .m {
+  font-weight: inherit;
+  text-transform: none;
+  margin-right: 5px;
+}
+
+.g .y,
+.g .b,
+.g time,
+.w .y,
+.w .b,
+.w time {
+  font-weight: 500;
+  letter-spacing: 0.075em;
+}
+
+.g .x {
+  margin: 9px 0;
+}
+
+.w .v {
+  padding: 0 4px;
+}
+
+.k {
+  --rmore-btn-ls: 0.12em;
+  font-weight: 400;
+  color: #777;
+}
+
+.j,
+.q,
+.z {
+  --pm-h-below-mb: 25px;
+}
+
+.q,
+.j {
+  --post-meta-mb: 22px;
+}
+
+.q .te,
+.j .te,
+.tt .te {
+  --pm-title-a-pad: 0;
+}
+
+.j {
+  --rmore-btn-pad: 11px 12px;
+  --rmore-btn-fs: 10px;
+}
+
+.j .w {
+  margin-top: 30px;
+}
+
+.j .tn {
+  margin-top: 38px;
+}
+
+.j .g {
+  margin-top: 25px;
+}
+
+.z {
+  --rmore-btn-ls: 0.1em;
+}
+
+.z .g {
+  --post-meta-mb: 14px;
+}
+
+.z .g .tr {
+  margin: 11px 0;
+}
+
+.z .ti {
+  line-height: 1.866;
+}
+
+.ts .tr {
+  max-width: 80%;
+  line-height: 1.25;
+}
+
+.ts .g .v {
+  padding: 0 4px;
+}
+
+.ts .g time {
+  letter-spacing: 0.1em;
+}
+
+.tu .h {
+  font-size: 9px;
+}
+
+.tu .tr {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.ta .te {
+  --pm-title-pad: 0;
+}
+
+.tf .tr {
+  font-size: 16px;
+}
+
+.tl .tc {
+  padding-left: 5px;
+  font-size: 13px;
+}
+
+.th .tp {
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .td .tp {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tv .tp {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tm .tr {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tg .ty .tr {
+    font-size: calc(var(--feat-grid-title-m) * 0.8);
+  }
+}
+
+.tb .tw {
+  margin-bottom: 18px;
+}
+
+.tb .tw .tx {
+  display: inline-block;
+  background: #fff;
+  color: var(--black-800);
+  letter-spacing: 0.1em;
+}
+
+.tk .tr {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.tk .t_.tj .tr {
+  line-height: 1.52;
+}
+
+.tk .t_.tq .x {
+  font-size: 20px;
+}
+
+.tz .ne .nt,
+.nn .nt {
+  font-size: 13px;
+}
+
+.nr .ni .tx {
+  line-height: 18px;
+  letter-spacing: 0.11em;
+}
+
+.ns .no .nu {
+  font-size: 13px;
+}
+
+.na .zn a {
+  color: #535353;
+}
+
+.nf {
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+.nf .nl a {
+  color: #999;
+}
+
+.nc {
+  color: #b4b4b4;
+}
+
+@media (min-width: 941px) {
+  .nh.np .nd .nv {
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nh.np .nf .nm {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nh.np .nf .f .tsi {
+    font-size: 21px;
+  }
+}
+
+.r.i .nb > li li a,
+.r.i .nw .fw a,
+.r.rj,
+.ru .ra > a,
+.rl .rc,
+.x,
+.tr,
+.sy .n_,
+.sl .tp,
+.tv .tp,
+.ft .tp,
+.th .tp,
+.ow .tp,
+.td .tp,
+.nq.iv,
+.ny h1,
+.ny h2,
+.ny h3,
+.ny h4,
+.ny h5,
+.ny h6,
+.fx tfoot a,
+.oq ul.fh li.uq,
+.oq ul.fh .f_,
+.oq ul.fq li a,
+.oq ul.fz li a,
+.oq.le .lt > strong,
+.oq div.uq .ln,
+.oq .oi div.uq .ln,
+.oq div.uq .lr,
+.ah table.ls .lo > a,
+.oq .fp .fd thead th {
+  text-transform: uppercase;
+}
+
+:root {
+  --main-color: #318892;
+  --main-color-rgb: 49, 136, 146;
+  --text-tracking: -0.025em;
+  --body-font: "Merriweather", Georgia, serif;
+  --ui-font: Poppins, Arial, sans-serif;
+  --text-font: var(--body-font);
+  --related-posts-title: 14px;
+  --blockquote-font: var(--text-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+blockquote {
+  color: #7d7d7d;
+}
+
+.nw .nx .tr {
+  margin-bottom: 6px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+
+.r.i .nb > li > a {
+  letter-spacing: 0.08em;
+}
+
+.r.i .nb > li li a,
+.r.i .nw .fw a {
+  font-size: 13px;
+  letter-spacing: 0.07em;
+  font-weight: 600;
+}
+
+.r.rj .nb > li > a {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.rg .rb,
+.rg .nn {
+  background: #f5f9f9;
+}
+
+.rf .tr {
+  letter-spacing: 0.04em;
+}
+
+.rf .h {
+  font-size: 9px;
+}
+
+.rn {
+  margin-top: 50px;
+}
+
+.oq ul.fq li a,
+.oq ul.fz li a {
+  font-size: 14px;
+}
+
+.su:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-top: 14px;
+  width: 36px;
+  border-bottom: 1px solid var(--main-color);
+}
